@@ -1,24 +1,25 @@
-import React from "react"
-import { Link } from "gatsby"
-import { getUser, isLoggedIn } from "../services/auth"
+import React from 'react';
 
-import Layout from "../components/layout"
+import Layout from '@common/Layout';
+import Navbar from '@common/Navbar';
 
-export default () => (
+import Header from '@sections/Header';
+import About from '@sections/About';
+import Brands from '@sections/Brands';
+import Team from '@sections/Team';
+import Faq from '@sections/Faq';
+import Footer from '@sections/Footer';
+
+const IndexPage = () => (
   <Layout>
-    <h1>Hello {isLoggedIn() ? getUser().name : "world"}!</h1>
-    <p>
-      {isLoggedIn() ? (
-        <>
-          You are logged in, so check your{" "}
-          <Link to="/app/profile">profile</Link>
-        </>
-      ) : (
-        <>
-          You should <Link to="/app/login">log in</Link> to see restricted
-          content
-        </>
-      )}
-    </p>
+    <Navbar />
+    <Header />
+    <About />
+    <Brands />
+    <Team />
+    <Faq />
+    <Footer />
   </Layout>
-)
+);
+
+export default IndexPage;
