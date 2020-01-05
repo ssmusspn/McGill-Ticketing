@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Scrollspy from 'react-scrollspy';
+import React, { Component } from "react"
+import AnchorLink from "react-anchor-link-smooth-scroll"
+import Scrollspy from "react-scrollspy"
 
-import { Container } from '@components/global';
+import { Container } from "@components/global"
 import {
   Nav,
   NavItem,
@@ -11,32 +11,32 @@ import {
   NavListWrapper,
   MobileMenu,
   Mobile,
-} from './style';
+} from "./style"
 
-import { ReactComponent as MenuIcon } from '@static/icons/menu.svg';
+import { ReactComponent as MenuIcon } from "@static/icons/menu.svg"
 
-const NAV_ITEMS = ['About', 'Brands', 'Team', 'FAQ'];
+const NAV_ITEMS = ["About", "FAQ"]
 
 class Navbar extends Component {
   state = {
     mobileMenuOpen: false,
-  };
+  }
 
   toggleMobileMenu = () => {
-    this.setState(prevState => ({ mobileMenuOpen: !prevState.mobileMenuOpen }));
-  };
+    this.setState(prevState => ({ mobileMenuOpen: !prevState.mobileMenuOpen }))
+  }
 
   closeMobileMenu = () => {
     if (this.state.mobileMenuOpen) {
-      this.setState({ mobileMenuOpen: false });
+      this.setState({ mobileMenuOpen: false })
     }
-  };
+  }
 
   getNavAnchorLink = item => (
     <AnchorLink href={`#${item.toLowerCase()}`} onClick={this.closeMobileMenu}>
       {item}
     </AnchorLink>
-  );
+  )
 
   getNavList = ({ mobile = false }) => (
     <NavListWrapper mobile={mobile}>
@@ -51,17 +51,17 @@ class Navbar extends Component {
         ))}
       </Scrollspy>
     </NavListWrapper>
-  );
+  )
 
   render() {
-    const { mobileMenuOpen } = this.state;
+    const { mobileMenuOpen } = this.state
 
     return (
       <Nav {...this.props}>
         <StyledContainer>
-          <Brand>Absurd</Brand>
+          <Brand>Students' Society Programming Network</Brand>
           <Mobile>
-            <button onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
+            <button onClick={this.toggleMobileMenu} style={{ color: "white" }}>
               <MenuIcon />
             </button>
           </Mobile>
@@ -76,8 +76,8 @@ class Navbar extends Component {
           )}
         </Mobile>
       </Nav>
-    );
+    )
   }
 }
 
-export default Navbar;
+export default Navbar

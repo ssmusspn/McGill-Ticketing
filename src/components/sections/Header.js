@@ -7,28 +7,8 @@ import { useAuth } from "react-use-auth"
 import { Container } from "@components/global"
 import ExternalLink from "@common/ExternalLink"
 
-const Login = () => {
-  const { isAuthenticated, login, logout, isAuthenticating } = useAuth()
-
-  if (isAuthenticated()) {
-    return (
-      <>
-        <Link onClick={logout}>Logout</Link>
-        <small>{isAuthenticating ? "Verifying ..." : null}</small>
-      </>
-    )
-  } else {
-    return (
-      <>
-        <Link onClick={login}>Login</Link>
-        <small>{isAuthenticating ? "Verifying ..." : null}</small>
-      </>
-    )
-  }
-}
-
 const Header = () => {
-  const { isAuthenticated, user } = useAuth()
+  // const { isAuthenticated, user } = useAuth()
 
   return (
     <StaticQuery
@@ -36,7 +16,7 @@ const Header = () => {
         query {
           art_build: file(
             sourceInstanceName: { eq: "art" }
-            name: { eq: "build" }
+            name: { eq: "sspn-logo" }
           ) {
             childImageSharp {
               fluid(maxWidth: 1400) {
@@ -55,9 +35,9 @@ const Header = () => {
               </Art>
               <Text>
                 <h1>
-                  Hello
+                  Faculty
                   <br />
-                  <b>{isAuthenticated() ? user.name : "user"}</b>
+                  Olympics
                 </h1>
                 <br />
                 <p>
@@ -113,19 +93,38 @@ const Grid = styled.div`
 
 const Text = styled.div`
   justify-self: center;
-
+  h1 {
+    color: ${props => props.theme.color.white.regular};
+  }
   @media (max-width: ${props => props.theme.screen.md}) {
     justify-self: start;
   }
 `
 
-const StyledExternalLink = styled(ExternalLink)`
-  color: inherit;
-  text-decoration: none;
-
-  &:hover {
-    color: ${props => props.theme.color.black.regular};
-  }
+const StyledLink = styled(props => <Link {...props} />)`
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: ${props => props.theme.color.accent};
 `
+
+const Login = () => {
+  const { isAuthenticated, login, logout, isAuthenticating } = useAuth()
+
+  if (isAuthenticated()) {
+    return (
+      <>
+        <StyledLink onClick={logout}>Logout</StyledLink>
+        <small>{isAuthenticating ? "Verifying ..." : null}</small>
+      </>
+    )
+  } else {
+    return (
+      <>
+        <StyledLink onClick={login}>Purchase Hype Night Ticket</StyledLink>
+        <small>{isAuthenticating ? "Verifying ..." : null}</small>
+      </>
+    )
+  }
+}
 
 export default Header
