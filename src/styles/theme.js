@@ -1,7 +1,7 @@
 const theme = {
   font: {
-    primary: `'Nunito', serif`,
-    secondary: `'Lato', serif`,
+    primary: `'Futura', serif`,
+    secondary: `'Futura', serif`,
   },
   font_size: {
     regular: "font-size: 24px; line-height: 32px",

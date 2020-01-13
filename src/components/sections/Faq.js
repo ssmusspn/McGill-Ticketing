@@ -22,10 +22,9 @@ const FAQS = [
     title: "What is Hype Night?",
     content: () => (
       <>
-        Gatsby’s rich data plugin ecosystem lets you build sites with the data
-        you want — from one or many sources: Pull data from headless CMSs, SaaS
-        services, APIs, databases, your file system, and more directly into your
-        pages using GraphQL.
+        Hype Night is an opportunity for people to get a taste of what Faculty
+        Olympics is like and have a great time while doing it. We promise after
+        Hype Night you’ll be even more inclined to sign up for Faculty Olympics!
       </>
     ),
   },
@@ -45,8 +44,8 @@ const FAQS = [
       <>
         Great question! You can come to anyone on Committee at any point during
         the event if you have any questions, comments or concerns. Committee
-        members will have distinctive outfits and will very noticeable so come
-        chat!
+        members will have distinctive outfits and will be very noticeable so
+        come chat!
       </>
     ),
   },
@@ -74,8 +73,10 @@ const FAQS = [
     title: "Where and when can I pickup my bracelet?",
     content: () => (
       <>
-        Bracelets will be available for pickup on January 27th-29th in the SSMU
-        VP Internal's Office. Exact times will be released soon!
+        Bracelets will be available for pickup on January 27th-29th from 9AM-4PM
+        in the SSMU VP Internal's Office. The SSMU Office is located in the
+        Basement of the{" "}
+        <a hreh="https://goo.gl/maps/wiw64bQyrvNde8Aj6">Brown Building.</a>
       </>
     ),
   },

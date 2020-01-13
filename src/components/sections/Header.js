@@ -1,9 +1,9 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "gatsby"
+import { Link } from "gatsby-plugin-modal-routing"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import { useAuth } from "react-use-auth"
+// import { useAuth } from "react-use-auth"
 import { Container } from "@components/global"
 import Checkout from "../common/Checkout"
 
@@ -34,21 +34,7 @@ const Header = () => {
                 <Img fluid={data.art_build.childImageSharp.fluid} />
               </Art>
               <Text>
-                <h1>
-                  Fac-O 2020
-                  <br />
-                  Hype Night
-                </h1>
-                {/* <p>
-                  Anyone who is added to the Students' Society Programming
-                  Network Involvement Restriction List will be barred from all
-                  future Students' Society Programming Network events and this
-                  barring can be extended to all Faculty social events
-                  including: BdA, 4à7, Blues Pub, Carnival, Hype Week, Faculty
-                  Graduation Balls, and others. Your information may be shared
-                  with other undergraduate societies in accordance with the
-                  Interfaculty Involvement Restriction Policy.
-                </p> */}
+                <h1>Hype Night</h1>
                 <br />
                 <form>
                   <input
@@ -57,10 +43,12 @@ const Header = () => {
                     name="IRPcheckbox"
                     value="IRPcheckbox"
                   />
-                  {
-                    " I agree with the terms of the involvement restriction policy"
-                  }
+                  {" I agree with the terms of the "}
                 </form>
+                <Link to="/irp" asModal>
+                  Involvement Restriction Policy.
+                </Link>
+                <br />
                 <br />
                 <p>
                   <Checkout />
@@ -129,24 +117,24 @@ const StyledLink = styled(props => <Link {...props} />)`
   text-decoration-color: ${props => props.theme.color.secondary};
 `
 
-const Login = () => {
-  const { isAuthenticated, login, logout, isAuthenticating } = useAuth()
+// const Login = () => {
+//   const { isAuthenticated, login, logout, isAuthenticating } = useAuth()
 
-  if (isAuthenticated()) {
-    return (
-      <>
-        <StyledLink onClick={logout}>Logout</StyledLink>
-        <small>{isAuthenticating ? "Verifying ..." : null}</small>
-      </>
-    )
-  } else {
-    return (
-      <>
-        <StyledLink onClick={login}>Purchase Hype Night Ticket</StyledLink>
-        <small>{isAuthenticating ? "Verifying ..." : null}</small>
-      </>
-    )
-  }
-}
+//   if (isAuthenticated()) {
+//     return (
+//       <>
+//         <StyledLink onClick={logout}>Logout</StyledLink>
+//         <small>{isAuthenticating ? "Verifying ..." : null}</small>
+//       </>
+//     )
+//   } else {
+//     return (
+//       <>
+//         <StyledLink onClick={login}>Purchase Hype Night Ticket</StyledLink>
+//         <small>{isAuthenticating ? "Verifying ..." : null}</small>
+//       </>
+//     )
+//   }
+// }
 
 export default Header
