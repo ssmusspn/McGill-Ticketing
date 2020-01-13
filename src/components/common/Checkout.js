@@ -16,14 +16,14 @@ const Checkout = class extends React.Component {
   // You can find your key in the Dashboard:
   // https://dashboard.stripe.com/account/apikeys
   componentDidMount() {
-    this.stripe = window.Stripe("pk_test_y0xucZXXKaeUuxmIiJQXMC0J00j2MxtjCi")
+    this.stripe = window.Stripe("pk_test_stYi4ChzuSHTKQ4EGn5F4l5y00OVGPCvlN")
   }
   async redirectToCheckout(event) {
     event.preventDefault()
     const { error } = await this.stripe.redirectToCheckout({
-      items: [{ sku: "sku_GXGpHPIjSWRgoC", quantity: 1 }],
-      successUrl: `http://localhost:8000/page-2/`,
-      cancelUrl: `http://localhost:8000/`,
+      items: [{ sku: "sku_GXe87SMuKEpelO", quantity: 1 }],
+      successUrl: `https://sspn.ca/success`,
+      cancelUrl: `https://sspn.ca/cancel`,
     })
     if (error) {
       console.warn("Error:", error)

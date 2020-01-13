@@ -4,7 +4,7 @@ import { Container } from "@components/global"
 
 export const Nav = styled.nav`
   padding: 16px 0;
-  background-color: ${props => props.theme.color.primary};
+  background-color: ${props => props.theme.color.white};
   position: fixed;
   width: 100%;
   top: 0;
@@ -47,7 +47,7 @@ export const NavItem = styled.li`
   a {
     text-decoration: none;
     opacity: 0.7;
-    color: ${props => props.theme.color.black.regular};
+    color: ${props => props.theme.color.grey.light};
   }
 
   &.active {
@@ -63,6 +63,7 @@ export const MobileMenu = styled.div`
 `
 
 export const Brand = styled.div`
+  color: ${props => props.theme.color.primary};
   font-family: ${props => props.theme.font.primary};
   ${props => props.theme.font_size.large};
 `

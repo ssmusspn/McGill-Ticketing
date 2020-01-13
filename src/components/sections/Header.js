@@ -16,7 +16,7 @@ const Header = () => {
         query {
           art_build: file(
             sourceInstanceName: { eq: "art" }
-            name: { eq: "sspn-logo" }
+            name: { eq: "faco-wordmark" }
           ) {
             childImageSharp {
               fluid(maxWidth: 1400) {
@@ -75,7 +75,7 @@ const Header = () => {
 }
 
 const HeaderWrapper = styled.header`
-  background-color: ${props => props.theme.color.primary};
+  background-color: ${props => props.theme.color.white};
   padding-top: 96px;
 
   @media (max-width: ${props => props.theme.screen.md}) {
@@ -116,7 +116,7 @@ const Grid = styled.div`
 const Text = styled.div`
   justify-self: center;
   h1 {
-    color: ${props => props.theme.color.white.regular};
+    color: ${props => props.theme.color.secondary};
   }
   @media (max-width: ${props => props.theme.screen.md}) {
     justify-self: start;
@@ -126,7 +126,7 @@ const Text = styled.div`
 const StyledLink = styled(props => <Link {...props} />)`
   color: white;
   text-decoration: underline;
-  text-decoration-color: ${props => props.theme.color.accent};
+  text-decoration-color: ${props => props.theme.color.secondary};
 `
 
 const Login = () => {

@@ -11,7 +11,7 @@ const About = () => (
       query {
         art_fast: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "fast" }
+          name: { eq: "accent-1" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -22,7 +22,7 @@ const About = () => (
 
         art_learn: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "learn_yourself" }
+          name: { eq: "accent-2" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -33,7 +33,7 @@ const About = () => (
 
         art_ideas: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "ideas" }
+          name: { eq: "accent-3" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
