@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
-import { StaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import React from "react"
+import styled from "styled-components"
+import { StaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
-import { Section, Container } from '@components/global';
+import { Section, Container } from "@components/global"
 
 const About = () => (
   <StaticQuery
@@ -11,7 +11,7 @@ const About = () => (
       query {
         art_fast: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "fast" }
+          name: { eq: "accent-1" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -22,7 +22,7 @@ const About = () => (
 
         art_learn: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "learn_yourself" }
+          name: { eq: "accent-2" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -33,7 +33,7 @@ const About = () => (
 
         art_ideas: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "ideas" }
+          name: { eq: "accent-3" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -48,12 +48,11 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Speed past the competition</h2>
+              <h2>Hype Night. A power hour.</h2>
               <p>
-                Gatsby.js builds the fastest possible website. Instead of
-                waiting to generate pages when requested, pre-build pages and
-                lift them into a global cloud of servers — ready to be delivered
-                instantly to your users wherever they are.
+                You’ve either been to either of these things before and that’s
+                all you need to hear, or you’re about to find out about what
+                will be the best night of your life.
               </p>
             </div>
             <Art>
@@ -65,23 +64,23 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Nothing new to learn here</h2>
               <p>
-                Enjoy the power of the latest web technologies – React.js ,
-                Webpack , modern JavaScript and CSS and more — all set up and
-                waiting for you to start building.
+                We DO have some important things going down at everyone’s second
+                home Cafe Campus on this special night. Is it a theme release?
+                Is it also a scunt release? Who knows! You do, cause that’s what
+                happens at every hype night BUT you can only find out if you
+                show up to uncover Fac O’s biggest secrets the night of January
+                29th, doors open at 8pm.
               </p>
             </div>
           </Grid>
           <Grid>
             <div>
-              <h2>Grow and build your ideas</h2>
               <p>
-                Waste no more time on tooling and performance. Focus on the the
-                site you want to build and nothing more.
-                <br />
-                <br />
-                Gatsby is fast in every way that matters.
+                It’s Fac-O’s 10th Anniversary too so this is an extra hype-hype
+                night (did someone say Hype Hype?), and looks like it’s gonna be
+                a great time. Get a taste of what makes Fac O so fun, and wash
+                that taste down with Cafe Campus beer (or water!)!
               </p>
             </div>
             <Art>
@@ -92,7 +91,7 @@ const About = () => (
       </Section>
     )}
   />
-);
+)
 
 const Grid = styled.div`
   display: grid;
@@ -131,12 +130,12 @@ const Grid = styled.div`
         }
     `}
   }
-`;
+`
 
 const Art = styled.figure`
   margin: 0;
   max-width: 380px;
   width: 100%;
-`;
+`
 
-export default About;
+export default About

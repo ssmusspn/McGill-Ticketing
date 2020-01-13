@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { useAuth } from "react-use-auth"
 import { Container } from "@components/global"
-import ExternalLink from "@common/ExternalLink"
+import Checkout from "../common/Checkout"
 
 const Header = () => {
   // const { isAuthenticated, user } = useAuth()
@@ -16,7 +16,7 @@ const Header = () => {
         query {
           art_build: file(
             sourceInstanceName: { eq: "art" }
-            name: { eq: "sspn-logo" }
+            name: { eq: "faco-wordmark" }
           ) {
             childImageSharp {
               fluid(maxWidth: 1400) {
@@ -35,13 +35,35 @@ const Header = () => {
               </Art>
               <Text>
                 <h1>
-                  Faculty
+                  Fac-O 2020
                   <br />
-                  Olympics
+                  Hype Night
                 </h1>
+                {/* <p>
+                  Anyone who is added to the Students' Society Programming
+                  Network Involvement Restriction List will be barred from all
+                  future Students' Society Programming Network events and this
+                  barring can be extended to all Faculty social events
+                  including: BdA, 4à7, Blues Pub, Carnival, Hype Week, Faculty
+                  Graduation Balls, and others. Your information may be shared
+                  with other undergraduate societies in accordance with the
+                  Interfaculty Involvement Restriction Policy.
+                </p> */}
+                <br />
+                <form>
+                  <input
+                    id="IRPcheckbox"
+                    type="checkbox"
+                    name="IRPcheckbox"
+                    value="IRPcheckbox"
+                  />
+                  {
+                    " I agree with the terms of the involvement restriction policy"
+                  }
+                </form>
                 <br />
                 <p>
-                  <Login />
+                  <Checkout />
                 </p>
               </Text>
             </Grid>
@@ -53,7 +75,7 @@ const Header = () => {
 }
 
 const HeaderWrapper = styled.header`
-  background-color: ${props => props.theme.color.primary};
+  background-color: ${props => props.theme.color.white};
   padding-top: 96px;
 
   @media (max-width: ${props => props.theme.screen.md}) {
@@ -94,7 +116,7 @@ const Grid = styled.div`
 const Text = styled.div`
   justify-self: center;
   h1 {
-    color: ${props => props.theme.color.white.regular};
+    color: ${props => props.theme.color.secondary};
   }
   @media (max-width: ${props => props.theme.screen.md}) {
     justify-self: start;
@@ -104,7 +126,7 @@ const Text = styled.div`
 const StyledLink = styled(props => <Link {...props} />)`
   color: white;
   text-decoration: underline;
-  text-decoration-color: ${props => props.theme.color.accent};
+  text-decoration-color: ${props => props.theme.color.secondary};
 `
 
 const Login = () => {

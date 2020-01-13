@@ -1,6 +1,6 @@
 const theme = {
   font: {
-    primary: `'Source Sans Pro', serif`,
+    primary: `'Nunito', serif`,
     secondary: `'Lato', serif`,
   },
   font_size: {
@@ -19,8 +19,13 @@ const theme = {
       light: "#564F62",
       regular: "#5DCAF4",
     },
-    primary: "#005B9A ",
-    accent: "#5DCAF4",
+    primary: "#3B4E9C",
+    secondary: "#EF4939",
+    tertiary: "#FBAB22",
+    grey: {
+      dark: "#535353",
+      light: "#787878",
+    },
   },
   screen: {
     xs: "575px",

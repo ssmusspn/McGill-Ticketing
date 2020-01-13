@@ -1,23 +1,25 @@
-import React from 'react';
+import React from "react"
 
-import { Section, Container } from '@components/global';
+import { Section, Container } from "@components/global"
 
-import FaqItem from '@common/FaqItem';
-import ExternalLink from '@common/ExternalLink';
+import FaqItem from "@common/FaqItem"
+import ExternalLink from "@common/ExternalLink"
 
 const FAQS = [
   {
-    title: 'What tech does Gatsby use?',
+    title: "Where/When is Hype Night?",
     content: () => (
       <>
-        Enjoy the power of the latest web technologies – React.js , Webpack ,
-        modern JavaScript and CSS and more — all set up and waiting for you to
-        start building
+        <a href="https://g.page/CafeCampus?share">
+          Cafe Campus (57 Rue Prince Arthur E).
+        </a>
+        <br />
+        Doors open at 8PM on January 29th, 2020.
       </>
     ),
   },
   {
-    title: 'Where can you source data from?',
+    title: "What is Hype Night?",
     content: () => (
       <>
         Gatsby’s rich data plugin ecosystem lets you build sites with the data
@@ -28,41 +30,56 @@ const FAQS = [
     ),
   },
   {
-    title: 'How do I scale Gatsby sites?',
+    title: "How long will Hype Night go?",
     content: () => (
       <>
-        Gatsby.js is Internet Scale. Forget complicated deploys with databases
-        and servers and their expensive, time-consuming setup costs,
-        maintenance, and scaling fears. Gatsby.js builds your site as “static”
-        files which can be deployed easily on dozens of services.
+        The power hour portion of the night will last, well, an hour. But you
+        can stay as long as your heart desires! There will be plenty of time to
+        enjoy the dancing and partying that makes Cafe, Cafe.
       </>
     ),
   },
   {
-    title: 'How does do I future-proof my website?',
+    title: "Who can I go to for help during the event for any reason?",
     content: () => (
       <>
-        Do not build a website with last decade’s tech. The future of the web is
-        mobile, JavaScript and APIs—the{` `}
-        <ExternalLink href="https://jamstack.org/">JAMstack</ExternalLink>.
-        Every website is a web app and every web app is a website. Gatsby.js is
-        the universal JavaScript framework you’ve been waiting for.
+        Great question! You can come to anyone on Committee at any point during
+        the event if you have any questions, comments or concerns. Committee
+        members will have distinctive outfits and will very noticeable so come
+        chat!
       </>
     ),
   },
   {
-    title: 'What exactly does Gatsby build?',
+    title: "What should I wear to Hype Night?",
     content: () => (
       <>
-        Gatsby.js is a static PWA (Progressive Web App) generator. You get code
-        and data splitting out-of-the-box. Gatsby loads only the critical HTML,
-        CSS, data, and JavaScript so your site loads as fast as possible. Once
-        loaded, Gatsby prefetches resources for other pages so clicking around
-        the site feels incredibly fast.
+        Power hour events can get quite messy with inadvertent spraying and
+        pouring and the like...wear something you don’t care about! Old
+        sneakers, worn shirt, maybe even swim googles, whatever. Not the time to
+        flex your designer brands 😉.
       </>
     ),
   },
-];
+  {
+    title: "Why should I do Hype Night?",
+    content: () => (
+      <>
+        Ask anyone who’s ever done a power hour this question, and then YOU tell
+        ME why you SHOULDN’T do Hype Night!
+      </>
+    ),
+  },
+  {
+    title: "Where and when can I pickup my bracelet?",
+    content: () => (
+      <>
+        Bracelets will be available for pickup on January 27th-29th in the SSMU
+        VP Internal's Office. Exact times will be released soon!
+      </>
+    ),
+  },
+]
 
 const Faq = () => (
   <Section id="faq">
@@ -77,6 +94,6 @@ const Faq = () => (
       </div>
     </Container>
   </Section>
-);
+)
 
-export default Faq;
+export default Faq

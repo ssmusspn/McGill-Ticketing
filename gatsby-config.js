@@ -17,13 +17,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `team`,
-        path: `${__dirname}/src/images/team`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `art`,
         path: `${__dirname}/src/images/art`,
       },
@@ -45,7 +38,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`source sans pro`, `lato\:400,700`],
+        fonts: [`nunito`, `lato\:400,700`],
       },
     },
     {
@@ -61,5 +54,6 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-stripe`,
   ],
 }
