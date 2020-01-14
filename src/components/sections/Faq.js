@@ -70,6 +70,16 @@ const FAQS = [
     ),
   },
   {
+    title: "Who will be serving the power hour?",
+    content: () => (
+      <>
+        Your lovely FacO captains will be serving you all night long. Do YOU
+        want to be a captain??{" "}
+        <a href="https://sspn.ca/captain">Learn all about that here!!</a>
+      </>
+    ),
+  },
+  {
     title: "Where and when can I pickup my bracelet?",
     content: () => (
       <>
