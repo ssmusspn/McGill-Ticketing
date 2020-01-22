@@ -80,7 +80,7 @@ const About = () => (
                 It’s Fac-O’s 10th Anniversary too so this is an extra hype-hype
                 night (did someone say Hype Hype?), and looks like it’s gonna be
                 a great time. Get a taste of what makes Fac O so fun, and wash
-                that taste down with Cafe Campus beer (or water!)!
+                that taste down with Cafe Campus beer (or water)!
               </p>
             </div>
             <Art>
