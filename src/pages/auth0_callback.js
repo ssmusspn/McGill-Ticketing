@@ -1,9 +1,10 @@
 import React, { useEffect } from "react"
-import { useAuth } from "react-use-auth"
+// import { useAuth } from "react-use-auth"
 import Layout from "@common/Layout"
+import handleAuthentication from "."
 
 const Auth0CallbackPage = () => {
-  const { handleAuthentication } = useAuth()
+  // const { handleAuthentication } = useAuth()
   useEffect(() => {
     handleAuthentication()
   }, [])

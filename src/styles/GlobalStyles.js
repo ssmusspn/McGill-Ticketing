@@ -67,6 +67,9 @@ const GlobalStyles = createGlobalStyle`
     cursor: pointer;
     color: ${props => props.theme.color.primary};
   }
+  a:visited {
+    color: ${props => props.theme.color.primary};
+  }
 `
 
 export default GlobalStyles

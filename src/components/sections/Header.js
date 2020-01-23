@@ -111,26 +111,20 @@ const Text = styled.div`
   }
 `
 
-const StyledLink = styled(props => <Link {...props} />)`
-  color: white;
-  text-decoration: underline;
-  text-decoration-color: ${props => props.theme.color.secondary};
-`
-
 // const Login = () => {
 //   const { isAuthenticated, login, logout, isAuthenticating } = useAuth()
 
 //   if (isAuthenticated()) {
 //     return (
 //       <>
-//         <StyledLink onClick={logout}>Logout</StyledLink>
+//         <Link onClick={logout}>Logout</Link>
 //         <small>{isAuthenticating ? "Verifying ..." : null}</small>
 //       </>
 //     )
 //   } else {
 //     return (
 //       <>
-//         <StyledLink onClick={login}>Purchase Hype Night Ticket</StyledLink>
+//         <Link onClick={login}>Purchase Hype Night Ticket</Link>
 //         <small>{isAuthenticating ? "Verifying ..." : null}</small>
 //       </>
 //     )

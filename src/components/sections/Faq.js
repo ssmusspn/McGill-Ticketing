@@ -3,7 +3,6 @@ import React from "react"
 import { Section, Container } from "@components/global"
 
 import FaqItem from "@common/FaqItem"
-import ExternalLink from "@common/ExternalLink"
 
 const FAQS = [
   {
@@ -80,13 +79,23 @@ const FAQS = [
     ),
   },
   {
+    title: "Are celiac options available?",
+    content: () => (
+      <>
+        Yes! Simply let us know when you collect your bracelet and we will
+        provide you with a celiac bracelet. At the power hour, a gluten-free
+        cocktail will be provided.
+      </>
+    ),
+  },
+  {
     title: "Where and when can I pickup my bracelet?",
     content: () => (
       <>
         Bracelets will be available for pickup on January 27th-29th from 9AM-4PM
         in the SSMU VP Internal's Office. The SSMU Office is located in the
         Basement of the{" "}
-        <a hreh="https://goo.gl/maps/wiw64bQyrvNde8Aj6">Brown Building.</a>
+        <a href="https://goo.gl/maps/wiw64bQyrvNde8Aj6">Brown Building.</a>
       </>
     ),
   },
