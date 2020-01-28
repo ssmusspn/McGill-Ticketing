@@ -36,11 +36,13 @@ const Checkout = class extends React.Component {
         style={buttonStyles}
         onClick={event => {
           if (document.getElementById("IRPcheckbox").checked) {
-            this.redirectToCheckout(event)
+            // uncomment this to reverse the sold-outness of the ticket.
+            // this.redirectToCheckout(event)
           }
         }}
       >
-        BUY A HYPE NIGHT TICKET
+        SOLD OUT
+        {/* BUY A HYPE NIGHT TICKET */}
       </button>
     )
   }
