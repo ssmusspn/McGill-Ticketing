@@ -3,12 +3,12 @@ import styled from "styled-components"
 import { Link } from "gatsby-plugin-modal-routing"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-// import { useAuth } from "react-use-auth"
+import { useAuth } from "react-use-auth"
 import { Container } from "@components/global"
-import Checkout from "../common/Checkout"
+import Login from "../common/Login"
 
 const Header = () => {
-  // const { isAuthenticated, user } = useAuth()
+  const { isAuthenticated, user } = useAuth()
 
   return (
     <StaticQuery
@@ -16,7 +16,7 @@ const Header = () => {
         query {
           art_build: file(
             sourceInstanceName: { eq: "art" }
-            name: { eq: "faco-wordmark" }
+            name: { eq: "faco-logo" }
           ) {
             childImageSharp {
               fluid(maxWidth: 1400) {
@@ -34,24 +34,12 @@ const Header = () => {
                 <Img fluid={data.art_build.childImageSharp.fluid} />
               </Art>
               <Text>
-                <h1>Hype Night</h1>
-                <br />
-                <form>
-                  <input
-                    id="IRPcheckbox"
-                    type="checkbox"
-                    name="IRPcheckbox"
-                    value="IRPcheckbox"
-                  />
-                  {" I agree with the terms of the "}
-                </form>
-                <Link to="/irp" asModal>
-                  Involvement Restriction Policy.
-                </Link>
+                <h2>Purchase your</h2>
+                <h2>FacO Ticket</h2>
                 <br />
                 <br />
                 <p>
-                  <Checkout />
+                  <Login />
                 </p>
               </Text>
             </Grid>
@@ -110,25 +98,5 @@ const Text = styled.div`
     justify-self: start;
   }
 `
-
-// const Login = () => {
-//   const { isAuthenticated, login, logout, isAuthenticating } = useAuth()
-
-//   if (isAuthenticated()) {
-//     return (
-//       <>
-//         <Link onClick={logout}>Logout</Link>
-//         <small>{isAuthenticating ? "Verifying ..." : null}</small>
-//       </>
-//     )
-//   } else {
-//     return (
-//       <>
-//         <Link onClick={login}>Purchase Hype Night Ticket</Link>
-//         <small>{isAuthenticating ? "Verifying ..." : null}</small>
-//       </>
-//     )
-//   }
-// }
 
 export default Header

@@ -11,29 +11,7 @@ const About = () => (
       query {
         art_fast: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "accent-1" }
-        ) {
-          childImageSharp {
-            fluid(maxWidth: 760) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
-
-        art_learn: file(
-          sourceInstanceName: { eq: "art" }
-          name: { eq: "accent-2" }
-        ) {
-          childImageSharp {
-            fluid(maxWidth: 760) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
-
-        art_ideas: file(
-          sourceInstanceName: { eq: "art" }
-          name: { eq: "accent-3" }
+          name: { eq: "link" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -48,43 +26,20 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Hype Night. A power hour.</h2>
+              <h2>Faculty Olympics 2020:</h2>
+              <h1>Factendo</h1>
+              <br></br>
               <p>
-                You’ve either been to either of these things before and that’s
-                all you need to hear, or you’re about to find out about what
-                will be the best night of your life.
+                A week that truly embodies the McGill social experience.
+                Students from almost every faculty, from every year, coming
+                together to party the nights (and days!) away. We can only tell
+                you that you’ll have an amazing time and meet great people, the
+                rest you’ll just have to experience for yourself. So select
+                Player 1 and hop in, we can’t wait to see you there!
               </p>
             </div>
             <Art>
               <Img fluid={data.art_fast.childImageSharp.fluid} />
-            </Art>
-          </Grid>
-          <Grid inverse>
-            <Art>
-              <Img fluid={data.art_learn.childImageSharp.fluid} />
-            </Art>
-            <div>
-              <p>
-                We DO have some important things going down at everyone’s second
-                home Cafe Campus on this special night. Is it a theme release?
-                Is it also a scunt release? Who knows! You do, cause that’s what
-                happens at every hype night BUT you can only find out if you
-                show up to uncover Fac O’s biggest secrets the night of January
-                29th, doors open at 8pm.
-              </p>
-            </div>
-          </Grid>
-          <Grid>
-            <div>
-              <p>
-                It’s Fac-O’s 10th Anniversary too so this is an extra hype-hype
-                night (did someone say Hype Hype?), and looks like it’s gonna be
-                a great time. Get a taste of what makes Fac O so fun, and wash
-                that taste down with Cafe Campus beer (or water)!
-              </p>
-            </div>
-            <Art>
-              <Img fluid={data.art_ideas.childImageSharp.fluid} />
             </Art>
           </Grid>
         </Container>

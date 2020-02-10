@@ -19,9 +19,9 @@ const theme = {
       light: "#564F62",
       regular: "#5DCAF4",
     },
-    primary: "#3B4E9C",
-    secondary: "#EF4939",
-    tertiary: "#FBAB22",
+    primary: "#DD2020",
+    secondary: "#A5A2A2",
+    tertiary: "#E5E5E5",
     grey: {
       dark: "#535353",
       light: "#787878",

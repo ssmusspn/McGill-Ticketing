@@ -31,10 +31,10 @@ const Footer = () => (
       query {
         art_footer: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "funky-graphic" }
+          name: { eq: "factendo-characters" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 960) {
+            fluid(maxWidth: 880) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
@@ -46,7 +46,7 @@ const Footer = () => (
         <Art>
           <Img
             fluid={data.art_footer.childImageSharp.fluid}
-            style={{ width: 480, maxWidth: "100%", marginBottom: -16 }}
+            style={{ width: 1200, maxWidth: "100%", marginBottom: 0 }}
           />
         </Art>
         <FooterWrapper>
