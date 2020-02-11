@@ -40,8 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Absurd`,
-        short_name: `absurd`,
+        name: `SSPN`,
+        short_name: `SSPN`,
         start_url: `/`,
         background_color: `#8bd8ed`,
         theme_color: `#8bd8ed`,
@@ -68,6 +68,11 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-stripe`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-69494366-6",
+      },
+    },
   ],
 }

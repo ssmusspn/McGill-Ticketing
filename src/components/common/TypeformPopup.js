@@ -63,7 +63,7 @@ const StyledSection = styled(Section)`
   display: none;
 `
 
-const StyledContainer = styled(Section)`
+const StyledContainer = styled(Container)`
   display: flex;
   justify-content: center;
 `

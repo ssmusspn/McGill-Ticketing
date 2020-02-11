@@ -4,7 +4,6 @@ import { useAuth } from "react-use-auth"
 import YouTube from "react-youtube"
 import { Section, Container } from "@components/global"
 import TypeformPopup from "@common/TypeformPopup"
-import styled from "styled-components"
 
 const WaiverVideo = () => {
   const opts = {
@@ -18,8 +17,7 @@ const WaiverVideo = () => {
       modestbranding: 1,
     },
   }
-  const { isAuthenticated, user } = useAuth()
-  var played = false
+  const { isAuthenticated } = useAuth()
 
   function onPlayerStateChange(event) {
     if (event.data === 0) {

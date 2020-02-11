@@ -1,15 +1,11 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "gatsby-plugin-modal-routing"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import { useAuth } from "react-use-auth"
 import { Container } from "@components/global"
 import Login from "../common/Login"
 
 const Header = () => {
-  const { isAuthenticated, user } = useAuth()
-
   return (
     <StaticQuery
       query={graphql`
