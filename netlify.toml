@@ -15,3 +15,9 @@
   to = "https://docs.google.com/forms/d/e/1FAIpQLSd_JuBchBvH2EQ9lWFsEyTsdThWO9jEDB-onCo4EsgqIX8TDg/viewform?usp=sf_link"
   status = 301
   force = true
+
+  [[redirects]]
+  from = "/irp"
+  to = "https://f001.backblazeb2.com/file/ssmusspn/irp.pdf"
+  status = 301
+  force = true
