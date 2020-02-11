@@ -3,11 +3,13 @@ import React from "react"
 import { useAuth } from "react-use-auth"
 import YouTube from "react-youtube"
 import { Section, Container } from "@components/global"
+import TypeformPopup from "@common/TypeformPopup"
+import styled from "styled-components"
 
 const WaiverVideo = () => {
   const opts = {
-    height: "390",
-    width: "640",
+    height: "658",
+    width: "100%",
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 1,
@@ -17,6 +19,13 @@ const WaiverVideo = () => {
     },
   }
   const { isAuthenticated, user } = useAuth()
+  var played = false
+
+  function onPlayerStateChange(event) {
+    if (event.data === 0) {
+      document.getElementById("Typeform").style.display = "block"
+    }
+  }
 
   if (isAuthenticated()) {
     return (
@@ -26,14 +35,18 @@ const WaiverVideo = () => {
             <h2>Waiver Video</h2>
             <br></br>
             <p>
-              You’ve either been to either of these things before and that’s all
-              you need to hear, or you’re about to find out about what will be
-              the best night of your life.
+              Please watch the wavier video in it's entirety. You will not be
+              able to continue until it has been completed.
             </p>
           </div>
           <div>
-            <YouTube videoId="2g811Eo7K8U" opts={opts} />
+            <YouTube
+              videoId="oyj2I9y2VN4"
+              opts={opts}
+              onStateChange={onPlayerStateChange}
+            />
           </div>
+          <TypeformPopup />
         </Container>
       </Section>
     )

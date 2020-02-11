@@ -27,6 +27,7 @@
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
     "react-scrollspy": "^3.3.5",
+    "react-typeform-embed": "^0.2.1",
     "react-use-auth": "^0.5.3",
     "react-youtube": "^7.9.0",
     "styled-components": "^4.1.3"
