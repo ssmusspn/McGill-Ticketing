@@ -8,11 +8,11 @@ const SEO_DATA = {
   author: "SSPN",
   keywords: ["gatsby", "site"],
   twitter: {
-    img: "",
+    img: "https://f001.backblazeb2.com/file/ssmusspn/factendo.png",
   },
   facebook: {
     id: "http://facebook.com/SSMUSSPN/events/",
-    img: "",
+    img: "https://f001.backblazeb2.com/file/ssmusspn/factendo.png",
   },
 }
 
