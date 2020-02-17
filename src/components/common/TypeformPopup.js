@@ -45,10 +45,10 @@ class TypeformPopup extends React.Component {
             />
             <button
               className="btn"
-              // onClick={this.openForm}
+              onClick={this.openForm}
               style={buttonStyles}
             >
-              Registration is Closed
+              Purchase Your Ticket
             </button>
           </div>
         </StyledContainer>
