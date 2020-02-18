@@ -21,9 +21,8 @@ class Typeform extends React.Component {
 
 export default Typeform
 
-// display: none
 const StyledSection = styled(Section)`
-  display: block;
+  display: none;
 `
 
 const StyledContainer = styled(Container)`
