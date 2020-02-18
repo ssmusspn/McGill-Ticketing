@@ -3,7 +3,7 @@ import React from "react"
 import { useAuth } from "react-use-auth"
 import YouTube from "react-youtube"
 import { Section, Container } from "@components/global"
-import TypeformPopup from "@common/TypeformPopup"
+import Typeform from "@common/Typeform"
 
 const WaiverVideo = () => {
   const opts = {
@@ -44,7 +44,7 @@ const WaiverVideo = () => {
               onStateChange={onPlayerStateChange}
             />
           </div>
-          <TypeformPopup />
+          <Typeform />
         </Container>
       </Section>
     )
