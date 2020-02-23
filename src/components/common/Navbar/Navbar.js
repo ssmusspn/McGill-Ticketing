@@ -45,19 +45,20 @@ class SSPNNavbar extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    <NavLink href="general/rules-respect">
+                    <NavLink href="/general/rules-respect">
                       Rules & Respect
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="general/consent">
+                    <NavLink href="/general/consent">
                       Consent and Active Bystanding
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="general/rules-respect">
-                      Rules & Respect
-                    </NavLink>
+                    <NavLink href="/general/gameplay">Gameplay</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/general/committee">Committee</NavLink>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>

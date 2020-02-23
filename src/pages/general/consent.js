@@ -11,120 +11,142 @@ const ConsentPage = () => (
     <Navbar />
     <StyledContainer>
       <div>
-        <h1>Rules & Respect</h1>
-        <h4>
-          Before you begin your adventure, there are a strict set of rules to
-          follow during gameplay. Committee reserves the right to penalize all
-          participants that do not adhere to the following:
-        </h4>
+        <h1>Consent & Active Bystanding</h1>
         <br />
-        <h3>On Campus</h3>
+        <h2>What is consent?</h2>
         <ul>
-          <li>NO alcohol is to be consumed on McGill's Campus</li>
+          <li>Receiving permission in the form of an enthusiastic yes</li>
           <li>
-            NO behaviour that involves obstructing University activities,
-            including teaching, research, studying, administration, public
-            services and scheduled events/activities
-          </li>
-          <li>NO destruction or damage of any property on campus</li>
-        </ul>
-        <br />
-        <h3>Off Campus</h3>
-        <ul>
-          <li>
-            ANY uncivil behviour towards other students or members of the
-            Milton-Parc Community will NOT be tolerated
+            Communicating to your partner(s) so that everyone feels comfortable
           </li>
           <li>
-            Please respect the fact that there are many people in and around the
-            McGill community that are not involved in Faculty Olympics so keep
-            noise levels and behaviour reasonable
+            Just because someone consents to one thing DOES NOT mean they
+            consent to others
           </li>
           <li>
-            Faculty Olympics has formed strong relationships with many club
-            owners in Montreal and there will be serious consequences if you
-            jeopardize these relationships
+            You are entitled to feel safe and have your boundaries respected
           </li>
-          <li>Do NOT steal anything from, damage or vandalize venues</li>
-          <li>Do NOT try to fight/argue with venue staff</li>
-          <li>Bring valid government ID to ALL venues</li>
           <li>
-            Do NOT drop or throw anything from the upper levels of 2 story
-            venues (e.g. Café Campus, Foufounes Electrique)
+            Consent is <b>ALWAYS</b> necessary
+          </li>
+          <li>
+            Consent <b>CANNOT</b> be given when:
+          </li>
+          <li>Someone is unconscious/sleeping</li>
+          <li>Someone is incapacitated by drugs/alcohol</li>
+          <li>
+            There is use of coercion, threats, intimidation, or bodily harm
+          </li>
+          <li>Someone has given consent on your behalf</li>
+          <li>Someone is in a position of authority</li>
+          <li>
+            If you are unsure if someone can give their consent, then{" "}
+            <b>THERE IS NO CONSENT</b>
           </li>
         </ul>
         <br />
-        <h3>Drugs</h3>
+        <h2>What is an active bystander?</h2>
         <p>
-          <b>The use of drugs at Faculty Olympics is STRICTLY PROHIBITED.</b>
-          Anyone suspected of using any illicit substances (including cannabis)
-          will immediately be removed from the event, with the possibility of
-          being barred from all future Faculty Olympics and other SSPN events
-        </p>
-        <br />
-        <h3>Violence</h3>
-        <p>
-          ANY form of physical violence, sexual violence, threat of violence or
-          damage to someone's property will NOT be tolerated at Faculty Olympics
-          and will result in immediate removal from the event with the
-          possibility of being barred from all future Faculty Olympics and other
-          SSPN events. This may also result in possible follow-up proceedings
-          with the Office of the Dean of Students.
-        </p>
-        <p>
+          While you rush to collect your coins this week, it's important to take
+          a second and check up on your friends and fellow players to ensure a
+          fun and safe time for everyone. A bystander is anyone who is a witness
+          to an event or situation, but is not the person it is directed
+          towards. A passive bystander chooses not to interrupt or intervene to
+          make a difference.{" "}
           <i>
-            Songs, chants, and presentations may not contain any of the
-            following:
+            An active bystander takes the initiative to help in situations of
+            concern and makes a positive difference before, during, or after the
+            event or situation takes place.
           </i>
+          <br />
+          <b>Steps to intervening:</b>
+          <ol>
+            <li>Noticing</li>
+            <li>Interpreting a situation </li>
+            <li>
+              Assuming responsibility. Remember the 4 D’s. Choose which form of
+              intervention you feel comfortable and safe with:
+              <ul>
+                <li>
+                  <b>(Be) Direct:</b> approach the situation directly, i.e. go
+                  up to them and ask “how’s it going?”
+                </li>
+                <li>
+                  <b>Delegate:</b> find another person to intervene on your
+                  behalf, i.e. ask their riend, a server, a Coordinator, etc to
+                  check on them
+                </li>
+                <li>
+                  <b>Distract:</b> anything to break the flow of potential
+                  violence, i.e. spilling a drink, start talking to the people
+                  involved, ask to go to the bathroom
+                </li>
+                <li>
+                  <b>Do something:</b> when in doubt, do something, even it it’s
+                  following up after the event
+                </li>
+              </ul>
+            </li>
+            <li>Attempt to help consensually</li>
+          </ol>
+          <p>
+            <b>IDENTITY MATTERS:</b> Certain identities are at higher risk for
+            assault/harassment. Your own identity also influences how you may or
+            may not intervene.
+            <br />
+            <b>SAFETY MATTERS:</b> Identifying personal strengths is important
+            when considering how to intervene. Your safety is paramount; if you
+            think you’ll be at risk, do not intervene.
+            <br />
+            <b>ONSENT MATTERS:</b> When possible, ask for consent before getting
+            involved.
+            <br />
+          </p>
         </p>
-        <ul>
-          <li>Team members in a sexually dominating position</li>
-          <li>Race</li>
-          <li>National/ethnic origin</li>
-          <li>Colour</li>
-          <li>Religion</li>
-          <li>Sex</li>
-          <li>Gender identification</li>
-          <li>Class</li>
-          <li>Age</li>
-          <li>Mental/physical disability</li>
-          <li>Sexual Orientation</li>
-        </ul>
-        <br />
-        <h3>Social Media</h3>
-        <ul>
-          <li>
-            All photos you wouldn't feel comfortable showing a future employer
-            should NOT be posted to social media
-          </li>
-          <li>
-            DO NOT speak to the media about Faculty Olympics in any way, shape
-            or form
-          </li>
-          <li>
-            <b>
-              If you are ever approached by the media, please redirect them to{" "}
-              <a href="mailto:internal@ssmu.ca">Sanchi Bhalla</a>, the SSMU VP
-              Internal Affairs
-            </b>
-          </li>
-        </ul>
-        <br />
+        <h2>Resources</h2>
         <p>
-          <i>
-            Violations of any of these rules could result in severe point
-            deduction to your team, with the possibilities of removal from
-            Faculty Olympics, blacklisting from all future Faculty Olympics/SSPN
-            events, as well as a follow-up from the Office of the Dean of
-            Students of McGill University.
-          </i>
+          <b>What is SACOMSS </b>The Sexual Assault Centre of the McGill
+          Students’ Society provides a safe, non-judgemental space where all
+          survivors of sexual violence and their allies are believed and
+          supported. SACOMSS is open to people of all genders in the McGill and
+          Montreal community. For more information about hours and services,
+          check out their website, <a href="https://sacomss.org">sacomss.org</a>
+          or call their support line at (514) 398-8500.
         </p>
-        <p>
-          Captains are responsible for ensuring that everyone on the team is
-          fully aware of these rules and abides by them. Any participants that
-          are deemed out of line by the coordinators of Faculty Olympics will be
-          penalized.
-        </p>
+        <h3>Other Resources</h3>
+        <ul>
+          <li>
+            <strong>McGill Nightline: </strong> 514-398-6246,
+            <a href="http://ssmu.mcgill.ca/nightline">
+              http://ssmu.mcgill.ca/nightline
+            </a>
+          </li>
+
+          <li>
+            <strong>
+              Office for Sexual Violence, Response, Support, and Education:
+            </strong>
+            <a href="http://www/mcgill/ca/osvrse/">
+              http://www/mcgill/ca/osvrse/
+            </a>
+          </li>
+
+          <li>
+            <strong>McGill Peer Support Centre: </strong>
+            <a href="http://ssmu.mcgill.ca/psc">http://ssmu.mcgill.ca/psc</a>
+          </li>
+
+          <li>
+            <strong>Tel-Aide:</strong> 514-935-1101,{" "}
+            <a href="http://www.telaide.org/en">http://www.telaide.org/en</a>
+          </li>
+
+          <li>
+            <strong>Montreal Sexual Assault Centre: </strong> 1-888-933-9007
+            (toll free), 514-934-4504,{" "}
+            <a href="http://www.cvasm.org">http://www.cvasm.org</a>
+          </li>
+        </ul>
       </div>
     </StyledContainer>
     <Footer />

@@ -56,7 +56,9 @@ const RulesRespectPage = () => (
         <br />
         <h3>Drugs</h3>
         <p>
-          <b>The use of drugs at Faculty Olympics is STRICTLY PROHIBITED.</b>
+          <strong>
+            The use of drugs at Faculty Olympics is STRICTLY PROHIBITED.
+          </strong>
           Anyone suspected of using any illicit substances (including cannabis)
           will immediately be removed from the event, with the possibility of
           being barred from all future Faculty Olympics and other SSPN events
@@ -102,11 +104,11 @@ const RulesRespectPage = () => (
             or form
           </li>
           <li>
-            <b>
+            <strong>
               If you are ever approached by the media, please redirect them to{" "}
               <a href="mailto:internal@ssmu.ca">Sanchi Bhalla</a>, the SSMU VP
               Internal Affairs
-            </b>
+            </strong>
           </li>
         </ul>
         <br />
@@ -114,7 +116,7 @@ const RulesRespectPage = () => (
           <i>
             Violations of any of these rules could result in severe point
             deduction to your team, with the possibilities of removal from
-            Faculty Olympics, blacklisting from all future Faculty Olympics/SSPN
+            Faculty Olympics, restriction from all future Faculty Olympics/SSPN
             events, as well as a follow-up from the Office of the Dean of
             Students of McGill University.
           </i>
