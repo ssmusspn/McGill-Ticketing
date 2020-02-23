@@ -38,7 +38,7 @@ const OpeningPage = () => (
               <div>
                 <h2 id="stage">Stage</h2>
                 <p>
-                  <strong>Time: </strong>7:00PM- 1:00AM
+                  <strong>Time: </strong>7:00PM - 1:00AM
                 </p>
                 <p>
                   <strong>Location: </strong>

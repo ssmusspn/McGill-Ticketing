@@ -81,7 +81,7 @@ class SSPNNavbar extends React.Component {
                       <NavLink href="/monday/pongseeding">Pong Seeding</NavLink>
                     </DropdownItem>
                     <DropdownItem>
-                      <NavLink href="/monday/3man">3 Man</NavLink>
+                      <NavLink href="/monday/threeman">3 Man</NavLink>
                     </DropdownItem>
                   </DropdownItem>
                 </DropdownMenu>
