@@ -60,6 +60,9 @@ class SSPNNavbar extends React.Component {
                   <DropdownItem>
                     <NavLink href="/general/committee">Committee</NavLink>
                   </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/general/players">Players</NavLink>
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <UncontrolledDropdown nav inNavbar>
@@ -68,9 +71,18 @@ class SSPNNavbar extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    <NavLink href="https://github.com/reactstrap/reactstrap">
-                      GitHub
-                    </NavLink>
+                    <NavLink href="/monday/opening">Opening</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/monday/timetrials">Time Trials</NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/monday/pongseeding">Pong Seeding</NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/monday/3man">3 Man</NavLink>
+                    </DropdownItem>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
@@ -80,9 +92,95 @@ class SSPNNavbar extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    <NavLink href="https://github.com/reactstrap/reactstrap">
-                      GitHub
-                    </NavLink>
+                    <NavLink href="/tuesday/beero">Beer Olympics</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/tuesday/busses">Bus Loading</NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/tuesday/straws">Straws</NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/tuesday/flip">Flip Cup</NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/tuesday/tummies">Tummies</NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/tuesday/fliptactoe">Flip Tac Toe</NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/tuesday/stacks">Stacks</NavLink>
+                    </DropdownItem>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Wednesday
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    <NavLink href="/wednesday/dodgeball">Dodgeball</NavLink>
+                  </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem>
+                    <NavLink href="/wednesday/boatraces">Boat Races</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/wednesday/moist">Moist Gardens</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/wednesday/3pillar">3 Pillar Chug</NavLink>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Thursday
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    <NavLink href="/thursday/ssmuday">SSMU Day</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/thursday/mcat">MCAT</NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/thursday/beeriokart">Beerio Kart</NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/thursday/debates">Drunk Debates</NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/thursday/casecrack">Case Crack</NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/thursday/spellingbee">
+                        Spelling Bee
+                      </NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/thursday/armwrestling">
+                        Arm Wrestling
+                      </NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/thursday/fearoffood">
+                        Fear of Food
+                      </NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <NavLink href="/thursday/pitcherpass">
+                        Pitcher Pass
+                      </NavLink>
+                    </DropdownItem>
+                  </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem>
+                    <NavLink href="/thursday/powerhour">Power Hour</NavLink>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
