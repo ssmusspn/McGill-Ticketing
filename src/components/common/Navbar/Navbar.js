@@ -1,5 +1,6 @@
 import React, { Component } from "react"
-import AnchorLink from "react-anchor-link-smooth-scroll"
+// import AnchorLink from "react-anchor-link-smooth-scroll"
+import { Link } from "gatsby"
 import Scrollspy from "react-scrollspy"
 
 import { Container } from "@components/global"
@@ -15,7 +16,17 @@ import {
 
 import { ReactComponent as MenuIcon } from "@static/icons/menu.svg"
 
-const NAV_ITEMS = ["About"]
+const NAV_ITEMS = [
+  "General",
+  "Schedule",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Points",
+  "Resources",
+]
 
 class Navbar extends Component {
   state = {
@@ -33,9 +44,9 @@ class Navbar extends Component {
   }
 
   getNavAnchorLink = item => (
-    <AnchorLink href={`#${item.toLowerCase()}`} onClick={this.closeMobileMenu}>
+    <Link to={`${item.toLowerCase()}`} onClick={this.closeMobileMenu}>
       {item}
-    </AnchorLink>
+    </Link>
   )
 
   getNavList = ({ mobile = false }) => (
