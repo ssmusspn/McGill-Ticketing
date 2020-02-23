@@ -1,94 +1,96 @@
-import React, { Component } from "react"
-// import AnchorLink from "react-anchor-link-smooth-scroll"
-import { Link } from "gatsby"
-import Scrollspy from "react-scrollspy"
-
-import { Container } from "@components/global"
+import React from "react"
+import Link from "gatsby-link"
+import "bootstrap/dist/css/bootstrap.min.css"
 import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
   Nav,
   NavItem,
-  Brand,
-  StyledContainer,
-  NavListWrapper,
-  MobileMenu,
-  Mobile,
-} from "./style"
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+} from "reactstrap"
 
-import { ReactComponent as MenuIcon } from "@static/icons/menu.svg"
+class SSPNNavbar extends React.Component {
+  constructor(props) {
+    super(props)
 
-const NAV_ITEMS = [
-  "General",
-  "Schedule",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Points",
-  "Resources",
-]
-
-class Navbar extends Component {
-  state = {
-    mobileMenuOpen: false,
-  }
-
-  toggleMobileMenu = () => {
-    this.setState(prevState => ({ mobileMenuOpen: !prevState.mobileMenuOpen }))
-  }
-
-  closeMobileMenu = () => {
-    if (this.state.mobileMenuOpen) {
-      this.setState({ mobileMenuOpen: false })
+    this.toggle = this.toggle.bind(this)
+    this.state = {
+      isOpen: false,
     }
   }
-
-  getNavAnchorLink = item => (
-    <Link to={`${item.toLowerCase()}`} onClick={this.closeMobileMenu}>
-      {item}
-    </Link>
-  )
-
-  getNavList = ({ mobile = false }) => (
-    <NavListWrapper mobile={mobile}>
-      <Scrollspy
-        items={NAV_ITEMS.map(item => item.toLowerCase())}
-        currentClassName="active"
-        mobile={mobile}
-        offset={-64}
-      >
-        {NAV_ITEMS.map(navItem => (
-          <NavItem key={navItem}>{this.getNavAnchorLink(navItem)}</NavItem>
-        ))}
-      </Scrollspy>
-    </NavListWrapper>
-  )
-
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen,
+    })
+  }
   render() {
-    const { mobileMenuOpen } = this.state
-
     return (
-      <Nav {...this.props}>
-        <StyledContainer>
-          <Brand>Students' Society Programming Network</Brand>
-          <Mobile>
-            <button onClick={this.toggleMobileMenu} style={{ color: "white" }}>
-              <MenuIcon />
-            </button>
-          </Mobile>
-
-          <Mobile hide>{this.getNavList({})}</Mobile>
-        </StyledContainer>
-        <Mobile>
-          {mobileMenuOpen && (
-            <MobileMenu>
-              <Container>{this.getNavList({ mobile: true })}</Container>
-            </MobileMenu>
-          )}
-        </Mobile>
-      </Nav>
+      <div>
+        <Navbar color="light" light expand="md">
+          <NavbarBrand href="/">
+            Students' Society Programming Network
+          </NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  General
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    <NavLink href="general/rules-respect">
+                      Rules & Respect
+                    </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="general/consent">
+                      Consent and Active Bystanding
+                    </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="general/rules-respect">
+                      Rules & Respect
+                    </NavLink>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Monday
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    <NavLink href="https://github.com/reactstrap/reactstrap">
+                      GitHub
+                    </NavLink>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Tuesday
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    <NavLink href="https://github.com/reactstrap/reactstrap">
+                      GitHub
+                    </NavLink>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
     )
   }
 }
 
-export default Navbar
+export default SSPNNavbar
