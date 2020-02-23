@@ -98,8 +98,8 @@ const ConsentPage = () => (
             when considering how to intervene. Your safety is paramount; if you
             think you’ll be at risk, do not intervene.
             <br />
-            <b>ONSENT MATTERS:</b> When possible, ask for consent before getting
-            involved.
+            <b>CONSENT MATTERS:</b> When possible, ask for consent before
+            getting involved.
             <br />
           </p>
         </p>
@@ -110,9 +110,11 @@ const ConsentPage = () => (
           survivors of sexual violence and their allies are believed and
           supported. SACOMSS is open to people of all genders in the McGill and
           Montreal community. For more information about hours and services,
-          check out their website, <a href="https://sacomss.org">sacomss.org</a>
+          check out their website,{" "}
+          <a href="https://sacomss.org">sacomss.org </a>
           or call their support line at (514) 398-8500.
         </p>
+        <br />
         <h3>Other Resources</h3>
         <ul>
           <li>
