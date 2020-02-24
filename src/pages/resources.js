@@ -30,7 +30,7 @@ const ResourcesPage = () => (
 
           <li>Sam Hamway: (908)-674-3065</li>
         </ul>
-
+        <br />
         <p>
           <strong>SSMU VP Internal</strong>
         </p>
@@ -38,7 +38,7 @@ const ResourcesPage = () => (
         <ul>
           <li>Sanchi Bhalla: (514)-559-3485</li>
         </ul>
-
+        <br />
         <p>
           <strong>ILC</strong>
         </p>
@@ -46,7 +46,8 @@ const ResourcesPage = () => (
         <ul>
           <li>Colin Seltzer: (514)-758-5416</li>
         </ul>
-
+        <br />
+        <br />
         <h2 id="otherresources">Other Resources</h2>
 
         <ul>

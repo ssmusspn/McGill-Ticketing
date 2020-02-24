@@ -5,7 +5,7 @@ import Footer from "@sections/Footer"
 import styled from "styled-components"
 import { Container, Section } from "@components/global"
 import Layout from "@common/Layout"
-import { StaticQuery, graphql, Link } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 const MoistPage = () => (
@@ -213,8 +213,4 @@ const Art = styled.figure`
   margin: 0;
   max-width: 380px;
   width: 100%;
-`
-const StyledLink = styled(Link)`
-  color: ${props => props.theme.color.primary};
-  font-style: italic;
 `

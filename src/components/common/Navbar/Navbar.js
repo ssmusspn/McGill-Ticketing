@@ -14,6 +14,7 @@ import {
   DropdownMenu,
   DropdownItem,
 } from "reactstrap"
+import theme from "@styles/theme"
 
 class SSPNNavbar extends React.Component {
   constructor(props) {
@@ -32,9 +33,16 @@ class SSPNNavbar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">
-            Students' Society Programming Network
+        <Navbar color="white" light expand="md">
+          <NavbarBrand
+            href="/"
+            style={{
+              color: theme.color.primary,
+              fontSize: "24px",
+              textDecoration: "none",
+            }}
+          >
+            SSPN
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

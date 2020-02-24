@@ -5,9 +5,6 @@ import Footer from "@sections/Footer"
 import styled from "styled-components"
 import { Container, Section } from "@components/global"
 import Layout from "@common/Layout"
-import Img from "gatsby-image"
-import { StaticQuery, graphql, Link } from "gatsby"
-import { Table } from "reactstrap"
 
 const PitcherPassPage = () => (
   <Layout>
@@ -258,8 +255,4 @@ const Art = styled.figure`
   margin: 0;
   max-width: 380px;
   width: 100%;
-`
-const StyledLink = styled(Link)`
-  color: ${props => props.theme.color.primary};
-  font-style: italic;
 `
