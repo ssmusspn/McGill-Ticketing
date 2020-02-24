@@ -9,15 +9,15 @@ import Img from "gatsby-image"
 import { StaticQuery, graphql, Link } from "gatsby"
 import { Table } from "reactstrap"
 
-const MCATPage = () => (
+const IronBartenderPage = () => (
   <Layout>
     <Navbar />
     <StaticQuery
       query={graphql`
         query {
-          art_mcat_meme: file(
+          art_ironbartender_meme: file(
             sourceInstanceName: { eq: "art" }
-            name: { eq: "mcat_meme" }
+            name: { eq: "ironbartender_meme" }
           ) {
             childImageSharp {
               fluid(maxWidth: 760) {
@@ -28,84 +28,69 @@ const MCATPage = () => (
         }
       `}
       render={data => (
-        <Section id="mcat">
+        <Section id="ironbartender">
           <Container>
-            <h1>MCAT - Brain Age</h1>
+            <h1>Iron Bartender - Yoshi's Crafted Whirl</h1>
             <br />
             <Grid>
               <Art>
-                <Img fluid={data.art_mcat_meme.childImageSharp.fluid} />
+                <Img
+                  fluid={data.art_ironbartender_meme.childImageSharp.fluid}
+                />
               </Art>
               <div>
                 <h2 id="stage">Stage</h2>
                 <p>
-                  <strong>Time: </strong>12:00PM - 2:00PM
+                  <strong>Time: </strong>1:00PM - 2:00PM
                 </p>
                 <p>
-                  <strong>Location: </strong> Petit Campus Curtained Area
+                  <strong>Location: </strong> ADPhi Room 2 (2nd Floor)
                 </p>
                 <p>
-                  <strong>Players: </strong>2 Per Team
+                  <strong>Players: </strong>1 Drink submission per team
                 </p>
               </div>
             </Grid>
             <br />
             <p>
-              A test based on questions from different faculties. 2 people per
-              team, 1 pitcher and 3 shots per person. Science this may be your
-              only shot to actually do well on the MCAT (we know you’re not
-              going to med school anyways)
+              For all you aspiring bartenders, this is your moment. Show us your
+              bartending chops and make us your very best beverage.
             </p>
             <h2 id="rules">Rules</h2>
             <ul>
-              <li>
-                You may <em>not</em> leave the exam room
-              </li>
+              <li>Must be a beverage of some kind</li>
 
-              <li>Cell phones are banned</li>
-
-              <li>Standard McGill Exam Rules Apply</li>
-
-              <li>
-                You must complete your exam and all of the alcohol provided
-                within 60 minutes
-              </li>
+              <li>Don't kill us please</li>
             </ul>
-            <h2>Schedule</h2>
-            <h4>Wave 1: Noon</h4>
-            <p>
-              Arts 1, Arts 2, Science 1, Music, Law, Medicine, Education 1,
-              Management 2
-            </p>
-            <h4>Wave 2: 1PM</h4>
-            <p>
-              Arts 3, Arts 4, Arts 5, Engineering, Management 2, Education 2,
-              Science 2, PTOT
-            </p>
             <h2>Points</h2>
             <table class="table table-bordered table-hover table-condensed">
               <thead>
                 <tr>
                   <th title="Field #1">Tier</th>
                   <th title="Field #2">Points</th>
+                  <th title="Field #3">Teams</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td align="right">1</td>
-                  <td align="right">1000</td>
+                  <td align="right">250</td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td align="right">2</td>
-                  <td align="right">600</td>
+                  <td align="right">150</td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td align="right">3</td>
-                  <td align="right">350</td>
+                  <td align="right">100</td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td align="right">4</td>
-                  <td align="right">200</td>
+                  <td align="right">50</td>
+                  <td> </td>
                 </tr>
               </tbody>
             </table>
@@ -113,11 +98,12 @@ const MCATPage = () => (
         </Section>
       )}
     />
+    )} />
     <Footer />
   </Layout>
 )
 
-export default MCATPage
+export default IronBartenderPage
 
 const Grid = styled.div`
   display: grid;

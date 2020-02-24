@@ -9,15 +9,15 @@ import Img from "gatsby-image"
 import { StaticQuery, graphql, Link } from "gatsby"
 import { Table } from "reactstrap"
 
-const MCATPage = () => (
+const UltimatePrePage = () => (
   <Layout>
     <Navbar />
     <StaticQuery
       query={graphql`
         query {
-          art_mcat_meme: file(
+          art_ultimatepre_meme: file(
             sourceInstanceName: { eq: "art" }
-            name: { eq: "mcat_meme" }
+            name: { eq: "ultimatepre_meme" }
           ) {
             childImageSharp {
               fluid(maxWidth: 760) {
@@ -28,84 +28,65 @@ const MCATPage = () => (
         }
       `}
       render={data => (
-        <Section id="mcat">
+        <Section id="ultimatepre">
           <Container>
-            <h1>MCAT - Brain Age</h1>
+            <h1>Ultimate Pre - Luigi's Mansion</h1>
             <br />
             <Grid>
               <Art>
-                <Img fluid={data.art_mcat_meme.childImageSharp.fluid} />
+                <Img fluid={data.art_ultimatepre_meme.childImageSharp.fluid} />
               </Art>
               <div>
                 <h2 id="stage">Stage</h2>
                 <p>
-                  <strong>Time: </strong>12:00PM - 2:00PM
+                  <strong>Time: </strong>6:00PM - 9:00PM
                 </p>
                 <p>
-                  <strong>Location: </strong> Petit Campus Curtained Area
+                  <strong>Location: </strong> You tell us!
                 </p>
                 <p>
-                  <strong>Players: </strong>2 Per Team
+                  <strong>Players: </strong>Everyone!
                 </p>
               </div>
             </Grid>
             <br />
             <p>
-              A test based on questions from different faculties. 2 people per
-              team, 1 pitcher and 3 shots per person. Science this may be your
-              only shot to actually do well on the MCAT (we know you’re not
-              going to med school anyways)
+              Now it's your turn. Show up the rowdiest party you can imagine and
+              that you breathe and bleed Factendo at heart. Spooky things are
+              known to happen at Luigi's Mansion. Committee will come for about
+              20 minutes per party.
             </p>
             <h2 id="rules">Rules</h2>
-            <ul>
-              <li>
-                You may <em>not</em> leave the exam room
-              </li>
-
-              <li>Cell phones are banned</li>
-
-              <li>Standard McGill Exam Rules Apply</li>
-
-              <li>
-                You must complete your exam and all of the alcohol provided
-                within 60 minutes
-              </li>
-            </ul>
-            <h2>Schedule</h2>
-            <h4>Wave 1: Noon</h4>
-            <p>
-              Arts 1, Arts 2, Science 1, Music, Law, Medicine, Education 1,
-              Management 2
-            </p>
-            <h4>Wave 2: 1PM</h4>
-            <p>
-              Arts 3, Arts 4, Arts 5, Engineering, Management 2, Education 2,
-              Science 2, PTOT
-            </p>
+            <p>LOL There are no rules</p>
             <h2>Points</h2>
             <table class="table table-bordered table-hover table-condensed">
               <thead>
                 <tr>
                   <th title="Field #1">Tier</th>
                   <th title="Field #2">Points</th>
+                  <th title="Field #3">Teams</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td align="right">1</td>
-                  <td align="right">1000</td>
+                  <td align="right">750</td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td align="right">2</td>
-                  <td align="right">600</td>
+                  <td align="right">500</td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td align="right">3</td>
-                  <td align="right">350</td>
+                  <td align="right">300</td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td align="right">4</td>
-                  <td align="right">200</td>
+                  <td align="right">100</td>
+                  <td> </td>
                 </tr>
               </tbody>
             </table>
@@ -117,7 +98,7 @@ const MCATPage = () => (
   </Layout>
 )
 
-export default MCATPage
+export default UltimatePrePage
 
 const Grid = styled.div`
   display: grid;
