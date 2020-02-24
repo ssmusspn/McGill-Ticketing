@@ -79,7 +79,7 @@ const OpeningPage = () => (
                 <StyledLink to="/monday/pongseeding">Pong Seeding</StyledLink>
               </li>
               <li>
-                <StyledLink to="/monday/3man">3 Man</StyledLink>
+                <StyledLink to="/monday/threeman">3 Man</StyledLink>
               </li>
             </ul>
           </Container>
