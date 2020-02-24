@@ -59,13 +59,13 @@ const OpeningPage = () => (
             </Grid>
             <br />
             <p>
-              Welcome to Factendo! Word on the street is that Peach has a new
-              man... Apparently she's wheeling some exchange student named
-              Bowser? My sources tell me he's got a sub 1 chug... I guess we
-              just might need to see this one for ourselves...
+              <strong>Welcome to Factendo!</strong> Word on the street is that
+              Peach has a new man... Apparently she's wheeling some exchange
+              student named Bowser? My sources tell me he's got a sub 1 chug...
+              I guess we just might need to see this one for ourselves...
             </p>
             <p>
-              ITS THE BEGINNING OF IT ALL. OPENING CEREMONIES is upon us. Create
+              Its the beginning of it all. Opening ceremonies is upon us. Create
               a new player and come join us down at Foufounes Electriques for
               TIME TRIALS, PONG SEEDING AND 3-MAN.
             </p>

@@ -48,10 +48,10 @@ const BeerOPage = () => (
                   <strong>Players: </strong>Everyone
                 </p>
                 <p>
-                  <strong>Drinks: </strong>?
+                  <strong>Drinks: </strong>$15 Pitchers
                 </p>
                 <p>
-                  <strong>Coat Check: </strong>?
+                  <strong>Coat Check: </strong>$2.00
                 </p>
               </div>
             </Grid>

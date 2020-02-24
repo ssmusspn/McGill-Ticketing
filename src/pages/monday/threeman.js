@@ -64,6 +64,7 @@ const ThreeManPage = () => (
               this venue, 3-man starts later during the night and involves a lot
               of alcohol consumption, please know your limit and play within it.{" "}
             </p>
+            <br />
             <p>
               Who are these masked rascals that cause so much trouble for Yoshi
               and Mario? Seems like Shy Guys are always around, whether your
