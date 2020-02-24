@@ -5,7 +5,6 @@ import Footer from "@sections/Footer"
 import styled from "styled-components"
 import { Container, Section } from "@components/global"
 import Layout from "@common/Layout"
-import { graphql, Link } from "gatsby"
 
 const PongSeedingsPage = () => (
   <Layout>
@@ -254,8 +253,4 @@ const Art = styled.figure`
   margin: 0;
   max-width: 380px;
   width: 100%;
-`
-const StyledLink = styled(Link)`
-  color: ${props => props.theme.color.primary};
-  font-style: italic;
 `

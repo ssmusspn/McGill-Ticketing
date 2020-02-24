@@ -6,7 +6,7 @@ import styled from "styled-components"
 import { Container, Section } from "@components/global"
 import Layout from "@common/Layout"
 import Img from "gatsby-image"
-import { StaticQuery, graphql, Link } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 
 const PowerHourPage = () => (
   <Layout>

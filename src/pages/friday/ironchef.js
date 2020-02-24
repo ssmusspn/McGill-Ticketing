@@ -5,9 +5,6 @@ import Footer from "@sections/Footer"
 import styled from "styled-components"
 import { Container, Section } from "@components/global"
 import Layout from "@common/Layout"
-import Img from "gatsby-image"
-import { StaticQuery, graphql, Link } from "gatsby"
-import { Table } from "reactstrap"
 
 const IronChefPage = () => (
   <Layout>
@@ -36,7 +33,7 @@ const IronChefPage = () => (
           skills to the test!
         </p>
         <h2 id="rules">Rules</h2>
-        <p>Drunk food pls ❣️</p>
+        <p>Drunk food pls</p>
         <h2>Points</h2>
         <table class="table table-bordered table-hover table-condensed">
           <thead>
@@ -130,8 +127,4 @@ const Art = styled.figure`
   margin: 0;
   max-width: 380px;
   width: 100%;
-`
-const StyledLink = styled(Link)`
-  color: ${props => props.theme.color.primary};
-  font-style: italic;
 `
