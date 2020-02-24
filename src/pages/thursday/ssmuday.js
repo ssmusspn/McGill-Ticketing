@@ -119,6 +119,13 @@ const SSMUDayPage = () => (
                   <td>Science 1</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Arts 2</td>
                   <td>10:35</td>
                   <td>10:35</td>
@@ -131,6 +138,13 @@ const SSMUDayPage = () => (
                   <td>Science 2</td>
                   <td>-</td>
                   <td>Education 2</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Arts 3</td>
@@ -147,6 +161,13 @@ const SSMUDayPage = () => (
                   <td>Law</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Arts 4</td>
                   <td>10:30</td>
                   <td>10:25</td>
@@ -159,6 +180,13 @@ const SSMUDayPage = () => (
                   <td>Arts 3</td>
                   <td>-</td>
                   <td>Engineering</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Arts 5</td>
@@ -175,6 +203,13 @@ const SSMUDayPage = () => (
                   <td>PTOT</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Education 1</td>
                   <td>10:30</td>
                   <td>10:15</td>
@@ -187,6 +222,13 @@ const SSMUDayPage = () => (
                   <td>Law</td>
                   <td>-</td>
                   <td>Music</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Education 2</td>
@@ -203,6 +245,13 @@ const SSMUDayPage = () => (
                   <td>Education 2</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Engineering</td>
                   <td>10:15</td>
                   <td>10:50</td>
@@ -217,6 +266,13 @@ const SSMUDayPage = () => (
                   <td>Arts 4</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Law</td>
                   <td>10:40</td>
                   <td>10:15</td>
@@ -229,6 +285,13 @@ const SSMUDayPage = () => (
                   <td>Education 1</td>
                   <td>-</td>
                   <td>Arts 3</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Management 1</td>
@@ -245,6 +308,13 @@ const SSMUDayPage = () => (
                   <td>Science 2</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Management 2</td>
                   <td>10:25</td>
                   <td>10:45</td>
@@ -257,6 +327,13 @@ const SSMUDayPage = () => (
                   <td>PTOT</td>
                   <td>-</td>
                   <td>Medicine</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Medicine</td>
@@ -273,6 +350,13 @@ const SSMUDayPage = () => (
                   <td>Management 2</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Music</td>
                   <td>10:35</td>
                   <td>10:50</td>
@@ -285,6 +369,13 @@ const SSMUDayPage = () => (
                   <td>Engineering</td>
                   <td>-</td>
                   <td>Education 1</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>PTOT</td>
@@ -301,6 +392,13 @@ const SSMUDayPage = () => (
                   <td>Arts 5</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Science 1</td>
                   <td>10:45</td>
                   <td>10:20</td>
@@ -313,6 +411,13 @@ const SSMUDayPage = () => (
                   <td>Arts 5</td>
                   <td>-</td>
                   <td>Arts 1</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Science 2</td>

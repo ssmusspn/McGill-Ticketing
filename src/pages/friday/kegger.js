@@ -113,6 +113,12 @@ const KeggerPage = () => (
                   <td>Science 1</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Arts 2</td>
                   <td>12:00</td>
                   <td> </td>
@@ -123,6 +129,12 @@ const KeggerPage = () => (
                   <td>Education 1</td>
                   <td> </td>
                   <td>Medicine</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Arts 3</td>
@@ -137,6 +149,12 @@ const KeggerPage = () => (
                   <td>Education 1</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Arts 4</td>
                   <td>1:10</td>
                   <td> </td>
@@ -147,6 +165,12 @@ const KeggerPage = () => (
                   <td>PTOT</td>
                   <td> </td>
                   <td>PTOT</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Arts 5</td>
@@ -161,6 +185,12 @@ const KeggerPage = () => (
                   <td>Science 2</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Education 1</td>
                   <td>12:00</td>
                   <td> </td>
@@ -173,6 +203,12 @@ const KeggerPage = () => (
                   <td>Arts 3</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Education 2</td>
                   <td>12:20</td>
                   <td> </td>
@@ -183,6 +219,12 @@ const KeggerPage = () => (
                   <td>Medicine</td>
                   <td> </td>
                   <td>Management 2</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Engineering</td>
@@ -197,6 +239,12 @@ const KeggerPage = () => (
                   <td>Law</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Law</td>
                   <td>12:30</td>
                   <td> </td>
@@ -209,6 +257,12 @@ const KeggerPage = () => (
                   <td>Engineering</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Management 1</td>
                   <td>12:40</td>
                   <td> </td>
@@ -219,6 +273,12 @@ const KeggerPage = () => (
                   <td>Music</td>
                   <td> </td>
                   <td>Music</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Management 2</td>
@@ -233,6 +293,12 @@ const KeggerPage = () => (
                   <td>Education 2</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Medicine</td>
                   <td>12:20</td>
                   <td> </td>
@@ -243,6 +309,12 @@ const KeggerPage = () => (
                   <td>Education 2</td>
                   <td> </td>
                   <td>Arts 2</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Music</td>
@@ -257,6 +329,12 @@ const KeggerPage = () => (
                   <td>Management 1</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>PTOT</td>
                   <td>1:10</td>
                   <td> </td>
@@ -269,6 +347,12 @@ const KeggerPage = () => (
                   <td>Arts 4</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Science 1</td>
                   <td>12:30</td>
                   <td> </td>
@@ -279,6 +363,12 @@ const KeggerPage = () => (
                   <td>Law</td>
                   <td> </td>
                   <td>Science 1</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Science 2</td>

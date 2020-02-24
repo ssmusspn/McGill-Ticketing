@@ -133,6 +133,13 @@ const BeerOPage = () => (
                   <td>Management 2</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Arts 2</td>
                   <td>8:30</td>
                   <td>8:40</td>
@@ -147,6 +154,13 @@ const BeerOPage = () => (
                   <td>Management 1</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Arts 3</td>
                   <td>8:10</td>
                   <td>8:30</td>
@@ -159,6 +173,13 @@ const BeerOPage = () => (
                   <td>Medicine</td>
                   <td>Engineering</td>
                   <td>Education 1</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Arts 4</td>
@@ -175,6 +196,13 @@ const BeerOPage = () => (
                   <td>Arts 5</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Arts 5</td>
                   <td>8:40</td>
                   <td>8:10</td>
@@ -187,6 +215,13 @@ const BeerOPage = () => (
                   <td>Education 2</td>
                   <td>Medicine</td>
                   <td>Arts 4</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Education 1</td>
@@ -203,6 +238,13 @@ const BeerOPage = () => (
                   <td>Arts 3</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Education 2</td>
                   <td>9:00</td>
                   <td>8:10</td>
@@ -217,6 +259,13 @@ const BeerOPage = () => (
                   <td>Engineering</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Engineering</td>
                   <td>8:50</td>
                   <td>8:40</td>
@@ -229,6 +278,13 @@ const BeerOPage = () => (
                   <td>Arts 2</td>
                   <td>Arts 3</td>
                   <td>Education 2</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Law</td>
@@ -245,6 +301,13 @@ const BeerOPage = () => (
                   <td>Science 2</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Management 1</td>
                   <td>9:10</td>
                   <td>8:50</td>
@@ -257,6 +320,13 @@ const BeerOPage = () => (
                   <td>Law</td>
                   <td>Management 2</td>
                   <td>Arts 2</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Management 2</td>
@@ -273,6 +343,13 @@ const BeerOPage = () => (
                   <td>Arts 1</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Medicine</td>
                   <td>8:50</td>
                   <td>8:30</td>
@@ -285,6 +362,13 @@ const BeerOPage = () => (
                   <td>Arts 3</td>
                   <td>Arts 5</td>
                   <td>PTOT</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Music</td>
@@ -301,6 +385,13 @@ const BeerOPage = () => (
                   <td>Science 1</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>PTOT</td>
                   <td>8:20</td>
                   <td>9:20</td>
@@ -315,6 +406,13 @@ const BeerOPage = () => (
                   <td>Medicine</td>
                 </tr>
                 <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
                   <td>Science 1</td>
                   <td>9:20</td>
                   <td>9:00</td>
@@ -327,6 +425,13 @@ const BeerOPage = () => (
                   <td>Arts 4</td>
                   <td>Arts 2</td>
                   <td>Music</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td>Science 2</td>
