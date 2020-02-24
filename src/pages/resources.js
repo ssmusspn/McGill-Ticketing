@@ -13,12 +13,12 @@ const ResourcesPage = () => (
       <div>
         <h1>Resources</h1>
         <p>
-          We've added a few new updates to your Pokedex! Here is a list of
+          We've added a few new updates to your Pokédex! Here is a list of
           resources that you will need in order to make your game a success.
         </p>
         <br />
         <h2 id="rarepokemoncommitteecontactinfo">
-          RARE POKEMON (Committee Contact Info)
+          RARE POKÉMON (Committee Contact Info)
         </h2>
 
         <p>

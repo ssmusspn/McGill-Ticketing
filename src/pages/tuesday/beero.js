@@ -62,7 +62,7 @@ const BeerOPage = () => (
               or South. Maybe we'll even end up at Mac Campus haha jk... unless?
             </p>
             <br />
-            <h2>Dusted Busses</h2>
+            <h2>Dusted Buses</h2>
             <ul>
               <li>
                 Please be respectful of the buses, bus drivers and the
@@ -79,15 +79,15 @@ const BeerOPage = () => (
                   </li>
                 </ul>
               </li>
-              <li>
-                Bus Loading begins at <strong>6:15PM</strong> at Jeanne-Mance
-                Park and departing every 5 minutes <strong>until 7PM.</strong>
-              </li>
-              <li>
-                Busses will be depart the venue to Jeanne-Mance Park starting at
-                <strong>11PM.</strong>
-              </li>
             </ul>
+            <p>
+              Bus Loading begins at <strong>6:15PM</strong> at Jeanne-Mance Park
+              and departing every 5 minutes <strong>until 7PM.</strong>
+            </p>
+            <p>
+              Busses will be depart the venue to Jeanne-Mance Park starting at
+              <strong>11PM.</strong>
+            </p>
             <h2>Activities</h2>
             <ul>
               <li>

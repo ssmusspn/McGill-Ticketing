@@ -103,6 +103,7 @@ const ConsentPage = () => (
             <br />
           </p>
         </p>
+        <br />
         <h2>Resources</h2>
         <p>
           <b>What is SACOMSS </b>The Sexual Assault Centre of the McGill

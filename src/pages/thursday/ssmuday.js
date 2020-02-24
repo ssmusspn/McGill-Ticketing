@@ -59,8 +59,8 @@ const SSMUDayPage = () => (
             <p>
               Gerts is dead and so is the contruction on it. The only way to
               cope is to day drink at everyone's second home, Café Campus. Come
-              ~ unleash ~ yourself at Café and participate in a variety of fun
-              and "wholesome" games. No regrets today!
+              ~unleash~ yourself at Café and participate in a variety of fun and
+              "wholesome" games. No regrets today!
             </p>
             <br />
             <h2>Activities</h2>

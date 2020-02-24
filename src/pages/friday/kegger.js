@@ -48,10 +48,10 @@ const KeggerPage = () => (
                   <strong>Players: </strong>Everyone
                 </p>
                 <p>
-                  <strong>Drinks: </strong>Free Drink Available
+                  <strong>Drinks: </strong>Free
                 </p>
                 <p>
-                  <strong>Coat Check: </strong>Free Self Serve
+                  <strong>Coat Check: </strong>Free
                 </p>
               </div>
             </Grid>
