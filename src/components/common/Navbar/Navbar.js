@@ -196,12 +196,12 @@ class SSPNNavbar extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
+                    <NavLink href="/friday/mountainrun">Mountain Run</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
                     <NavLink href="/friday/kegger">Kegger</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/friday/mountainrun">Mountain Run</NavLink>
-                    </DropdownItem>
                     <DropdownItem>
                       <NavLink href="/friday/smash">
                         Super Smash(ed) Bros

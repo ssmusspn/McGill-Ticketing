@@ -2,9 +2,10 @@ import React from "react"
 
 import Navbar from "@common/Navbar"
 import Footer from "@sections/Footer"
-import styled from "styled-components"
 import { Container, Section } from "@components/global"
+import styled from "styled-components"
 import Layout from "@common/Layout"
+import PongSeedingMeme from "../../images/art/pongseeding_meme.gif"
 
 const PongSeedingsPage = () => (
   <Layout>
@@ -15,7 +16,7 @@ const PongSeedingsPage = () => (
         <br />
         <Grid>
           <Art>
-            {/* <Img fluid={data.art_pongseeding_meme.childImageSharp.fluid} /> */}
+            <img src={PongSeedingMeme} alt="Kirby Shooting" />
           </Art>
           <div>
             <h2 id="stage">Stage</h2>

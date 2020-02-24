@@ -24,6 +24,16 @@ const FlipCupPage = () => (
               }
             }
           }
+          art_flip_meme: file(
+            sourceInstanceName: { eq: "art" }
+            name: { eq: "flip_meme" }
+          ) {
+            childImageSharp {
+              fluid(maxWidth: 760) {
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              }
+            }
+          }
         }
       `}
       render={data => (
@@ -32,6 +42,9 @@ const FlipCupPage = () => (
             <h1>Flip Cup - Adventures of Flip</h1>
             <br />
             <Grid>
+              <Art>
+                <Img fluid={data.art_flip_meme.childImageSharp.fluid} />
+              </Art>
               <div>
                 <h2 id="stage">Stage</h2>
                 <p>

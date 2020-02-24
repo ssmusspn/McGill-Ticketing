@@ -24,6 +24,16 @@ const TummiesPage = () => (
               }
             }
           }
+          art_tummies_meme: file(
+            sourceInstanceName: { eq: "art" }
+            name: { eq: "tummies_meme" }
+          ) {
+            childImageSharp {
+              fluid(maxWidth: 760) {
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              }
+            }
+          }
         }
       `}
       render={data => (
@@ -32,6 +42,9 @@ const TummiesPage = () => (
             <h1>Tummies - Zero Suit Samus</h1>
             <br />
             <Grid>
+              <Art>
+                <Img fluid={data.art_tummies_meme.childImageSharp.fluid} />
+              </Art>
               <div>
                 <h2 id="stage">Stage</h2>
                 <p>

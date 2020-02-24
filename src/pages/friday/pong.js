@@ -24,14 +24,27 @@ const PongPage = () => (
               }
             }
           }
+          art_pong_meme: file(
+            sourceInstanceName: { eq: "art" }
+            name: { eq: "pong_meme" }
+          ) {
+            childImageSharp {
+              fluid(maxWidth: 760) {
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              }
+            }
+          }
         }
       `}
       render={data => (
         <Section id="pong">
           <Container>
-            <h1>Beer Pong - Duck Hunt</h1>
+            <h1>Beer Pong - Aim of the Game</h1>
             <br />
             <Grid>
+              <Art>
+                <Img fluid={data.art_pong_meme.childImageSharp.fluid} />
+              </Art>
               <div>
                 <h2 id="stage">Stage</h2>
                 <p>

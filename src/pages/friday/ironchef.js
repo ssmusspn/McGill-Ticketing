@@ -5,69 +5,92 @@ import Footer from "@sections/Footer"
 import styled from "styled-components"
 import { Container, Section } from "@components/global"
 import Layout from "@common/Layout"
+import Img from "gatsby-image"
+import { StaticQuery, graphql } from "gatsby"
 
 const IronChefPage = () => (
   <Layout>
     <Navbar />
-    <Section id="ironchef">
-      <Container>
-        <h1>Iron Chef - Cooking Mama</h1>
-        <br />
-        <Grid>
-          <div>
-            <h2 id="stage">Stage</h2>
+    <StaticQuery
+      query={graphql`
+        query {
+          art_ironchef_meme: file(
+            sourceInstanceName: { eq: "art" }
+            name: { eq: "ironchef_meme" }
+          ) {
+            childImageSharp {
+              fluid(maxWidth: 760) {
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              }
+            }
+          }
+        }
+      `}
+      render={data => (
+        <Section id="ironchef">
+          <Container>
+            <h1>Iron Chef - Cooking Mama</h1>
+            <br />
+            <Grid>
+              <Art>
+                <Img fluid={data.art_ironchef_meme.childImageSharp.fluid} />
+              </Art>
+              <div>
+                <h2 id="stage">Stage</h2>
+                <p>
+                  <strong>Time: </strong>2:00PM - 3:00PM
+                </p>
+                <p>
+                  <strong>Location: </strong> ADPhi Room 2 (2nd Floor)
+                </p>
+                <p>
+                  <strong>Players: </strong>1 Food submission per team
+                </p>
+              </div>
+            </Grid>
+            <br />
             <p>
-              <strong>Time: </strong>2:00PM - 3:00PM
+              Iron bartender, Drunk Food edition. Time to put your Cooking Mama
+              skills to the test!
             </p>
-            <p>
-              <strong>Location: </strong> ADPhi Room 2 (2nd Floor)
-            </p>
-            <p>
-              <strong>Players: </strong>1 Food submission per team
-            </p>
-          </div>
-        </Grid>
-        <br />
-        <p>
-          Iron bartender, Drunk Food edition. Time to put your Cooking Mama
-          skills to the test!
-        </p>
-        <h2 id="rules">Rules</h2>
-        <p>Drunk food pls</p>
-        <h2>Points</h2>
-        <table class="table table-bordered table-hover table-condensed">
-          <thead>
-            <tr>
-              <th title="Field #1">Tier</th>
-              <th title="Field #2">Points</th>
-              <th title="Field #3">Teams</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td align="right">1</td>
-              <td align="right">250</td>
-              <td> </td>
-            </tr>
-            <tr>
-              <td align="right">2</td>
-              <td align="right">150</td>
-              <td> </td>
-            </tr>
-            <tr>
-              <td align="right">3</td>
-              <td align="right">100</td>
-              <td> </td>
-            </tr>
-            <tr>
-              <td align="right">4</td>
-              <td align="right">50</td>
-              <td> </td>
-            </tr>
-          </tbody>
-        </table>
-      </Container>
-    </Section>
+            <h2 id="rules">Rules</h2>
+            <p>Drunk food pls</p>
+            <h2>Points</h2>
+            <table class="table table-bordered table-hover table-condensed">
+              <thead>
+                <tr>
+                  <th title="Field #1">Tier</th>
+                  <th title="Field #2">Points</th>
+                  <th title="Field #3">Teams</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="right">1</td>
+                  <td align="right">250</td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">2</td>
+                  <td align="right">150</td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">3</td>
+                  <td align="right">100</td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">4</td>
+                  <td align="right">50</td>
+                  <td> </td>
+                </tr>
+              </tbody>
+            </table>
+          </Container>
+        </Section>
+      )}
+    />
     <Footer />
   </Layout>
 )
