@@ -13,7 +13,7 @@ const StacksPage = () => (
     <Navbar />
     <Section id="stacks">
       <Container>
-        <h1>Straws - Tetris</h1>
+        <h1>Stacks - Tetris</h1>
         <br />
         <Grid>
           <div>
