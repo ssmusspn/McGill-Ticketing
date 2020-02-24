@@ -224,6 +224,12 @@ class SSPNNavbar extends React.Component {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
+              <NavItem>
+                <NavLink href="/points">Points</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/resources">Resources</NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
