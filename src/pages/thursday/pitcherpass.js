@@ -53,7 +53,7 @@ const PitcherPassPage = () => {
                     </p>
                     <p>
                       <strong>Players: </strong>Three people per team, at least
-                      one girl.
+                      one girl. One puke bag holder.
                     </p>
                   </div>
                 </Grid>
@@ -79,6 +79,12 @@ const PitcherPassPage = () => {
                   </li>
 
                   <li>Team to finish their bucket the fastest wins</li>
+
+                  <li>Double Major: Puking in pitcher</li>
+
+                  <li>Major: Dripping beer off face</li>
+
+                  <li>Minor: Small spills, liquid on face</li>
                 </ul>
                 <h2>Schedule</h2>
                 <table class="table table-bordered table-hover table-condensed">

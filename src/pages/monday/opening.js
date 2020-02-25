@@ -59,7 +59,7 @@ const OpeningPage = () => {
                       <strong>Drinks: </strong>$8 Pitchers
                     </p>
                     <p>
-                      <strong>Coat Check: </strong>$2.00
+                      <strong>Coat Check: </strong>$2.50
                     </p>
                   </div>
                 </Grid>

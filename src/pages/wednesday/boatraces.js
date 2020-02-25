@@ -60,6 +60,12 @@ const BoatRacePage = () => {
                       <strong>Location: </strong> Café Campus Pits
                     </p>
                     <p>
+                      <strong>Coat Check: </strong>$2.00
+                    </p>
+                    <p>
+                      <strong>Drinks: </strong>$11.00 Pitchers
+                    </p>
+                    <p>
                       <strong>Players: </strong>10 people from each team,
                       minimum 4 girls + 1 PBH +1 Tapper
                     </p>
@@ -74,21 +80,36 @@ const BoatRacePage = () => {
                   pesky blue shells on your way.
                 </p>
                 <h2 id="rules">Rules</h2>
+                <p>
+                  2 regulation beers per person per round. Race there and back -
+                  chugger 1 drinks 1 beer, chugger 2 then drinks, etc.
+                </p>
+                <p>
+                  <strong>Penalties are called on</strong>
+                </p>
                 <ul>
                   <li>
-                    2 regulation beers per person per round. Race there and back
-                    - chugger 1 drinks 1 beer, chugger 2 then drinks, etc.
-                  </li>
-                </ul>
-                <p>Penalties are called on</p>
-                <ul>
-                  <li>
-                    DOUBLE MAJORS (10 secs) - False starts, not putting the cup
-                    down after drinking (e.g. crushing the cup, throwing), beer
-                    left in cup
+                    DOUBLE MAJORS (10 secs) - False starts, crushing the cup,
+                    throwing the cup, beer left in cup
                   </li>
                   <li>MAJORS (5 secs) - Dripping beer off face</li>
                   <li>MINORS (2 secs) - Small spills, liquid on face</li>
+                </ul>
+                <p>
+                  <strong>False Starts:</strong>
+                </p>
+
+                <ul>
+                  <li>Cup must touch the table before the next person goes</li>
+
+                  <li>A false start due to early tapping is a Minor</li>
+
+                  <li>A false start on the countdown is a Double Major</li>
+
+                  <li>
+                    The timer, not the sign holders, are responsible for the
+                    calling of false starts
+                  </li>
                 </ul>
                 <h2>Bracket</h2>
                 <Img fluid={data.art_boatraces_bracket.childImageSharp.fluid} />

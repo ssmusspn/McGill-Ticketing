@@ -50,6 +50,9 @@ const MoistPage = () => {
                       <strong>Location: </strong>Petit Campus
                     </p>
                     <p>
+                      <strong>Drinks: </strong>$11 Pitchers
+                    </p>
+                    <p>
                       <strong>Players: </strong>Everyone!
                     </p>
                   </div>
@@ -59,7 +62,7 @@ const MoistPage = () => {
                   How many pitchers can one possibly buy? Guess we'll find out.
                   Catch them all tonight!! We don't care what's in your pitcher
                   so long as it's <strong>MOIST</strong>. Standard Café Campus
-                  13$ pitchers apply. Celiac, and other pitchers are ok too!
+                  11$ pitchers apply. Celiac, and other pitchers are ok too!
                 </p>
                 <h2>Rules</h2>
                 <p>Please actually drink your beer and don't waste it lol </p>

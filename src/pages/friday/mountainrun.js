@@ -48,7 +48,7 @@ const MountainRunPage = () => {
             <h2 id="rules">Rules</h2>
             <p>
               Each team needs to carry a case of beer. When they get to ADPhi
-              (ΑΔΦ) they need to drink 6 beers some fireball.
+              (ΑΔΦ) they need to drink 6 beers and 375ml of fireball.
             </p>
             <h2>Schedule</h2>
             <table class="table table-bordered table-hover table-condensed">
