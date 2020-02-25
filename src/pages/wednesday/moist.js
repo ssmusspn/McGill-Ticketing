@@ -7,156 +7,172 @@ import { Container, Section } from "@components/global"
 import Layout from "@common/Layout"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { useAuth } from "react-use-auth"
+import PleaseLogin from "@sections/PleaseLogin"
 
-const MoistPage = () => (
-  <Layout>
-    <Navbar />
-    <StaticQuery
-      query={graphql`
-        query {
-          art_moist_meme: file(
-            sourceInstanceName: { eq: "art" }
-            name: { eq: "moist_meme" }
-          ) {
-            childImageSharp {
-              fluid(maxWidth: 760) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+const MoistPage = () => {
+  const { isAuthenticated } = useAuth()
+
+  if (isAuthenticated()) {
+    return (
+      <Layout>
+        <Navbar />
+        <StaticQuery
+          query={graphql`
+            query {
+              art_moist_meme: file(
+                sourceInstanceName: { eq: "art" }
+                name: { eq: "moist_meme" }
+              ) {
+                childImageSharp {
+                  fluid(maxWidth: 760) {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  }
+                }
               }
             }
-          }
-        }
-      `}
-      render={data => (
-        <Section id="moist">
-          <Container>
-            <h1>Moist Gardens - Gotta Catch 'Em All</h1>
-            <br />
-            <Grid>
-              <Art>
-                <Img fluid={data.art_moist_meme.childImageSharp.fluid} />
-              </Art>
-              <div>
-                <h2 id="stage">Stage</h2>
+          `}
+          render={data => (
+            <Section id="moist">
+              <Container>
+                <h1>Moist Gardens - Gotta Catch 'Em All</h1>
+                <br />
+                <Grid>
+                  <Art>
+                    <Img fluid={data.art_moist_meme.childImageSharp.fluid} />
+                  </Art>
+                  <div>
+                    <h2 id="stage">Stage</h2>
+                    <p>
+                      <strong>Time: </strong>8:00PM - 11:00PM
+                    </p>
+                    <p>
+                      <strong>Location: </strong>Petit Campus
+                    </p>
+                    <p>
+                      <strong>Players: </strong>Everyone!
+                    </p>
+                  </div>
+                </Grid>
+                <br />
                 <p>
-                  <strong>Time: </strong>8:00PM - 11:00PM
+                  How many pitchers can one possibly buy? Guess we'll find out.
+                  Catch them all tonight!! We don't care what's in your pitcher
+                  so long as it's <strong>MOIST</strong>. Standard Café Campus
+                  13$ pitchers apply. Celiac, and other pitchers are ok too!
                 </p>
-                <p>
-                  <strong>Location: </strong>Petit Campus
-                </p>
-                <p>
-                  <strong>Players: </strong>Everyone!
-                </p>
-              </div>
-            </Grid>
-            <br />
-            <p>
-              How many pitchers can one possibly buy? Guess we'll find out.
-              Catch them all tonight!! We don't care what's in your pitcher so
-              long as it's <strong>MOIST</strong>. Standard Café Campus 13$
-              pitchers apply. Celiac, and other pitchers are ok too!
-            </p>
-            <h2>Rules</h2>
-            <p>Please actually drink your beer and don't waste it lol </p>
-            <h2>Points</h2>
-            <p>25 points per pitcher, max 50 pitchers per team.</p>
-            <table class="table table-bordered table-hover table-condensed">
-              <thead>
-                <tr>
-                  <th title="Field #1">Pitchers</th>
-                  <th title="Field #2">Team</th>
-                  <th title="Field #3">Points</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td> </td>
-                  <td>Arts 1</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Arts 2</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Arts 3</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Arts 4</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Arts 5</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Education 1</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Education 2</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Engineering</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Law</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Management 1</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Management 2</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Medicine</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Music</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>PTOT</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Science 1</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Science 2</td>
-                  <td> </td>
-                </tr>
-              </tbody>
-            </table>
-          </Container>
-        </Section>
-      )}
-    />
-    <Footer />
-  </Layout>
-)
+                <h2>Rules</h2>
+                <p>Please actually drink your beer and don't waste it lol </p>
+                <h2>Points</h2>
+                <p>25 points per pitcher, max 50 pitchers per team.</p>
+                <table class="table table-bordered table-hover table-condensed">
+                  <thead>
+                    <tr>
+                      <th title="Field #1">Pitchers</th>
+                      <th title="Field #2">Team</th>
+                      <th title="Field #3">Points</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td> </td>
+                      <td>Arts 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Arts 2</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Arts 3</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Arts 4</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Arts 5</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Education 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Education 2</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Engineering</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Law</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Management 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Management 2</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Medicine</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Music</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>PTOT</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Science 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Science 2</td>
+                      <td> </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </Container>
+            </Section>
+          )}
+        />
+        <Footer />
+      </Layout>
+    )
+  } else {
+    return (
+      <Layout>
+        <Navbar />
+        <PleaseLogin />
+        <Footer />
+      </Layout>
+    )
+  }
+}
 
 export default MoistPage
 

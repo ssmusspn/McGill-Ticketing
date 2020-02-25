@@ -7,197 +7,218 @@ import { Container, Section } from "@components/global"
 import Layout from "@common/Layout"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { useAuth } from "react-use-auth"
+import PleaseLogin from "@sections/PleaseLogin"
 
-const ThreePillarPage = () => (
-  <Layout>
-    <Navbar />
-    <StaticQuery
-      query={graphql`
-        query {
-          art_threepillar_meme: file(
-            sourceInstanceName: { eq: "art" }
-            name: { eq: "threepillar_meme" }
-          ) {
-            childImageSharp {
-              fluid(maxWidth: 760) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+const ThreePillarPage = () => {
+  const { isAuthenticated } = useAuth()
+
+  if (isAuthenticated()) {
+    return (
+      <Layout>
+        <Navbar />
+        <StaticQuery
+          query={graphql`
+            query {
+              art_threepillar_meme: file(
+                sourceInstanceName: { eq: "art" }
+                name: { eq: "threepillar_meme" }
+              ) {
+                childImageSharp {
+                  fluid(maxWidth: 760) {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  }
+                }
               }
             }
-          }
-        }
-      `}
-      render={data => (
-        <Section id="threepillar">
-          <Container>
-            <h1>3 Pillar Chug - The Legend of Zelda: Tri Force Heroes</h1>
-            <br />
-            <Grid>
-              <Art>
-                <Img fluid={data.art_threepillar_meme.childImageSharp.fluid} />
-              </Art>
-              <div>
-                <h2 id="stage">Stage</h2>
+          `}
+          render={data => (
+            <Section id="threepillar">
+              <Container>
+                <h1>3 Pillar Chug - The Legend of Zelda: Tri Force Heroes</h1>
+                <br />
+                <Grid>
+                  <Art>
+                    <Img
+                      fluid={data.art_threepillar_meme.childImageSharp.fluid}
+                    />
+                  </Art>
+                  <div>
+                    <h2 id="stage">Stage</h2>
+                    <p>
+                      <strong>Time: </strong>8:30PM - 11:30PM
+                    </p>
+                    <p>
+                      <strong>Location: </strong>Petit Campus
+                    </p>
+                    <p>
+                      <strong>Players: </strong>Everyone! Up to 40 participants
+                      per team will receive points
+                    </p>
+                  </div>
+                </Grid>
+                <br />
                 <p>
-                  <strong>Time: </strong>8:30PM - 11:30PM
+                  Show the world you embody the three pillars of FacO with a
+                  Three pillar chug: Athletics, Academics, and of course
+                  Alcohol. This is one of those events where your chug time
+                  could be 69x times higher than your GPA and you’d STILL get
+                  the points.
                 </p>
-                <p>
-                  <strong>Location: </strong>Petit Campus
-                </p>
-                <p>
-                  <strong>Players: </strong>Everyone! Up to 40 participants per
-                  team will receive points
-                </p>
-              </div>
-            </Grid>
-            <br />
-            <p>
-              Show the world you embody the three pillars of FacO with a Three
-              pillar chug: Athletics, Academics, and of course Alcohol. This is
-              one of those events where your chug time could be 69x times higher
-              than your GPA and you’d STILL get the points.
-            </p>
-            <h2>Rules</h2>
-            <ul>
-              <li>Player must complete and athletic challenge (a pushup)</li>
+                <h2>Rules</h2>
+                <ul>
+                  <li>
+                    Player must complete and athletic challenge (a pushup)
+                  </li>
 
-              <li>Player must complete a math problem (multiplication)</li>
+                  <li>Player must complete a math problem (multiplication)</li>
 
-              <li>
-                Player must chug a regulation beer (if non-regulation they can
-                still receive points, but will not be placed on the
-                leaderboard).
-              </li>
-            </ul>
-            <h2>Points</h2>
-            <p>
-              25 points per person to participate. Max of 40 people per team
-              will get points
-            </p>
-            <table class="table table-bordered table-hover table-condensed">
-              <thead>
-                <tr>
-                  <th title="Field #1">Attempts</th>
-                  <th title="Field #2">Team</th>
-                  <th title="Field #3">Points</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td> </td>
-                  <td>Arts 1</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Arts 2</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Arts 3</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Arts 4</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Arts 5</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Education 1</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Education 2</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Engineering</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Law</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Management 1</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Management 2</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Medicine</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Music</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>PTOT</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Science 1</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>Science 2</td>
-                  <td> </td>
-                </tr>
-              </tbody>
-            </table>
-            <h2>Leaderboard</h2>
-            <table class="table table-bordered table-hover table-condensed">
-              <thead>
-                <tr>
-                  <th title="Field #1">Name</th>
-                  <th title="Field #2">Team</th>
-                  <th title="Field #3">Time</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                </tr>
-              </tbody>
-            </table>
-          </Container>
-        </Section>
-      )}
-    />
-    <Footer />
-  </Layout>
-)
+                  <li>
+                    Player must chug a regulation beer (if non-regulation they
+                    can still receive points, but will not be placed on the
+                    leaderboard).
+                  </li>
+                </ul>
+                <h2>Points</h2>
+                <p>
+                  25 points per person to participate. Max of 40 people per team
+                  will get points
+                </p>
+                <table class="table table-bordered table-hover table-condensed">
+                  <thead>
+                    <tr>
+                      <th title="Field #1">Attempts</th>
+                      <th title="Field #2">Team</th>
+                      <th title="Field #3">Points</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td> </td>
+                      <td>Arts 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Arts 2</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Arts 3</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Arts 4</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Arts 5</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Education 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Education 2</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Engineering</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Law</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Management 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Management 2</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Medicine</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Music</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>PTOT</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Science 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Science 2</td>
+                      <td> </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h2>Leaderboard</h2>
+                <table class="table table-bordered table-hover table-condensed">
+                  <thead>
+                    <tr>
+                      <th title="Field #1">Name</th>
+                      <th title="Field #2">Team</th>
+                      <th title="Field #3">Time</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </Container>
+            </Section>
+          )}
+        />
+        <Footer />
+      </Layout>
+    )
+  } else {
+    return (
+      <Layout>
+        <Navbar />
+        <PleaseLogin />
+        <Footer />
+      </Layout>
+    )
+  }
+}
 
 export default ThreePillarPage
 

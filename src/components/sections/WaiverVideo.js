@@ -1,6 +1,5 @@
 import React from "react"
 
-import { useAuth } from "react-use-auth"
 import YouTube from "react-youtube"
 import { Section, Container } from "@components/global"
 import Typeform from "@common/Typeform"
@@ -17,40 +16,34 @@ const WaiverVideo = () => {
       modestbranding: 1,
     },
   }
-  const { isAuthenticated } = useAuth()
 
   function onPlayerStateChange(event) {
     if (event.data === 0) {
       document.getElementById("Typeform").style.display = "block"
     }
   }
-
-  if (isAuthenticated()) {
-    return (
-      <Section id="video">
-        <Container>
-          <div>
-            <h2>Waiver Video</h2>
-            <br></br>
-            <p>
-              Please watch the wavier video in it's entirety. You will not be
-              able to continue until it has been completed.
-            </p>
-          </div>
-          <div>
-            <YouTube
-              videoId="oyj2I9y2VN4"
-              opts={opts}
-              onStateChange={onPlayerStateChange}
-            />
-          </div>
-          <Typeform />
-        </Container>
-      </Section>
-    )
-  } else {
-    return <Section id="video"></Section>
-  }
+  return (
+    <Section id="video">
+      <Container>
+        <div>
+          <h2>Single Night Tickets</h2>
+          <br></br>
+          <p>
+            To purchase a single night ticket, please watch the waiver video in
+            it's entirety and purcahse the button that appears at the end.
+          </p>
+        </div>
+        <div>
+          <YouTube
+            videoId="oyj2I9y2VN4"
+            opts={opts}
+            onStateChange={onPlayerStateChange}
+          />
+        </div>
+        <Typeform />
+      </Container>
+    </Section>
+  )
 }
 
 export default WaiverVideo

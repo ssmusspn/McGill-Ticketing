@@ -7,126 +7,142 @@ import { Container, Section } from "@components/global"
 import Layout from "@common/Layout"
 import Img from "gatsby-image"
 import { StaticQuery, graphql } from "gatsby"
+import { useAuth } from "react-use-auth"
+import PleaseLogin from "@sections/PleaseLogin"
 
-const TummiesPage = () => (
-  <Layout>
-    <Navbar />
-    <StaticQuery
-      query={graphql`
-        query {
-          art_tummies_bracket: file(
-            sourceInstanceName: { eq: "art" }
-            name: { eq: "tummies_bracket" }
-          ) {
-            childImageSharp {
-              fluid(maxWidth: 760) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+const TummiesPage = () => {
+  const { isAuthenticated } = useAuth()
+
+  if (isAuthenticated()) {
+    return (
+      <Layout>
+        <Navbar />
+        <StaticQuery
+          query={graphql`
+            query {
+              art_tummies_bracket: file(
+                sourceInstanceName: { eq: "art" }
+                name: { eq: "tummies_bracket" }
+              ) {
+                childImageSharp {
+                  fluid(maxWidth: 760) {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  }
+                }
+              }
+              art_tummies_meme: file(
+                sourceInstanceName: { eq: "art" }
+                name: { eq: "tummies_meme" }
+              ) {
+                childImageSharp {
+                  fluid(maxWidth: 760) {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  }
+                }
               }
             }
-          }
-          art_tummies_meme: file(
-            sourceInstanceName: { eq: "art" }
-            name: { eq: "tummies_meme" }
-          ) {
-            childImageSharp {
-              fluid(maxWidth: 760) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
-              }
-            }
-          }
-        }
-      `}
-      render={data => (
-        <Section id="tummies">
-          <Container>
-            <h1>Tummies - Zero Suit Samus</h1>
-            <br />
-            <Grid>
-              <Art>
-                <Img fluid={data.art_tummies_meme.childImageSharp.fluid} />
-              </Art>
-              <div>
-                <h2 id="stage">Stage</h2>
-                <p>
-                  <strong>Time: </strong>8:00PM - 9:30PM
-                </p>
-                <p>
-                  <strong>Location: </strong> Right elevated platform.
-                </p>
-                <p>
-                  <strong>Players: </strong>1 guy + 1 girl per team.
-                </p>
-              </div>
-            </Grid>
-            <br />
-            <p>Samus took her suit off and so should you. #tarpsoff</p>
-            <h2 id="rules">Rules</h2>
-            <ul>
-              <li>
-                Bounce the ball off your teammates tummy and into their cups.
-                Once the ball is sunken, yell tummies and pass the cup to your
-                opponent.
-              </li>
-              <li>
-                Cups that your team receives from your opponents must be drank
-                and flipped before you may continue playing.
-              </li>
-              <li>
-                The cup in the middle (water cup) must be scored on a double
-                bounce.
-              </li>
-            </ul>
-            <h2>Bracket</h2>
-            <Img fluid={data.art_tummies_bracket.childImageSharp.fluid} />
-            <h2>Points</h2>
-            <table class="table table-bordered table-hover table-condensed">
-              <thead>
-                <tr>
-                  <th title="Field #1">Place</th>
-                  <th title="Field #2">Points</th>
-                  <th title="Field #3">Teams</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>01</td>
-                  <td align="right">1500</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>02</td>
-                  <td align="right">1250</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>03</td>
-                  <td align="right">1100</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>04</td>
-                  <td align="right">950</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>5-8</td>
-                  <td align="right">650</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">275</td>
-                  <td> </td>
-                </tr>
-              </tbody>
-            </table>
-          </Container>
-        </Section>
-      )}
-    />
-    <Footer />
-  </Layout>
-)
+          `}
+          render={data => (
+            <Section id="tummies">
+              <Container>
+                <h1>Tummies - Zero Suit Samus</h1>
+                <br />
+                <Grid>
+                  <Art>
+                    <Img fluid={data.art_tummies_meme.childImageSharp.fluid} />
+                  </Art>
+                  <div>
+                    <h2 id="stage">Stage</h2>
+                    <p>
+                      <strong>Time: </strong>8:00PM - 9:30PM
+                    </p>
+                    <p>
+                      <strong>Location: </strong> Right elevated platform.
+                    </p>
+                    <p>
+                      <strong>Players: </strong>1 guy + 1 girl per team.
+                    </p>
+                  </div>
+                </Grid>
+                <br />
+                <p>Samus took her suit off and so should you. #tarpsoff</p>
+                <h2 id="rules">Rules</h2>
+                <ul>
+                  <li>
+                    Bounce the ball off your teammates tummy and into their
+                    cups. Once the ball is sunken, yell tummies and pass the cup
+                    to your opponent.
+                  </li>
+                  <li>
+                    Cups that your team receives from your opponents must be
+                    drank and flipped before you may continue playing.
+                  </li>
+                  <li>
+                    The cup in the middle (water cup) must be scored on a double
+                    bounce.
+                  </li>
+                </ul>
+                <h2>Bracket</h2>
+                <Img fluid={data.art_tummies_bracket.childImageSharp.fluid} />
+                <h2>Points</h2>
+                <table class="table table-bordered table-hover table-condensed">
+                  <thead>
+                    <tr>
+                      <th title="Field #1">Place</th>
+                      <th title="Field #2">Points</th>
+                      <th title="Field #3">Teams</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>01</td>
+                      <td align="right">1500</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>02</td>
+                      <td align="right">1250</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>03</td>
+                      <td align="right">1100</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>04</td>
+                      <td align="right">950</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>5-8</td>
+                      <td align="right">650</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">275</td>
+                      <td> </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </Container>
+            </Section>
+          )}
+        />
+        <Footer />
+      </Layout>
+    )
+  } else {
+    return (
+      <Layout>
+        <Navbar />
+        <PleaseLogin />
+        <Footer />
+      </Layout>
+    )
+  }
+}
 
 export default TummiesPage
 

@@ -7,81 +7,101 @@ import { Container, Section } from "@components/global"
 import Layout from "@common/Layout"
 import Img from "gatsby-image"
 import { StaticQuery, graphql } from "gatsby"
+import { useAuth } from "react-use-auth"
+import PleaseLogin from "@sections/PleaseLogin"
 
-const ClosingPage = () => (
-  <Layout>
-    <Navbar />
-    <StaticQuery
-      query={graphql`
-        query {
-          art_closing_meme: file(
-            sourceInstanceName: { eq: "art" }
-            name: { eq: "closing_meme" }
-          ) {
-            childImageSharp {
-              fluid(maxWidth: 760) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+const ClosingPage = () => {
+  const { isAuthenticated } = useAuth()
+
+  if (isAuthenticated()) {
+    return (
+      <Layout>
+        <Navbar />
+        <StaticQuery
+          query={graphql`
+            query {
+              art_closing_meme: file(
+                sourceInstanceName: { eq: "art" }
+                name: { eq: "closing_meme" }
+              ) {
+                childImageSharp {
+                  fluid(maxWidth: 760) {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  }
+                }
               }
             }
-          }
-        }
-      `}
-      render={data => (
-        <Section id="closing">
-          <Container>
-            <h1>Ultimate Pre - Luigi's Mansion</h1>
-            <br />
-            <Grid>
-              <Art>
-                <Img fluid={data.art_closing_meme.childImageSharp.fluid} />
-              </Art>
-              <div>
-                <h2 id="stage">Stage</h2>
+          `}
+          render={data => (
+            <Section id="closing">
+              <Container>
+                <h1>Ultimate Pre - Luigi's Mansion</h1>
+                <br />
+                <Grid>
+                  <Art>
+                    <Img fluid={data.art_closing_meme.childImageSharp.fluid} />
+                  </Art>
+                  <div>
+                    <h2 id="stage">Stage</h2>
+                    <p>
+                      <strong>Time: </strong>9:00PM - 1:00AM
+                    </p>
+                    <p>
+                      <strong>Location: </strong> Le Cinq
+                    </p>
+                    <p>
+                      <strong>Players: </strong>Everyone!
+                    </p>
+                    <p>
+                      <strong>Coat Check: </strong>$3.00
+                    </p>
+                  </div>
+                </Grid>
+                <br />
                 <p>
-                  <strong>Time: </strong>9:00PM - 1:00AM
+                  We hope you don't remember closing, because we won't either.
                 </p>
+
                 <p>
-                  <strong>Location: </strong> Le Cinq
+                  The winning players of Factendo will be announced!!! Until
+                  then, its still anyone's game. Only the players who have
+                  completed all the levels and collected the most coinz will
+                  rein supreme tonight.
                 </p>
-                <p>
-                  <strong>Players: </strong>Everyone!
-                </p>
-                <p>
-                  <strong>Coat Check: </strong>$3.00
-                </p>
-              </div>
-            </Grid>
-            <br />
-            <p>We hope you don't remember closing, because we won't either.</p>
+                <h2 id="rules">Awards</h2>
+                <ul>
+                  <li>Best Captains</li>
 
-            <p>
-              The winning players of Factendo will be announced!!! Until then,
-              its still anyone's game. Only the players who have completed all
-              the levels and collected the most coinz will rein supreme tonight.
-            </p>
-            <h2 id="rules">Awards</h2>
-            <ul>
-              <li>Best Captains</li>
+                  <li>Best Staff</li>
 
-              <li>Best Staff</li>
+                  <li>Lifetime Achievement</li>
 
-              <li>Lifetime Achievement</li>
+                  <li>Rookie Award</li>
 
-              <li>Rookie Award</li>
+                  <li>Three Pillar Award</li>
 
-              <li>Three Pillar Award</li>
+                  <li>Winning Team</li>
 
-              <li>Winning Team</li>
-
-              <li>Winning Faculty</li>
-            </ul>
-          </Container>
-        </Section>
-      )}
-    />
-    <Footer />
-  </Layout>
-)
+                  <li>Winning Faculty</li>
+                </ul>
+              </Container>
+            </Section>
+          )}
+        />
+        <Footer />
+      </Layout>
+    )
+  }
+  else {
+    return (
+      <Layout>
+        <Navbar />
+        <PleaseLogin />
+        <Footer />
+      </Layout>
+    )
+  }
+}
 
 export default ClosingPage
 

@@ -3,9 +3,8 @@ import styled from "styled-components"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { Container } from "@components/global"
-import Login from "@common/Login"
 
-const Header = () => {
+const PowerHourHeader = () => {
   return (
     <StaticQuery
       query={graphql`
@@ -30,13 +29,9 @@ const Header = () => {
                 <Img fluid={data.art_build.childImageSharp.fluid} />
               </Art>
               <Text>
-                <h2>Log in to view</h2>
-                <h2>the captains package</h2>
-                <br />
-                <br />
-                <p>
-                  <Login />
-                </p>
+                <h2>Purchase your</h2>
+                <h2>single night</h2>
+                <h2>FacO Power Hour Ticket</h2>
               </Text>
             </Grid>
           </Container>
@@ -95,4 +90,4 @@ const Text = styled.div`
   }
 `
 
-export default Header
+export default PowerHourHeader

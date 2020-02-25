@@ -7,181 +7,203 @@ import { Container, Section } from "@components/global"
 import Layout from "@common/Layout"
 import Img from "gatsby-image"
 import { StaticQuery, graphql } from "gatsby"
+import { useAuth } from "react-use-auth"
+import PleaseLogin from "@sections/PleaseLogin"
 
-const BeerioKartPage = () => (
-  <Layout>
-    <Navbar />
-    <StaticQuery
-      query={graphql`
-        query {
-          art_beeriokart_meme: file(
-            sourceInstanceName: { eq: "art" }
-            name: { eq: "beeriokart_meme" }
-          ) {
-            childImageSharp {
-              fluid(maxWidth: 760) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+const BeerioKartPage = () => {
+  const { isAuthenticated } = useAuth()
+
+  if (isAuthenticated()) {
+    return (
+      <Layout>
+        <Navbar />
+        <StaticQuery
+          query={graphql`
+            query {
+              art_beeriokart_meme: file(
+                sourceInstanceName: { eq: "art" }
+                name: { eq: "beeriokart_meme" }
+              ) {
+                childImageSharp {
+                  fluid(maxWidth: 760) {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  }
+                }
+              }
+              art_beeriokart_bracket: file(
+                sourceInstanceName: { eq: "art" }
+                name: { eq: "beeriokart_bracket" }
+              ) {
+                childImageSharp {
+                  fluid(maxWidth: 760) {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  }
+                }
               }
             }
-          }
-          art_beeriokart_bracket: file(
-            sourceInstanceName: { eq: "art" }
-            name: { eq: "beeriokart_bracket" }
-          ) {
-            childImageSharp {
-              fluid(maxWidth: 760) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
-              }
-            }
-          }
-        }
-      `}
-      render={data => (
-        <Section id="beeriokart">
-          <Container>
-            <h1>Beerio Kart</h1>
-            <br />
-            <Grid>
-              <Art>
-                <Img fluid={data.art_beeriokart_meme.childImageSharp.fluid} />
-              </Art>
-              <div>
-                <h2 id="stage">Stage</h2>
+          `}
+          render={data => (
+            <Section id="beeriokart">
+              <Container>
+                <h1>Beerio Kart</h1>
+                <br />
+                <Grid>
+                  <Art>
+                    <Img
+                      fluid={data.art_beeriokart_meme.childImageSharp.fluid}
+                    />
+                  </Art>
+                  <div>
+                    <h2 id="stage">Stage</h2>
+                    <p>
+                      <strong>Time: </strong>10:00AM - 12:00PM
+                    </p>
+                    <p>
+                      <strong>Location: </strong> Café Campus Main Stage
+                    </p>
+                    <p>
+                      <strong>Players: </strong>1 guy + 1 girl per team.
+                    </p>
+                  </div>
+                </Grid>
+                <br />
                 <p>
-                  <strong>Time: </strong>10:00AM - 12:00PM
+                  Beer. Mario Kart. We could leave it at that and I know you’d
+                  want to do this event already but it gets even better. You may
+                  be the fastest chugger, or you may be the fastest Karter, but
+                  can you be both at the SAME TIME? In Beerio Kart you are
+                  required to not only beat your opponents in a good old
+                  fashioned Nintendo racing throw down, but you must also finish
+                  a beer before the end of the race. And no, your practice with
+                  road beers on your way up north for a ski trip doesn’t count,
+                  in this case when you’re drinking you can’t be driving (good
+                  advice for life!). The person who finishes their beer and ends
+                  in the highest position, wins!
                 </p>
-                <p>
-                  <strong>Location: </strong> Café Campus Main Stage
-                </p>
-                <p>
-                  <strong>Players: </strong>1 guy + 1 girl per team.
-                </p>
-              </div>
-            </Grid>
-            <br />
-            <p>
-              Beer. Mario Kart. We could leave it at that and I know you’d want
-              to do this event already but it gets even better. You may be the
-              fastest chugger, or you may be the fastest Karter, but can you be
-              both at the SAME TIME? In Beerio Kart you are required to not only
-              beat your opponents in a good old fashioned Nintendo racing throw
-              down, but you must also finish a beer before the end of the race.
-              And no, your practice with road beers on your way up north for a
-              ski trip doesn’t count, in this case when you’re drinking you
-              can’t be driving (good advice for life!). The person who finishes
-              their beer and ends in the highest position, wins!
-            </p>
-            <h2 id="rules">Rules</h2>
-            <ul>
-              <li>Must finish Mario Kart Race</li>
+                <h2 id="rules">Rules</h2>
+                <ul>
+                  <li>Must finish Mario Kart Race</li>
 
-              <li>
-                Must finish 1 regulation beer before crossing the finish line
-              </li>
+                  <li>
+                    Must finish 1 regulation beer before crossing the finish
+                    line
+                  </li>
 
-              <li>Cannot Drink and Drive at the same time</li>
-            </ul>
-            <h2>Brackets</h2>
-            <Img fluid={data.art_beeriokart_bracket.childImageSharp.fluid} />
-            <h2>Points</h2>
-            <table class="table table-bordered table-hover table-condensed">
-              <thead>
-                <tr>
-                  <th title="Field #1">Place</th>
-                  <th title="Field #2">Points</th>
-                  <th title="Field #3">Team</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td align="right">750</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td align="right">650</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td align="right">550</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td align="right">475</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>5-8</td>
-                  <td align="right">325</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>5-8</td>
-                  <td align="right">325</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>5-8</td>
-                  <td align="right">325</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>5-8</td>
-                  <td align="right">325</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-              </tbody>
-            </table>
-          </Container>
-        </Section>
-      )}
-    />
-    <Footer />
-  </Layout>
-)
+                  <li>Cannot Drink and Drive at the same time</li>
+                </ul>
+                <h2>Brackets</h2>
+                <Img
+                  fluid={data.art_beeriokart_bracket.childImageSharp.fluid}
+                />
+                <h2>Points</h2>
+                <table class="table table-bordered table-hover table-condensed">
+                  <thead>
+                    <tr>
+                      <th title="Field #1">Place</th>
+                      <th title="Field #2">Points</th>
+                      <th title="Field #3">Team</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td align="right">750</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td align="right">650</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td align="right">550</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td align="right">475</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>5-8</td>
+                      <td align="right">325</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>5-8</td>
+                      <td align="right">325</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>5-8</td>
+                      <td align="right">325</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>5-8</td>
+                      <td align="right">325</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </Container>
+            </Section>
+          )}
+        />
+        <Footer />
+      </Layout>
+    )
+  } else {
+    return (
+      <Layout>
+        <Navbar />
+        <PleaseLogin />
+        <Footer />
+      </Layout>
+    )
+  }
+}
 
 export default BeerioKartPage
 

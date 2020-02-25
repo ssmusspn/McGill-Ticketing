@@ -7,182 +7,203 @@ import { Container, Section } from "@components/global"
 import Layout from "@common/Layout"
 import Img from "gatsby-image"
 import { StaticQuery, graphql } from "gatsby"
+import { useAuth } from "react-use-auth"
+import PleaseLogin from "@sections/PleaseLogin"
 
-const ArmWrestlingPage = () => (
-  <Layout>
-    <Navbar />
-    <StaticQuery
-      query={graphql`
-        query {
-          art_armwrestling_meme: file(
-            sourceInstanceName: { eq: "art" }
-            name: { eq: "armwrestling_meme" }
-          ) {
-            childImageSharp {
-              fluid(maxWidth: 760) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+const ArmWrestlingPage = () => {
+  const { isAuthenticated } = useAuth()
+
+  if (isAuthenticated()) {
+    return (
+      <Layout>
+        <Navbar />
+        <StaticQuery
+          query={graphql`
+            query {
+              art_armwrestling_meme: file(
+                sourceInstanceName: { eq: "art" }
+                name: { eq: "armwrestling_meme" }
+              ) {
+                childImageSharp {
+                  fluid(maxWidth: 760) {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  }
+                }
+              }
+              art_armwrestling_bracket: file(
+                sourceInstanceName: { eq: "art" }
+                name: { eq: "armwrestling_bracket" }
+              ) {
+                childImageSharp {
+                  fluid(maxWidth: 760) {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  }
+                }
               }
             }
-          }
-          art_armwrestling_bracket: file(
-            sourceInstanceName: { eq: "art" }
-            name: { eq: "armwrestling_bracket" }
-          ) {
-            childImageSharp {
-              fluid(maxWidth: 760) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
-              }
-            }
-          }
-        }
-      `}
-      render={data => (
-        <Section id="armwrestling">
-          <Container>
-            <h1>Arm Wrestling - Trainer Battles</h1>
-            <br />
-            <Grid>
-              <Art>
-                <Img fluid={data.art_armwrestling_meme.childImageSharp.fluid} />
-              </Art>
-              <div>
-                <h2 id="stage">Stage</h2>
+          `}
+          render={data => (
+            <Section id="armwrestling">
+              <Container>
+                <h1>Arm Wrestling - Trainer Battles</h1>
+                <br />
+                <Grid>
+                  <Art>
+                    <Img
+                      fluid={data.art_armwrestling_meme.childImageSharp.fluid}
+                    />
+                  </Art>
+                  <div>
+                    <h2 id="stage">Stage</h2>
+                    <p>
+                      <strong>Time: </strong>10:00AM - 12:00PM
+                    </p>
+                    <p>
+                      <strong>Location: </strong> Café Campus Back Wall
+                    </p>
+                    <p>
+                      <strong>Players: </strong>1 guy + 1 girl per team.
+                    </p>
+                  </div>
+                </Grid>
+                <br />
                 <p>
-                  <strong>Time: </strong>10:00AM - 12:00PM
+                  Arm Wrestling, a classic game of strength and a sure way to
+                  show off your insane dad bod.
                 </p>
-                <p>
-                  <strong>Location: </strong> Café Campus Back Wall
-                </p>
-                <p>
-                  <strong>Players: </strong>1 guy + 1 girl per team.
-                </p>
-              </div>
-            </Grid>
-            <br />
-            <p>
-              Arm Wrestling, a classic game of strength and a sure way to show
-              off your insane dad bod.
-            </p>
-            <h2 id="rules">Rules</h2>
-            <ul>
-              <li>Girls Bracket and Guy Bracket</li>
+                <h2 id="rules">Rules</h2>
+                <ul>
+                  <li>Girls Bracket and Guy Bracket</li>
 
-              <li>
-                Contestants can optionally do a chug before their arm wrestle
-              </li>
+                  <li>
+                    Contestants can optionally do a chug before their arm
+                    wrestle
+                  </li>
 
-              <li>
-                Both Contestants will have their hand held together by
-                committee, on three committee lets go
-              </li>
+                  <li>
+                    Both Contestants will have their hand held together by
+                    committee, on three committee lets go
+                  </li>
 
-              <li>
-                First person with the back of their hand on the table loses
-              </li>
+                  <li>
+                    First person with the back of their hand on the table loses
+                  </li>
 
-              <li>Elbows stay on the table</li>
-            </ul>
-            <h2>Brackets</h2>
-            <Img fluid={data.art_armwrestling_bracket.childImageSharp.fluid} />
-            <h2>Points</h2>
-            <table class="table table-bordered table-hover table-condensed">
-              <thead>
-                <tr>
-                  <th title="Field #1">Place</th>
-                  <th title="Field #2">Points</th>
-                  <th title="Field #3">Team</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td align="right">750</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td align="right">650</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td align="right">550</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td align="right">475</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>5-8</td>
-                  <td align="right">325</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>5-8</td>
-                  <td align="right">325</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>5-8</td>
-                  <td align="right">325</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>5-8</td>
-                  <td align="right">325</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td>9-16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                </tr>
-              </tbody>
-            </table>
-          </Container>
-        </Section>
-      )}
-    />
-    <Footer />
-  </Layout>
-)
+                  <li>Elbows stay on the table</li>
+                </ul>
+                <h2>Brackets</h2>
+                <Img
+                  fluid={data.art_armwrestling_bracket.childImageSharp.fluid}
+                />
+                <h2>Points</h2>
+                <table class="table table-bordered table-hover table-condensed">
+                  <thead>
+                    <tr>
+                      <th title="Field #1">Place</th>
+                      <th title="Field #2">Points</th>
+                      <th title="Field #3">Team</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td align="right">750</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td align="right">650</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td align="right">550</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td align="right">475</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>5-8</td>
+                      <td align="right">325</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>5-8</td>
+                      <td align="right">325</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>5-8</td>
+                      <td align="right">325</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>5-8</td>
+                      <td align="right">325</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>9-16</td>
+                      <td align="right">175</td>
+                      <td> </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </Container>
+            </Section>
+          )}
+        />
+        <Footer />
+      </Layout>
+    )
+  } else {
+    return (
+      <Layout>
+        <Navbar />
+        <PleaseLogin />
+        <Footer />
+      </Layout>
+    )
+  }
+}
 
 export default ArmWrestlingPage
 

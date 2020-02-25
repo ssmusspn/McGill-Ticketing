@@ -12,8 +12,10 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
+  NavbarText,
 } from "reactstrap"
 import theme from "@styles/theme"
+import Login from "@common/Login"
 
 class SSPNNavbar extends React.Component {
   constructor(props) {
@@ -236,6 +238,9 @@ class SSPNNavbar extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink href="/resources">Resources</NavLink>
+              </NavItem>
+              <NavItem>
+                <Login />
               </NavItem>
             </Nav>
           </Collapse>
