@@ -186,7 +186,6 @@ class SSPNNavbar extends React.Component {
                       </NavLink>
                     </DropdownItem>
                   </DropdownItem>
-                  <DropdownItem divider />
                   <DropdownItem>
                     <NavLink href="/thursday/powerhour">Power Hour</NavLink>
                   </DropdownItem>
