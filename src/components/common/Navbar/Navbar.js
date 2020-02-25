@@ -234,6 +234,9 @@ class SSPNNavbar extends React.Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
+                <NavLink href="/offsetauction">Offset Auction</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href="/points">Points</NavLink>
               </NavItem>
               <NavItem>
