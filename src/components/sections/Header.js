@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { Container } from "@components/global"
-import Login from "../common/Login"
+import Login from "@common/Login"
 
 const Header = () => {
   return (
@@ -30,8 +30,8 @@ const Header = () => {
                 <Img fluid={data.art_build.childImageSharp.fluid} />
               </Art>
               <Text>
-                <h2>Purchase your</h2>
-                <h2>FacO Ticket</h2>
+                <h2>Log in to view</h2>
+                <h2>the captains package</h2>
                 <br />
                 <br />
                 <p>
@@ -48,7 +48,7 @@ const Header = () => {
 
 const HeaderWrapper = styled.header`
   background-color: ${props => props.theme.color.white};
-  padding-top: 96px;
+  padding-top: 155px;
 
   @media (max-width: ${props => props.theme.screen.md}) {
     padding-top: 128px;

@@ -37,6 +37,11 @@ const GlobalStyles = createGlobalStyle`
     color: ${props => props.theme.color.black.light};
   }
 
+  li {
+    ${props => props.theme.font_size.regular};
+    color: ${props => props.theme.color.black.light};
+  }
+
   @media (max-width: ${props => props.theme.screen.sm}) {
     h1 {
       ${props => props.theme.font_size.larger};

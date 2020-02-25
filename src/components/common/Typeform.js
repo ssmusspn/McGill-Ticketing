@@ -1,18 +1,14 @@
 import React from "react"
 import { Section, Container } from "@components/global"
 import styled from "styled-components"
-import TypeformStaff from "./TypeformStaff"
-import TypeformLate from "./TypeformLate"
-import TypeformPre from "./TypeformPre"
+import TypeformPowerHour from "./TypeformPowerHour"
 
 class Typeform extends React.Component {
   render() {
     return (
       <StyledSection id="Typeform">
         <StyledContainer>
-          <TypeformStaff />
-          <TypeformLate />
-          <TypeformPre />
+          <TypeformPowerHour />
         </StyledContainer>
       </StyledSection>
     )

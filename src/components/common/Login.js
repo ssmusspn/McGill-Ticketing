@@ -7,6 +7,7 @@ const buttonStyles = {
   textAlign: "center",
   color: theme.color.white.regular,
   outline: "none",
+  margin: "0px 0px 0px 30px",
   padding: "12px 60px",
   boxShadow: "2px 5px 10px rgba(0,0,0,.1)",
   backgroundColor: theme.color.primary,
