@@ -51,7 +51,7 @@ const LimboPage = () => (
                   <strong>Time: </strong>12:00PM - 2:30PM
                 </p>
                 <p>
-                  <strong>Location: </strong> AdPhi Memorial Hall
+                  <strong>Location: </strong> ADPhi (ΑΔΦ) Memorial Hall
                 </p>
                 <p>
                   <strong>Players: </strong>1 guy + 1 girl per team.

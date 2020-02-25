@@ -24,7 +24,7 @@ const MountainRunPage = () => (
               <strong>Time: </strong>8:30AM - 10:30AM
             </p>
             <p>
-              <strong>Start Location: </strong> Alpha Delta Phi
+              <strong>Start Location: </strong> ADPhi (ΑΔΦ)
             </p>
             <p>
               <strong>Players: </strong>4 people (1 girl min)
@@ -36,13 +36,13 @@ const MountainRunPage = () => (
           New FAC-O, New Rules ! Its like Mountain Run but more lowkey (s/o
           SPVM) - we like to call it a Jungle Run. Don't worry, the length of
           the run hasn't changed. Get ready to run around the mountain (kind of)
-          and join us after at ADPhi for Kegger. Don't slip on a banana on your
-          way over!
+          and join us after at ADPhi (ΑΔΦ) for Kegger. Don't slip on a banana on
+          your way over!
         </p>
         <h2 id="rules">Rules</h2>
         <p>
-          Each team needs to carry a case of beer. When they get to ADPhi they
-          need to drink 6 beers some fireball.
+          Each team needs to carry a case of beer. When they get to ADPhi (ΑΔΦ)
+          they need to drink 6 beers some fireball.
         </p>
         <h2>Schedule</h2>
         <table class="table table-bordered table-hover table-condensed">
@@ -54,27 +54,27 @@ const MountainRunPage = () => (
           </thead>
           <tbody>
             <tr>
-              <td>10:00 AM</td>
+              <td>8:30 AM</td>
               <td>Engineering, Law, Science 1</td>
             </tr>
             <tr>
-              <td>10:10 AM</td>
+              <td>8:40 AM</td>
               <td>Arts 4, Education 2, Medicine</td>
             </tr>
             <tr>
-              <td>10:20 AM</td>
+              <td>8:50 AM</td>
               <td>Arts 1 ,Arts 5, PTOT</td>
             </tr>
             <tr>
-              <td>10:30 AM</td>
+              <td>9:00 AM</td>
               <td>Arts 3 ,Music, Science 2</td>
             </tr>
             <tr>
-              <td>10:40 AM</td>
+              <td>9:10 AM</td>
               <td>Arts 2, Management 1, Management 2</td>
             </tr>
             <tr>
-              <td>10:50 AM</td>
+              <td>9:20 AM</td>
               <td>Education 1</td>
             </tr>
           </tbody>

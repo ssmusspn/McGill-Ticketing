@@ -43,7 +43,7 @@ const IronBartenderPage = () => (
                   <strong>Time: </strong>1:00PM - 2:00PM
                 </p>
                 <p>
-                  <strong>Location: </strong> ADPhi Room 2 (2nd Floor)
+                  <strong>Location: </strong> ADPhi (ΑΔΦ) Room 2 (2nd Floor)
                 </p>
                 <p>
                   <strong>Players: </strong>1 Drink submission per team

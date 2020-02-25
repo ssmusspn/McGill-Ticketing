@@ -44,7 +44,7 @@ const ThreePillarPage = () => (
                   <strong>Location: </strong>Petit Campus
                 </p>
                 <p>
-                  <strong>Players: </strong>Everyone! Up to 20 participants per
+                  <strong>Players: </strong>Everyone! Up to 40 participants per
                   team will receive points
                 </p>
               </div>
@@ -70,7 +70,7 @@ const ThreePillarPage = () => (
             </ul>
             <h2>Points</h2>
             <p>
-              50 points per person to participate. Max of 20 people per team
+              25 points per person to participate. Max of 40 people per team
               will get points
             </p>
             <table class="table table-bordered table-hover table-condensed">

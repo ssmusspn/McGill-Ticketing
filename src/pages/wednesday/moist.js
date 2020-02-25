@@ -58,7 +58,7 @@ const MoistPage = () => (
             <h2>Rules</h2>
             <p>Please actually drink your beer and don't waste it lol </p>
             <h2>Points</h2>
-            <p>25 points per pitcher</p>
+            <p>25 points per pitcher, max 50 pitchers per team.</p>
             <table class="table table-bordered table-hover table-condensed">
               <thead>
                 <tr>

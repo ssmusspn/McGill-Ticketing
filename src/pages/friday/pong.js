@@ -51,7 +51,7 @@ const PongPage = () => (
                   <strong>Time: </strong>10:00AM - 12:00PM
                 </p>
                 <p>
-                  <strong>Location: </strong> AdPhi Library
+                  <strong>Location: </strong> ADPhi (ΑΔΦ) Library
                 </p>
                 <p>
                   <strong>Players: </strong>1 guy + 1 girl per team.

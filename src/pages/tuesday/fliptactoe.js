@@ -69,108 +69,91 @@ const StacksPage = () => (
             <table class="table table-bordered table-hover table-condensed">
               <thead>
                 <tr>
-                  <th title="Field #1">Place</th>
-                  <th title="Field #2">Points</th>
-                  <th title="Field #3">Time</th>
-                  <th title="Field #4">Team</th>
+                  <th title="Field #1">Team</th>
+                  <th title="Field #2">Attempts</th>
+                  <th title="Field #3">Points</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td align="right">01</td>
-                  <td align="right">1500</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Arts 1</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">02</td>
-                  <td align="right">1250</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Arts 2</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">03</td>
-                  <td align="right">1100</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Arts 3</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">04</td>
-                  <td align="right">950</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Arts 4</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">05</td>
-                  <td align="right">825</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Arts 5</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">06</td>
-                  <td align="right">700</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Education 1</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">07</td>
-                  <td align="right">600</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Education 2</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">08</td>
-                  <td align="right">525</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Engineering</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">09</td>
-                  <td align="right">450</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Law</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">10</td>
-                  <td align="right">375</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Management 1</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">11</td>
-                  <td align="right">325</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Management 2</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">12</td>
-                  <td align="right">275</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Medicine</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">13</td>
-                  <td align="right">250</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Music</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">14</td>
-                  <td align="right">225</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>PTOT</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">15</td>
-                  <td align="right">200</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Science 1</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
                 <tr>
-                  <td align="right">16</td>
-                  <td align="right">175</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>Science 2</td>
+                  <td>0</td>
+                  <td>0</td>
                 </tr>
               </tbody>
             </table>

@@ -85,26 +85,108 @@ const MCATPage = () => (
             <table class="table table-bordered table-hover table-condensed">
               <thead>
                 <tr>
-                  <th title="Field #1">Tier</th>
+                  <th title="Field #1">Place</th>
                   <th title="Field #2">Points</th>
+                  <th title="Field #3">Grade</th>
+                  <th title="Field #4">Team</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td align="right">1</td>
-                  <td align="right">1000</td>
+                  <td align="right">750</td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td align="right">2</td>
-                  <td align="right">600</td>
+                  <td align="right">650</td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td align="right">3</td>
-                  <td align="right">350</td>
+                  <td align="right">550</td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
                 <tr>
                   <td align="right">4</td>
+                  <td align="right">475</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">5</td>
+                  <td align="right">400</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">6</td>
+                  <td align="right">350</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">7</td>
+                  <td align="right">300</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">8</td>
+                  <td align="right">250</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">9</td>
+                  <td align="right">225</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">10</td>
                   <td align="right">200</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">11</td>
+                  <td align="right">175</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">12</td>
+                  <td align="right">150</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">13</td>
+                  <td align="right">125</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">14</td>
+                  <td align="right">100</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">15</td>
+                  <td align="right">85</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td align="right">16</td>
+                  <td align="right">70</td>
+                  <td> </td>
+                  <td> </td>
                 </tr>
               </tbody>
             </table>

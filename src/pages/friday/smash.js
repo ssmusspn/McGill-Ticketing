@@ -51,7 +51,7 @@ const SmashPage = () => (
                   <strong>Time: </strong>10:30AM - 1:00PM
                 </p>
                 <p>
-                  <strong>Location: </strong> ADPhi Room 2 (2nd Floor)
+                  <strong>Location: </strong> ADPhi (ΑΔΦ) Room 2 (2nd Floor)
                 </p>
                 <p>
                   <strong>Players: </strong>2 People per team

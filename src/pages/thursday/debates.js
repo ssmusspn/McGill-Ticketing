@@ -86,7 +86,7 @@ const DrunkDebatesPage = () => (
               <thead>
                 <tr>
                   <th title="Field #1">Place</th>
-                  <th title="Field #2">Points?Points</th>
+                  <th title="Field #2">Points</th>
                   <th title="Field #3">Team</th>
                 </tr>
               </thead>

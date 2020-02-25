@@ -42,7 +42,9 @@ const KeggerPage = () => (
                 </p>
                 <p>
                   <strong>Location: </strong>
-                  Alpha Delta Phi
+                  <a href="https://goo.gl/maps/eNFoes5nXuzdor7W8">
+                    ADPhi (ΑΔΦ)
+                  </a>
                 </p>
                 <p>
                   <strong>Players: </strong>Everyone
@@ -58,10 +60,10 @@ const KeggerPage = () => (
             <br />
             <p>
               No pancakes, no kegs, no Sig... is this even Pancake Kegger?
-              Thankfully our friends at ADPhi got us covered and saved Kegger
-              from Club 6/49 (and a big chunk of FAC-O as a whole). Now we've
-              found ourselves even closer to the mountain, and deeper in the
-              Jungle.
+              Thankfully our friends at ADPhi (ΑΔΦ) got us covered and saved
+              Kegger from Club 6/49 (and a big chunk of FAC-O as a whole). Now
+              we've found ourselves even closer to the mountain, and deeper in
+              the Jungle.
             </p>
             <p>
               A personal favourite of ours, this event combines everything we
