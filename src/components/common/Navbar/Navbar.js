@@ -12,7 +12,6 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText,
 } from "reactstrap"
 import theme from "@styles/theme"
 import Login from "@common/Login"
@@ -153,39 +152,32 @@ class SSPNNavbar extends React.Component {
                     <NavLink href="/thursday/ssmuday">SSMU Day</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/thursday/mcat">MCAT</NavLink>
-                    </DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/thursday/beeriokart">Beerio Kart</NavLink>
-                    </DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/thursday/debates">Drunk Debates</NavLink>
-                    </DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/thursday/casecrack">Case Crack</NavLink>
-                    </DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/thursday/spellingbee">
-                        Spelling Bee
-                      </NavLink>
-                    </DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/thursday/armwrestling">
-                        Arm Wrestling
-                      </NavLink>
-                    </DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/thursday/fearoffood">
-                        Fear of Food
-                      </NavLink>
-                    </DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/thursday/pitcherpass">
-                        Pitcher Pass
-                      </NavLink>
-                    </DropdownItem>
+                    <NavLink href="/thursday/mcat">MCAT</NavLink>
                   </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/thursday/beeriokart">Beerio Kart</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/thursday/debates">Drunk Debates</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/thursday/casecrack">Case Crack</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/thursday/spellingbee">Spelling Bee</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/thursday/armwrestling">
+                      Arm Wrestling
+                    </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/thursday/fearoffood">Fear of Food</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/thursday/pitcherpass">Pitcher Pass</NavLink>
+                  </DropdownItem>
+                  <DropdownItem divider />
                   <DropdownItem>
                     <NavLink href="/thursday/powerhour">Power Hour</NavLink>
                   </DropdownItem>
@@ -203,25 +195,21 @@ class SSPNNavbar extends React.Component {
                     <NavLink href="/friday/kegger">Kegger</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/friday/smash">
-                        Super Smash(ed) Bros
-                      </NavLink>
-                    </DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/friday/limbo">Limbo</NavLink>
-                    </DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/friday/pong">Beer Pong</NavLink>
-                    </DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/friday/ironchef">Iron Chef</NavLink>
-                    </DropdownItem>
-                    <DropdownItem>
-                      <NavLink href="/friday/ironbartender">
-                        Iron Bartender
-                      </NavLink>
-                    </DropdownItem>
+                    <NavLink href="/friday/smash">Super Smash(ed) Bros</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/friday/limbo">Limbo</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/friday/pong">Beer Pong</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/friday/ironchef">Iron Chef</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/friday/ironbartender">
+                      Iron Bartender
+                    </NavLink>
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>

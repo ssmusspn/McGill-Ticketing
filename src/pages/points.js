@@ -11,6 +11,10 @@ import PleaseLogin from "@sections/PleaseLogin"
 const PointsPage = () => {
   const { isAuthenticated } = useAuth()
 
+  const StyledContainer = styled(Container)`
+    padding-top: 25px;
+  `
+
   if (isAuthenticated()) {
     return (
       <Layout>
@@ -278,7 +282,3 @@ const PointsPage = () => {
 }
 
 export default PointsPage
-
-const StyledContainer = styled(Container)`
-  padding-top: 25px;
-`
