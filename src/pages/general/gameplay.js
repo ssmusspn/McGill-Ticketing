@@ -20,6 +20,13 @@ const GampeplayPage = () => (
           journey down Rainbow Road.
         </p>
         <br />
+        <h2>Drinks</h2>
+        <p>
+          Drinks will be provided for all games, however if you wish to purchase
+          any drinks you are more than welcome to do so, prices will be posted
+          on respective pages.
+        </p>
+        <br />
         <h2>Attitude</h2>
         <p>
           Having a good attitude will make you the most successful player you

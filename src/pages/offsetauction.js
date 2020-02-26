@@ -51,6 +51,12 @@ const OffsetAuctionPage = () => {
                   is your chance to give your team some extra help!
                 </p>
                 <p>
+                  The auction will automatically extend if there is a bid within
+                  the final 3 minutes, the auction will be automatically
+                  extended a further 3 minutes for a maximum of 30 minutes
+                  total.
+                </p>
+                <p>
                   <strong>
                     The auction will begin on Saturday March 7th and end at noon
                     on March 10th.

@@ -117,7 +117,7 @@ const DrunkDebatesPage = () => {
                       <strong>Location: </strong> Café Campus Main Stage
                     </p>
                     <p>
-                      <strong>Players: </strong>1 guy + 1 girl per team.
+                      <strong>Players: </strong>1 person per team
                     </p>
                   </div>
                 </Grid>
