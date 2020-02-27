@@ -109,7 +109,7 @@ const BoatRacePage = () => {
                   <div>
                     <h2 id="stage">Stage</h2>
                     <p>
-                      <strong>Time: </strong>8:00PM - 11:00PM
+                      <strong>Time: </strong>7:00PM - 11:00PM
                     </p>
                     <p>
                       <strong>Location: </strong> Café Campus Pits

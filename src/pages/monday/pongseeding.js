@@ -90,6 +90,10 @@ const PongSeedingsPage = () => {
                 <p>
                   <strong>Players: </strong>1 guy + 1 girl per team.
                 </p>
+                <p>
+                  <strong>Beverages: </strong>Non-Alcoholic and/or Gluten Free
+                  Available
+                </p>
               </div>
             </Grid>
             <br />

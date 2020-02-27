@@ -110,6 +110,10 @@ const ThreePillarPage = () => {
                       <strong>Players: </strong>Everyone! Up to 40 participants
                       per team will receive points
                     </p>
+                    <p>
+                      <strong>Beverages: </strong>Non-Alcoholic and/or Gluten
+                      Free Available
+                    </p>
                   </div>
                 </Grid>
                 <br />

@@ -110,6 +110,9 @@ const CaseCrackPage = () => {
                       <strong>Players: </strong>Up to 5 participants per team.
                       Minimum 2 girls.
                     </p>
+                    <p>
+                      <strong>Beverages: </strong>Only beer is available
+                    </p>
                   </div>
                 </Grid>
                 <br />

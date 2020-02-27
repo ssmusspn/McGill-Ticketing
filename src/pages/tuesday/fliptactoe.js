@@ -109,6 +109,10 @@ const StacksPage = () => {
                     <p>
                       <strong>Players: </strong>Everyone! Participation Points
                     </p>
+                    <p>
+                      <strong>Beverages: </strong>Non-Alcoholic and/or Gluten
+                      Free Available
+                    </p>
                   </div>
                 </Grid>
                 <br />

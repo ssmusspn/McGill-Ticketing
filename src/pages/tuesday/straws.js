@@ -106,6 +106,9 @@ const StrawsPage = () => {
                       <strong>Players: </strong>5 people from each team, minimum
                       2 girls.
                     </p>
+                    <p>
+                      <strong>Beverages: </strong>Only beer is available
+                    </p>
                   </div>
                 </Grid>
                 <br />

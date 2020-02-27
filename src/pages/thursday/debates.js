@@ -119,6 +119,10 @@ const DrunkDebatesPage = () => {
                     <p>
                       <strong>Players: </strong>1 person per team
                     </p>
+                    <p>
+                      <strong>Beverages: </strong>Gluten free alcoholic
+                      beverages are available
+                    </p>
                   </div>
                 </Grid>
                 <br />

@@ -108,6 +108,9 @@ const StacksPage = () => {
                       <strong>Players: </strong>3 people from each team, minimum
                       1 girl.
                     </p>
+                    <p>
+                      <strong>Beverages: </strong>Only beer is available
+                    </p>
                   </div>
                 </Grid>
                 <br />

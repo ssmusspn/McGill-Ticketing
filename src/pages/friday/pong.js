@@ -117,6 +117,10 @@ const PongPage = () => {
                     <p>
                       <strong>Players: </strong>1 guy + 1 girl per team.
                     </p>
+                    <p>
+                      <strong>Beverages: </strong>Gluten free alcoholic
+                      beverages are available
+                    </p>
                   </div>
                 </Grid>
                 <br />

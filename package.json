@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "author": "Ajay NS <ajay.ns@outlook.com>",
   "dependencies": {
+    "@fullcalendar/core": "^4.4.0",
+    "@fullcalendar/react": "^4.4.0",
+    "@fullcalendar/timegrid": "^4.4.0",
     "@svgr/webpack": "^4.1.0",
     "bootstrap": "^4.4.1",
     "gatsby": "^2.0.76",
@@ -22,6 +25,8 @@
     "gatsby-plugin-svgr": "^2.0.1",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
+    "i": "^0.3.6",
+    "npm": "^6.14.0",
     "prop-types": "^15.6.2",
     "react": "^16.12.0",
     "react-anchor-link-smooth-scroll": "^1.0.11",

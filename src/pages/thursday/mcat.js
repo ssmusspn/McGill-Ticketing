@@ -107,6 +107,9 @@ const MCATPage = () => {
                     <p>
                       <strong>Players: </strong>2 Per Team
                     </p>
+                    <p>
+                      <strong>Beverages: </strong>Only beer is available
+                    </p>
                   </div>
                 </Grid>
                 <br />

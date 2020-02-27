@@ -46,6 +46,10 @@ const PowerHourPage = () => (
                 <p>
                   <strong>Players: </strong>Everyone!
                 </p>
+                <p>
+                  <strong>Beverages: </strong>Non-Alcoholic and/or Gluten Free
+                  Available
+                </p>
               </div>
             </Grid>
             <br />

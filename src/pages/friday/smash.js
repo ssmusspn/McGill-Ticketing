@@ -117,6 +117,10 @@ const SmashPage = () => {
                     <p>
                       <strong>Players: </strong>2 People per team
                     </p>
+                    <p>
+                      <strong>Beverages: </strong>Gluten free alcoholic
+                      beverages are available
+                    </p>
                   </div>
                 </Grid>
                 <br />

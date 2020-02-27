@@ -90,6 +90,9 @@ const MountainRunPage = () => {
                 <p>
                   <strong>Players: </strong>4 people (1 girl min)
                 </p>
+                <p>
+                  <strong>Beverages: </strong>Only beer is available
+                </p>
               </div>
             </Grid>
             <br />

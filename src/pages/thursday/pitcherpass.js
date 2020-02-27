@@ -110,6 +110,10 @@ const PitcherPassPage = () => {
                       <strong>Players: </strong>Three people per team, at least
                       one girl. One puke bag holder.
                     </p>
+                    <p>
+                      <strong>Beverages: </strong>Non-Alcoholic and/or Gluten
+                      Free Available
+                    </p>
                   </div>
                 </Grid>
                 <br />

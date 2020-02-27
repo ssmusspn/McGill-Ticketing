@@ -119,6 +119,10 @@ const SpellingBee = () => {
                     <p>
                       <strong>Players: </strong>Two people per team
                     </p>
+                    <p>
+                      <strong>Beverages: </strong>Gluten free alcoholic
+                      beverages are available
+                    </p>
                   </div>
                 </Grid>
                 <br />

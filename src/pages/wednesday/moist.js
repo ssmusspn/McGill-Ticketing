@@ -105,7 +105,8 @@ const MoistPage = () => {
                       <strong>Location: </strong>Petit Campus
                     </p>
                     <p>
-                      <strong>Drinks: </strong>$11 Pitchers
+                      <strong>Drinks: </strong>$11 Pitchers, Non-Alcoholic
+                      and/or Gluten Free Available
                     </p>
                     <p>
                       <strong>Players: </strong>Everyone!

@@ -118,6 +118,10 @@ const FlipCupPage = () => {
                       <strong>Players: </strong>Two teams of 5 people per team
                       minimum 2 girls
                     </p>
+                    <p>
+                      <strong>Beverages: </strong>Gluten free alcoholic
+                      beverages are available
+                    </p>
                   </div>
                 </Grid>
                 <br />

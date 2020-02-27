@@ -110,6 +110,9 @@ const TimeTrialsPage = () => {
                       <strong>Players: </strong>10 people from each team,
                       minimum 4 girls + 1 PBH +1 Tapper
                     </p>
+                    <p>
+                      <strong>Beverages: </strong>Only beer is available
+                    </p>
                   </div>
                 </Grid>
                 <br />
