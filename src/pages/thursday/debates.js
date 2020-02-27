@@ -111,7 +111,7 @@ const DrunkDebatesPage = () => {
                   <div>
                     <h2 id="stage">Stage</h2>
                     <p>
-                      <strong>Time: </strong>10:00AM - 12:00PM
+                      <strong>Time: </strong>1:00PM - 3:00PM
                     </p>
                     <p>
                       <strong>Location: </strong> Café Campus Main Stage
