@@ -16,7 +16,7 @@ const buttonStyles = {
   letterSpacing: "1.5px",
 }
 
-class TypeformPowerHour extends React.Component {
+class TypeformBuyer extends React.Component {
   constructor(props) {
     super(props)
     this.openForm = this.openForm.bind(this)
@@ -30,11 +30,11 @@ class TypeformPowerHour extends React.Component {
     return (
       <StyledSection id="Typeform">
         <StyledContainer>
-          <StyledPopup className="TypeformPowerHour">
+          <StyledPopup className="TypeformBuyer">
             <ReactTypeformEmbed
               popup
               autoOpen={false}
-              url="https://sspn.typeform.com/to/RiGsij"
+              url="https://sspn.typeform.com/to/PrbqE6"
               hideHeaders
               hideFooter
               buttonText="Go!"
@@ -48,7 +48,7 @@ class TypeformPowerHour extends React.Component {
               onClick={this.openForm}
               style={buttonStyles}
             >
-              Power Hour Ticket
+              Transfer a ticket
             </button>
           </StyledPopup>
         </StyledContainer>
@@ -57,7 +57,7 @@ class TypeformPowerHour extends React.Component {
   }
 }
 
-export default TypeformPowerHour
+export default TypeformBuyer
 
 const StyledPopup = styled.div`
   padding-left: 5%;

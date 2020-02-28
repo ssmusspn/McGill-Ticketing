@@ -109,7 +109,7 @@ const TummiesPage = () => {
                   <div>
                     <h2 id="stage">Stage</h2>
                     <p>
-                      <strong>Time: </strong>8:00PM - 9:30PM
+                      <strong>Time: </strong>8:00PM - 11:00PM
                     </p>
                     <p>
                       <strong>Location: </strong> Right elevated platform.

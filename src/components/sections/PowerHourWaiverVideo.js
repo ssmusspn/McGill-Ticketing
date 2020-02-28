@@ -2,9 +2,9 @@ import React from "react"
 
 import YouTube from "react-youtube"
 import { Section, Container } from "@components/global"
-import Typeform from "@common/Typeform"
+import TypeformPowerHour from "@common/TypeformPowerHour"
 
-const WaiverVideo = () => {
+const PowerHourWaiverVideo = () => {
   const opts = {
     height: "658",
     width: "100%",
@@ -40,10 +40,10 @@ const WaiverVideo = () => {
             onStateChange={onPlayerStateChange}
           />
         </div>
-        <Typeform />
+        <TypeformPowerHour />
       </Container>
     </Section>
   )
 }
 
-export default WaiverVideo
+export default PowerHourWaiverVideo

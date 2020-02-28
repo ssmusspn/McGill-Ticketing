@@ -99,7 +99,7 @@ const StacksPage = () => {
                   <div>
                     <h2 id="stage">Stage</h2>
                     <p>
-                      <strong>Time: </strong>9:30PM - 11:00PM
+                      <strong>Time: </strong>8:00PM - 9:30PM
                     </p>
                     <p>
                       <strong>Location: </strong>Mezzanine

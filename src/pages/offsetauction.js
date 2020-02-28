@@ -1,13 +1,14 @@
 import React from "react"
 
-import Navbar from "@common/Navbar"
-import Footer from "@sections/Footer"
 import styled from "styled-components"
-import { Container } from "@components/global"
-import Layout from "@common/Layout"
 import { useAuth } from "react-use-auth"
 import Img from "gatsby-image"
 import { StaticQuery, graphql } from "gatsby"
+
+import Navbar from "@common/Navbar"
+import { Container } from "@components/global"
+import Layout from "@common/Layout"
+import Footer from "@sections/Footer"
 import PleaseLogin from "@sections/PleaseLogin"
 
 const OffsetAuctionPage = () => {
