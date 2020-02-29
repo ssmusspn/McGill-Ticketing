@@ -24,7 +24,7 @@
     "gatsby-plugin-styled-components": "^3.0.7",
     "gatsby-plugin-svgr": "^2.0.1",
     "gatsby-source-filesystem": "^2.1.48",
-    "gatsby-transformer-sharp": "^2.1.8",
+    "gatsby-transformer-sharp": "^2.3.16",
     "i": "^0.3.6",
     "npm": "^6.14.1",
     "prop-types": "^15.6.2",
