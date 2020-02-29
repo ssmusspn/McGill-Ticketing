@@ -117,7 +117,7 @@ const GampeplayPage = () => (
               of Sustainability! SSPN has done our absolute best in planning
               Fac-O to prioritize a more sustainable experience for all
               participants — for an event as big as Fac-O, better sustainability
-              practices have a big impact! If your interested in purchasing
+              practices have a big impact! If you're interested in purchasing
               carbon offsets for the event, check out our{" "}
               <a href="/offsetauction">Offset Auction</a>.
             </p>
