@@ -5,13 +5,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-svgr`,
-      options: {
-        svgoConfig: {
-          plugins: {
-            removeViewBox: false,
-          },
-        },
-      },
     },
     `gatsby-plugin-styled-components`,
     {
