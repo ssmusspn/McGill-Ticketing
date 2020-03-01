@@ -64,10 +64,14 @@ const ResourcesPage = () => (
           <li>SPVM (Milton Parc): (514) 398-0438</li>
 
           <li>
-            McGill Nightline: 514-398-6246, http://ssmu.mcgill.ca/nightline
+            McGill Nightline: 514-398-6246,{" "}
+            <a href="https://ssmu.mcgill.ca/nightline">Website</a>
           </li>
 
-          <li>McGill Peer Support Centre: http://ssmu.mcgill.ca/psc</li>
+          <li>
+            McGill Peer Support Centre:{" "}
+            <a href="https://ssmu.mcgill.ca/psc">Website</a>
+          </li>
         </ul>
       </div>
     </StyledContainer>
