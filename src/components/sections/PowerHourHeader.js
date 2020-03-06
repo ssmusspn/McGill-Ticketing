@@ -29,9 +29,8 @@ const PowerHourHeader = () => {
                 <Img fluid={data.art_build.childImageSharp.fluid} />
               </Art>
               <Text>
-                <h2>Purchase your</h2>
-                <h2>single night</h2>
-                <h2>FacO Power Hour Ticket</h2>
+                <h2>Power Hour Tickets</h2>
+                <h2>are SOLD OUT</h2>
               </Text>
             </Grid>
           </Container>
