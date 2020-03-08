@@ -133,7 +133,7 @@ const PongSeedingsPage = () => {
                 </tr>
                 <tr>
                   <td>8:00 PM</td>
-                  <td>Arts 2, Medicine</td>
+                  <td>Arts 4, Medicine</td>
                 </tr>
                 <tr>
                   <td>8:15 PM</td>
