@@ -74,6 +74,18 @@ const PointsPage = () => {
             <tbody>
               <tr>
                 <td align="right">1</td>
+                <td>Arts 1</td>
+                <td>2,901</td>
+                <td>2,651</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>250</td>
+              </tr>
+              <tr>
+                <td align="right">2</td>
                 <td>PTOT</td>
                 <td>2,797</td>
                 <td>2,797</td>
@@ -85,7 +97,7 @@ const PointsPage = () => {
                 <td>-</td>
               </tr>
               <tr>
-                <td align="right">2</td>
+                <td align="right">3</td>
                 <td>Science 2</td>
                 <td>2,735</td>
                 <td>2,485</td>
@@ -95,18 +107,6 @@ const PointsPage = () => {
                 <td>-</td>
                 <td>-</td>
                 <td>250</td>
-              </tr>
-              <tr>
-                <td align="right">3</td>
-                <td>Arts 1</td>
-                <td>2,651</td>
-                <td>2,651</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
               </tr>
               <tr>
                 <td align="right">4</td>
