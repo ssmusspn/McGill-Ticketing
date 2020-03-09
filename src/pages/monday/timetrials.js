@@ -122,22 +122,35 @@ const TimeTrialsPage = () => {
                   this week!
                 </p>
                 <h2 id="rules">Rules</h2>
+                <p>
+                  2 regulation beers per person per round. Race there and back -
+                  chugger 1 drinks 1 beer, chugger 2 then drinks, etc.
+                </p>
+                <p>
+                  <strong>Penalties are called on</strong>
+                </p>
                 <ul>
                   <li>
-                    2 regulation beers per person per round. Race there and back
-                    - chugger 1 drinks 1 beer, chugger 2 then drinks, etc.
+                    DOUBLE MAJORS (10 secs) - False starts, crushing the cup,
+                    throwing the cup, beer left in cup
                   </li>
+                  <li>MAJORS (5 secs) - Dripping beer off face</li>
+                  <li>MINORS (2 secs) - Small spills, liquid on face</li>
+                </ul>
+                <p>
+                  <strong>False Starts:</strong>
+                </p>
+
+                <ul>
+                  <li>Cup must touch the table before the next person goes</li>
+
+                  <li>A false start due to early tapping is a Minor</li>
+
+                  <li>A false start on the countdown is a Double Major</li>
+
                   <li>
-                    Penalties are called on
-                    <ul>
-                      <li>MINORS (2 secs) - Small spills, liquid on face</li>
-                      <li>MAJORS (5 secs) - Dripping beer off face</li>
-                      <li>
-                        DOUBLE MAJORS (10 secs) - False starts, not putting the
-                        cup down after drinking (e.g. crushing the cup,
-                        throwing), beer left in cup
-                      </li>
-                    </ul>
+                    The timer, not the sign holders, are responsible for the
+                    calling of false starts
                   </li>
                 </ul>
                 <h2>Schedule</h2>
@@ -188,7 +201,6 @@ const TimeTrialsPage = () => {
                   <tbody>
                     <tr>
                       <th>Position</th>
-                      <th>Points</th>
                       <th>Team</th>
                       <th>Raw Time</th>
                       <th>Double Majors</th>
@@ -198,7 +210,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">01</td>
-                      <td align="right">2000</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -208,7 +219,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">02</td>
-                      <td align="right">1700</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -218,7 +228,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">03</td>
-                      <td align="right">1500</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -228,7 +237,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">04</td>
-                      <td align="right">1250</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -238,7 +246,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">05</td>
-                      <td align="right">1100</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -248,7 +255,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">06</td>
-                      <td align="right">950</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -258,7 +264,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">07</td>
-                      <td align="right">800</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -268,7 +273,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">08</td>
-                      <td align="right">700</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -278,7 +282,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">09</td>
-                      <td align="right">600</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -288,7 +291,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">10</td>
-                      <td align="right">500</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -298,7 +300,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">11</td>
-                      <td align="right">450</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -308,7 +309,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">12</td>
-                      <td align="right">400</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -318,7 +318,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">13</td>
-                      <td align="right">350</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -328,7 +327,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">14</td>
-                      <td align="right">300</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -338,7 +336,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">15</td>
-                      <td align="right">250</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
@@ -348,7 +345,6 @@ const TimeTrialsPage = () => {
                     </tr>
                     <tr>
                       <td align="right">16</td>
-                      <td align="right">200</td>
                       <td> </td>
                       <td> </td>
                       <td> </td>
