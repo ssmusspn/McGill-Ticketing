@@ -510,6 +510,81 @@ const SSMUDayPage = () => {
                     </tr>
                   </tbody>
                 </table>
+                <h2>Spirit</h2>
+                <table class="table table-bordered table-hover table-condensed">
+                  <thead>
+                    <tr>
+                      <th title="Field #1">Team</th>
+                      <th title="Field #2">Points</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Arts 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Arts 2</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Arts 3</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Arts 4</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Arts 5</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Education 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Education 2</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Engineering</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Law</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Management 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Management 2</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Medicine</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Music</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>PTOT</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Science 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Science 2</td>
+                      <td> </td>
+                    </tr>
+                  </tbody>
+                </table>
               </Container>
             </Section>
           )}
