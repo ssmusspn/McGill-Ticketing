@@ -153,108 +153,108 @@ const PongSeedingsPage = () => {
             <table class="table table-bordered table-hover table-condensed">
               <thead>
                 <tr>
-                  <th title="Field #1">Place</th>
-                  <th title="Field #2">Points</th>
-                  <th title="Field #3">Balls Sunk</th>
-                  <th title="Field #4">Team</th>
+                  <th title="Field #1">Team</th>
+                  <th title="Field #2">Balls Sunk</th>
+                  <th title="Field #3">Place</th>
+                  <th title="Field #4">Points</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td align="right">01</td>
+                  <td>Medicine</td>
+                  <td align="right">19</td>
+                  <td align="right">1</td>
                   <td align="right">500</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
-                  <td align="right">02</td>
+                  <td>Arts 4</td>
+                  <td align="right">18</td>
+                  <td align="right">2</td>
                   <td align="right">425</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
-                  <td align="right">03</td>
+                  <td>Arts 5</td>
+                  <td align="right">18</td>
+                  <td align="right">3</td>
                   <td align="right">375</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
-                  <td align="right">04</td>
+                  <td>Education 2</td>
+                  <td align="right">18</td>
+                  <td align="right">4</td>
                   <td align="right">315</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
-                  <td align="right">05</td>
+                  <td>Arts 1</td>
+                  <td align="right">17</td>
+                  <td align="right">5</td>
                   <td align="right">275</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
-                  <td align="right">06</td>
+                  <td>Music</td>
+                  <td align="right">16</td>
+                  <td align="right">6</td>
                   <td align="right">225</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
-                  <td align="right">07</td>
+                  <td>Arts 2</td>
+                  <td align="right">15</td>
+                  <td align="right">7</td>
                   <td align="right">200</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
-                  <td align="right">08</td>
+                  <td>Management 2</td>
+                  <td align="right">15</td>
+                  <td align="right">8</td>
                   <td align="right">175</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
-                  <td align="right">09</td>
+                  <td>Science 2</td>
+                  <td align="right">15</td>
+                  <td align="right">9</td>
                   <td align="right">150</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
+                  <td>Science 1</td>
+                  <td align="right">13</td>
                   <td align="right">10</td>
                   <td align="right">125</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
+                  <td>Education 1</td>
+                  <td align="right">12</td>
                   <td align="right">11</td>
                   <td align="right">115</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
+                  <td>Management 1</td>
+                  <td align="right">12</td>
                   <td align="right">12</td>
                   <td align="right">100</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
+                  <td>Arts 3</td>
+                  <td align="right">10</td>
                   <td align="right">13</td>
                   <td align="right">85</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
+                  <td>Engineering</td>
+                  <td align="right">10</td>
                   <td align="right">14</td>
                   <td align="right">75</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
+                  <td>Law</td>
+                  <td align="right">10</td>
                   <td align="right">15</td>
                   <td align="right">65</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
                 <tr>
+                  <td>PTOT</td>
+                  <td align="right">10</td>
                   <td align="right">16</td>
                   <td align="right">50</td>
-                  <td> </td>
-                  <td> </td>
                 </tr>
               </tbody>
             </table>

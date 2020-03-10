@@ -198,159 +198,161 @@ const TimeTrialsPage = () => {
                 </table>
                 <h2>Points</h2>
                 <table class="table table-bordered table-hover table-condensed">
+                  <thead>
+                    <tr>
+                      <th title="Field #1">Team</th>
+                      <th title="Field #2">Place</th>
+                      <th title="Field #3">Raw Time</th>
+                      <th title="Field #4">Minors</th>
+                      <th title="Field #5">Majors</th>
+                      <th title="Field #6">Double Majors</th>
+                      <th title="Field #7">Total Time</th>
+                    </tr>
+                  </thead>
                   <tbody>
                     <tr>
-                      <th>Position</th>
-                      <th>Team</th>
-                      <th>Raw Time</th>
-                      <th>Double Majors</th>
-                      <th>Majors</th>
-                      <th>Minors</th>
-                      <th>Total Time</th>
+                      <td>Science 2</td>
+                      <td align="right">1</td>
+                      <td>1:04.97</td>
+                      <td align="right">2</td>
+                      <td align="right">0</td>
+                      <td align="right">0</td>
+                      <td>1:08.97</td>
                     </tr>
                     <tr>
-                      <td align="right">01</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>Arts 3</td>
+                      <td align="right">2</td>
+                      <td>1:12.25</td>
+                      <td align="right">4</td>
+                      <td align="right">1</td>
+                      <td align="right">1</td>
+                      <td>1:35.25</td>
                     </tr>
                     <tr>
-                      <td align="right">02</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>Management 1</td>
+                      <td align="right">3</td>
+                      <td>1:26.21</td>
+                      <td align="right">5</td>
+                      <td align="right">0</td>
+                      <td align="right">0</td>
+                      <td>1:36.21</td>
                     </tr>
                     <tr>
-                      <td align="right">03</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>Engineering</td>
+                      <td align="right">4</td>
+                      <td>1:26.87</td>
+                      <td align="right">4</td>
+                      <td align="right">1</td>
+                      <td align="right">0</td>
+                      <td>1:39.87</td>
                     </tr>
                     <tr>
-                      <td align="right">04</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>Arts 1</td>
+                      <td align="right">5</td>
+                      <td>1:25.07</td>
+                      <td align="right">2</td>
+                      <td align="right">2</td>
+                      <td align="right">0</td>
+                      <td>1:39.97</td>
                     </tr>
                     <tr>
-                      <td align="right">05</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>Music</td>
+                      <td align="right">6</td>
+                      <td>1:33.22</td>
+                      <td align="right">5</td>
+                      <td align="right">0</td>
+                      <td align="right">0</td>
+                      <td>1:43.22</td>
                     </tr>
                     <tr>
-                      <td align="right">06</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>PTOT</td>
+                      <td align="right">7</td>
+                      <td>1:27.06</td>
+                      <td align="right">1</td>
+                      <td align="right">1</td>
+                      <td align="right">1</td>
+                      <td>1:44.06</td>
                     </tr>
                     <tr>
-                      <td align="right">07</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>Science 1</td>
+                      <td align="right">8</td>
+                      <td>1:42.53</td>
+                      <td align="right">2</td>
+                      <td align="right">0</td>
+                      <td align="right">0</td>
+                      <td>1:46.53</td>
                     </tr>
                     <tr>
-                      <td align="right">08</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>Management 2</td>
+                      <td align="right">9</td>
+                      <td>1:34.25</td>
+                      <td align="right">8</td>
+                      <td align="right">1</td>
+                      <td align="right">0</td>
+                      <td>1:55.25</td>
                     </tr>
                     <tr>
-                      <td align="right">09</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                    </tr>
-                    <tr>
+                      <td>Arts 4</td>
                       <td align="right">10</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>1:56.90</td>
+                      <td align="right">1</td>
+                      <td align="right">1</td>
+                      <td align="right">0</td>
+                      <td>2:03.90</td>
                     </tr>
                     <tr>
+                      <td>Arts 5</td>
                       <td align="right">11</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>1:45.49</td>
+                      <td align="right">5</td>
+                      <td align="right">0</td>
+                      <td align="right">1</td>
+                      <td>2:05.59</td>
                     </tr>
                     <tr>
+                      <td>Education 2</td>
                       <td align="right">12</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>2:04.66</td>
+                      <td align="right">4</td>
+                      <td align="right">4</td>
+                      <td align="right">0</td>
+                      <td>2:32.66</td>
                     </tr>
                     <tr>
+                      <td>Education 1</td>
                       <td align="right">13</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>1:54.07</td>
+                      <td align="right">3</td>
+                      <td align="right">1</td>
+                      <td align="right">3</td>
+                      <td>2:35.07</td>
                     </tr>
                     <tr>
+                      <td>Arts 2</td>
                       <td align="right">14</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>2:01.69</td>
+                      <td align="right">5</td>
+                      <td align="right">3</td>
+                      <td align="right">2</td>
+                      <td>2:46.69</td>
                     </tr>
                     <tr>
+                      <td>Medicine</td>
                       <td align="right">15</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>2:06.03</td>
+                      <td align="right">3</td>
+                      <td align="right">2</td>
+                      <td align="right">4</td>
+                      <td>3:02.03</td>
                     </tr>
                     <tr>
+                      <td>Law</td>
                       <td align="right">16</td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
-                      <td> </td>
+                      <td>2:48.94</td>
+                      <td align="right">10</td>
+                      <td align="right">3</td>
+                      <td align="right">4</td>
+                      <td>4:03.94</td>
                     </tr>
                   </tbody>
                 </table>
