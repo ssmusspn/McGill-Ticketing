@@ -156,7 +156,7 @@ const PitcherPassPage = () => {
                   <tbody>
                     <tr>
                       <td>10:10</td>
-                      <td>Arts 4, Education 1, Engineering 1</td>
+                      <td>Arts 4, Education 1, Engineering</td>
                     </tr>
                     <tr>
                       <td>10:25</td>
@@ -168,7 +168,7 @@ const PitcherPassPage = () => {
                     </tr>
                     <tr>
                       <td>10:55</td>
-                      <td>Arts 3, Engineering 2, Law</td>
+                      <td>Arts 3, Law</td>
                     </tr>
                     <tr>
                       <td>11:10</td>
