@@ -118,7 +118,7 @@ const BoatRacePage = () => {
                       <strong>Coat Check: </strong>$2.00
                     </p>
                     <p>
-                      <strong>Drinks: </strong>$11.00 Pitchers
+                      <strong>Drinks: </strong>$13.00 Pitchers
                     </p>
                     <p>
                       <strong>Players: </strong>10 people from each team,
