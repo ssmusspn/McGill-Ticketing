@@ -144,8 +144,8 @@ const BoatRacePage = () => {
                 </p>
                 <ul>
                   <li>
-                    DOUBLE MAJORS (10 secs) - False starts, crushing the cup,
-                    throwing the cup, beer left in cup
+                    DOUBLE MAJORS (10 secs) - False starts (during countdown),
+                    crushing the cup, throwing the cup, beer left in cup
                   </li>
                   <li>MAJORS (5 secs) - Dripping beer off face</li>
                   <li>MINORS (2 secs) - Small spills, liquid on face</li>
