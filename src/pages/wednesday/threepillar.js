@@ -146,91 +146,118 @@ const ThreePillarPage = () => {
                 <table class="table table-bordered table-hover table-condensed">
                   <thead>
                     <tr>
-                      <th title="Field #1">Team</th>
-                      <th title="Field #2">Attempts</th>
+                      <th title="Field #1">Attempts</th>
+                      <th title="Field #2">Team</th>
                       <th title="Field #3">Points</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Science 2</td>
-                      <td align="right">34</td>
-                      <td align="right">1450</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 2</td>
-                      <td align="right">10</td>
-                      <td align="right">650</td>
-                    </tr>
-                    <tr>
-                      <td>Science 1</td>
-                      <td align="right">21</td>
-                      <td align="right">525</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 5</td>
-                      <td align="right">20</td>
-                      <td align="right">500</td>
-                    </tr>
-                    <tr>
-                      <td>Music</td>
-                      <td align="right">15</td>
-                      <td align="right">375</td>
-                    </tr>
-                    <tr>
-                      <td>PTOT</td>
-                      <td align="right">14</td>
-                      <td align="right">350</td>
-                    </tr>
-                    <tr>
-                      <td>Education 1</td>
-                      <td align="right">12</td>
-                      <td align="right">300</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 3</td>
-                      <td align="right">11</td>
-                      <td align="right">275</td>
-                    </tr>
-                    <tr>
-                      <td>Engineering</td>
-                      <td align="right">10</td>
-                      <td align="right">250</td>
-                    </tr>
-                    <tr>
-                      <td>Management 1</td>
-                      <td align="right">9</td>
-                      <td align="right">225</td>
-                    </tr>
-                    <tr>
-                      <td>Management 2</td>
-                      <td align="right">0</td>
-                      <td align="right">200</td>
-                    </tr>
-                    <tr>
-                      <td>Law</td>
-                      <td align="right">5</td>
-                      <td align="right">125</td>
-                    </tr>
-                    <tr>
-                      <td>Education 2</td>
-                      <td align="right">4</td>
-                      <td align="right">100</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 4</td>
-                      <td align="right">3</td>
-                      <td align="right">75</td>
-                    </tr>
-                    <tr>
+                      <td> </td>
                       <td>Arts 1</td>
-                      <td align="right">1</td>
-                      <td align="right">25</td>
+                      <td> </td>
                     </tr>
                     <tr>
+                      <td> </td>
+                      <td>Arts 2</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Arts 3</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Arts 4</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Arts 5</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Education 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Education 2</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Engineering</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Law</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Management 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Management 2</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
                       <td>Medicine</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Music</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>PTOT</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Science 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td>Science 2</td>
+                      <td> </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h2>Leaderboard</h2>
+                <table class="table table-bordered table-hover table-condensed">
+                  <thead>
+                    <tr>
+                      <th title="Field #1">Name</th>
+                      <th title="Field #2">Team</th>
+                      <th title="Field #3">Time</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                   </tbody>
                 </table>

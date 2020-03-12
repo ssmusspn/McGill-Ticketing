@@ -172,382 +172,180 @@ const BoatRacePage = () => {
                 <table class="table table-bordered table-hover table-condensed">
                   <thead>
                     <tr>
-                      <th title="Field #1">Team</th>
-                      <th title="Field #2">Place</th>
-                      <th title="Field #3">Points</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Science 2</td>
-                      <td>1</td>
-                      <td align="right">10000</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 3</td>
-                      <td>2</td>
-                      <td align="right">8500</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 1</td>
-                      <td>3</td>
-                      <td align="right">7500</td>
-                    </tr>
-                    <tr>
-                      <td>Management 1</td>
-                      <td>4</td>
-                      <td align="right">6250</td>
-                    </tr>
-                    <tr>
-                      <td>Music</td>
-                      <td>5-8</td>
-                      <td align="right">4500</td>
-                    </tr>
-                    <tr>
-                      <td>PTOT</td>
-                      <td>5-8</td>
-                      <td align="right">4500</td>
-                    </tr>
-                    <tr>
-                      <td>Engineering</td>
-                      <td>5-8</td>
-                      <td align="right">4500</td>
-                    </tr>
-                    <tr>
-                      <td>Management 2</td>
-                      <td>5-8</td>
-                      <td align="right">4500</td>
-                    </tr>
-                    <tr>
-                      <td>Science 1</td>
-                      <td>9-16</td>
-                      <td align="right">2000</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 2</td>
-                      <td>9-16</td>
-                      <td align="right">2000</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 4</td>
-                      <td>9-16</td>
-                      <td align="right">2000</td>
-                    </tr>
-                    <tr>
-                      <td>Medicine</td>
-                      <td>9-16</td>
-                      <td align="right">2000</td>
-                    </tr>
-                    <tr>
-                      <td>Education 2</td>
-                      <td>9-16</td>
-                      <td align="right">2000</td>
-                    </tr>
-                    <tr>
-                      <td>Education 1</td>
-                      <td>9-16</td>
-                      <td align="right">2000</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 5</td>
-                      <td>9-16</td>
-                      <td align="right">2000</td>
-                    </tr>
-                    <tr>
-                      <td>Law</td>
-                      <td>9-16</td>
-                      <td align="right">2000</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <h2>Results</h2>
-                <table class="table table-bordered table-hover table-condensed">
-                  <thead>
-                    <tr>
-                      <th title="Field #1">Team</th>
-                      <th title="Field #2">Raw Time</th>
-                      <th title="Field #3">Minors</th>
-                      <th title="Field #4">Majors</th>
+                      <th title="Field #1">Place</th>
+                      <th title="Field #2">Points</th>
+                      <th title="Field #3">Team</th>
+                      <th title="Field #4">Raw Time</th>
                       <th title="Field #5">Double Majors</th>
-                      <th title="Field #6">Total Time</th>
+                      <th title="Field #6">Majors</th>
+                      <th title="Field #7">Minors</th>
+                      <th title="Field #8">Total Time</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Science 2</td>
-                      <td>0:01:11</td>
-                      <td align="right">5</td>
-                      <td align="right">2</td>
-                      <td align="right">0</td>
-                      <td>01:31.40</td>
+                      <td>01</td>
+                      <td align="right">10000</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Law</td>
-                      <td>02:40.0</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td align="right">20</td>
-                      <td>06:00.00</td>
+                      <td>02</td>
+                      <td align="right">8500</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Arts 5</td>
-                      <td>01:43.72</td>
-                      <td align="right">4</td>
-                      <td align="right">2</td>
-                      <td align="right">0</td>
-                      <td>02:01.72</td>
+                      <td>03</td>
+                      <td align="right">7500</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Management 2</td>
-                      <td>01:34.97</td>
-                      <td align="right">3</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:40.97</td>
+                      <td>04</td>
+                      <td align="right">6250</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Engineering</td>
-                      <td>01:32.81</td>
-                      <td align="right">1</td>
-                      <td align="right">0</td>
-                      <td align="right">1</td>
-                      <td>01:44.81</td>
+                      <td>5-8</td>
+                      <td align="right">4500</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Education 1</td>
-                      <td>01:05.94</td>
-                      <td align="right">2</td>
-                      <td align="right">0</td>
-                      <td align="right">10</td>
-                      <td>02:49.94</td>
+                      <td>5-8</td>
+                      <td align="right">4500</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Arts 1</td>
-                      <td>01:26.03</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:26.03</td>
+                      <td>5-8</td>
+                      <td align="right">4500</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Education 2</td>
-                      <td>01:47.69</td>
-                      <td align="right">0</td>
-                      <td align="right">3</td>
-                      <td align="right">0</td>
-                      <td>02:02.69</td>
+                      <td>5-8</td>
+                      <td align="right">4500</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Arts 3</td>
-                      <td>01:15.72</td>
-                      <td align="right">0</td>
-                      <td align="right">1</td>
-                      <td align="right">0</td>
-                      <td>01:20.72</td>
+                      <td>9-16</td>
+                      <td align="right">2000</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Medicine</td>
-                      <td>02:06.78</td>
-                      <td align="right">7</td>
-                      <td align="right">1</td>
-                      <td align="right">0</td>
-                      <td>02:25.78</td>
+                      <td>9-16</td>
+                      <td align="right">2000</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>PTOT</td>
-                      <td>01:37.85</td>
-                      <td align="right">3</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:43.85</td>
+                      <td>9-16</td>
+                      <td align="right">2000</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Arts 4</td>
-                      <td>01:46.03</td>
-                      <td align="right">3</td>
-                      <td align="right">3</td>
-                      <td align="right">0</td>
-                      <td>02:07.03</td>
+                      <td>9-16</td>
+                      <td align="right">2000</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Management 1</td>
-                      <td>01:22.19</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:22.19</td>
+                      <td>9-16</td>
+                      <td align="right">2000</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Arts 2</td>
-                      <td>01:47.16</td>
-                      <td align="right">2</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:51.16</td>
+                      <td>9-16</td>
+                      <td align="right">2000</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Music</td>
-                      <td>01:23.25</td>
-                      <td align="right">0</td>
-                      <td align="right">1</td>
-                      <td align="right">0</td>
-                      <td>01:28.25</td>
+                      <td>9-16</td>
+                      <td align="right">2000</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Sci 1</td>
-                      <td>01:30.97</td>
-                      <td align="right">4</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:38.97</td>
-                    </tr>
-                    <tr>
-                      <td>Science 2</td>
-                      <td>01:14.81</td>
-                      <td align="right">1</td>
-                      <td align="right">0</td>
-                      <td align="right">1</td>
-                      <td>01:26.81</td>
-                    </tr>
-                    <tr>
-                      <td>Management 2</td>
-                      <td>01:24.18</td>
-                      <td align="right">2</td>
-                      <td align="right">1</td>
-                      <td align="right">0</td>
-                      <td>01:33.18</td>
-                    </tr>
-                    <tr>
-                      <td>Engineering</td>
-                      <td>01:13.21</td>
-                      <td align="right">3</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:19.21</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 1</td>
-                      <td>01:13.03</td>
-                      <td align="right">2</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:17.03</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 3</td>
-                      <td>01:18.78</td>
-                      <td align="right">3</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:24.78</td>
-                    </tr>
-                    <tr>
-                      <td>PTOT</td>
-                      <td>01:32.03</td>
-                      <td align="right">7</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:46.03</td>
-                    </tr>
-                    <tr>
-                      <td>Management 1</td>
-                      <td>01:19.35</td>
-                      <td align="right">1</td>
-                      <td align="right">1</td>
-                      <td align="right">0</td>
-                      <td>01:26.35</td>
-                    </tr>
-                    <tr>
-                      <td>Music</td>
-                      <td>01:26.87</td>
-                      <td align="right">4</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:34.87</td>
-                    </tr>
-                    <tr>
-                      <td>Science 2</td>
-                      <td>01:12.41</td>
-                      <td align="right">1</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:14.41</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 1</td>
-                      <td>01:18.47</td>
-                      <td align="right">5</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:28.47</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 3</td>
-                      <td>01:17.63</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:17.63</td>
-                    </tr>
-                    <tr>
-                      <td>Management 1</td>
-                      <td>01:16.69</td>
-                      <td align="right">2</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:20.69</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 1</td>
-                      <td>01:24.31</td>
-                      <td align="right">6</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:36.31</td>
-                    </tr>
-                    <tr>
-                      <td>Management 1</td>
-                      <td>01:28.07</td>
-                      <td align="right">2</td>
-                      <td align="right">1</td>
-                      <td align="right">1</td>
-                      <td>01:47.07</td>
-                    </tr>
-                    <tr>
-                      <td>Science 2</td>
-                      <td>01:17.68</td>
-                      <td align="right">2</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:21.68</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 3</td>
-                      <td>01:19.16</td>
-                      <td align="right">1</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>01:21.16</td>
-                    </tr>
-                    <tr>
-                      <td>Science 2</td>
-                      <td>00:34.34</td>
-                      <td align="right">2</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>00:38.34</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 3</td>
-                      <td>00:36.75</td>
-                      <td align="right">3</td>
-                      <td align="right">0</td>
-                      <td align="right">0</td>
-                      <td>00:42.75</td>
+                      <td>9-16</td>
+                      <td align="right">2000</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                   </tbody>
                 </table>
-                <h2>Spirit Points</h2>
+                <h2>Spirit</h2>
                 <table class="table table-bordered table-hover table-condensed">
                   <thead>
                     <tr>
@@ -557,68 +355,68 @@ const BoatRacePage = () => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Science 2</td>
-                      <td align="right">1000</td>
-                    </tr>
-                    <tr>
                       <td>Arts 1</td>
-                      <td align="right">1000</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 3</td>
-                      <td align="right">1000</td>
-                    </tr>
-                    <tr>
-                      <td>Arts 5</td>
-                      <td align="right">1000</td>
-                    </tr>
-                    <tr>
-                      <td>Engineering</td>
-                      <td align="right">600</td>
-                    </tr>
-                    <tr>
-                      <td>PTOT</td>
-                      <td align="right">600</td>
-                    </tr>
-                    <tr>
-                      <td>Education 1</td>
-                      <td align="right">600</td>
+                      <td> </td>
                     </tr>
                     <tr>
                       <td>Arts 2</td>
-                      <td align="right">600</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Music</td>
-                      <td align="right">350</td>
-                    </tr>
-                    <tr>
-                      <td>Law</td>
-                      <td align="right">350</td>
-                    </tr>
-                    <tr>
-                      <td>Management 1</td>
-                      <td align="right">350</td>
-                    </tr>
-                    <tr>
-                      <td>Science 1</td>
-                      <td align="right">350</td>
+                      <td>Arts 3</td>
+                      <td> </td>
                     </tr>
                     <tr>
                       <td>Arts 4</td>
-                      <td align="right">200</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Arts 5</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Education 1</td>
+                      <td> </td>
                     </tr>
                     <tr>
                       <td>Education 2</td>
-                      <td align="right">200</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Medicine</td>
-                      <td align="right">200</td>
+                      <td>Engineering</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Law</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Management 1</td>
+                      <td> </td>
                     </tr>
                     <tr>
                       <td>Management 2</td>
-                      <td align="right">200</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Medicine</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Music</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>PTOT</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Science 1</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Science 2</td>
+                      <td> </td>
                     </tr>
                   </tbody>
                 </table>

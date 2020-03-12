@@ -151,91 +151,91 @@ const DodegeballPage = () => {
                 <table class="table table-bordered table-hover table-condensed">
                   <thead>
                     <tr>
-                      <th title="Field #1">Team</th>
-                      <th title="Field #2">Place</th>
-                      <th title="Field #3">Points</th>
+                      <th title="Field #1">Place</th>
+                      <th title="Field #2">Points</th>
+                      <th title="Field #3">Team</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Education 2</td>
-                      <td>1</td>
+                      <td>01</td>
                       <td align="right">2000</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Law</td>
-                      <td>2</td>
+                      <td>02</td>
                       <td align="right">1700</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Music</td>
-                      <td>3</td>
+                      <td>03</td>
                       <td align="right">1500</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Management 2</td>
-                      <td>4</td>
+                      <td>04</td>
                       <td align="right">1250</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Education 1</td>
                       <td>5-8</td>
                       <td align="right">900</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Engineering</td>
                       <td>5-8</td>
                       <td align="right">900</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>PTOT</td>
                       <td>5-8</td>
                       <td align="right">900</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Science 2</td>
                       <td>5-8</td>
                       <td align="right">900</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Arts 4</td>
                       <td>9-16</td>
                       <td align="right">400</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Medicine</td>
                       <td>9-16</td>
                       <td align="right">400</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Arts 1</td>
                       <td>9-16</td>
                       <td align="right">400</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Arts 5</td>
                       <td>9-16</td>
                       <td align="right">400</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Arts 2</td>
                       <td>9-16</td>
                       <td align="right">400</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Arts 3</td>
                       <td>9-16</td>
                       <td align="right">400</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Management 1</td>
                       <td>9-16</td>
                       <td align="right">400</td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Science 1</td>
                       <td>9-16</td>
                       <td align="right">400</td>
+                      <td> </td>
                     </tr>
                   </tbody>
                 </table>
