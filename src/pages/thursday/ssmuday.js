@@ -520,68 +520,68 @@ const SSMUDayPage = () => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Arts 1</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>Arts 2</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>Arts 3</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>Arts 4</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>Arts 5</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
                       <td>Education 1</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>Education 2</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>Engineering</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>Law</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>Management 1</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>Management 2</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>Medicine</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>Music</td>
-                      <td> </td>
+                      <td align="right">1000</td>
                     </tr>
                     <tr>
                       <td>PTOT</td>
-                      <td> </td>
+                      <td align="right">1000</td>
+                    </tr>
+                    <tr>
+                      <td>Education 2</td>
+                      <td align="right">1000</td>
+                    </tr>
+                    <tr>
+                      <td>Arts 1</td>
+                      <td align="right">1000</td>
+                    </tr>
+                    <tr>
+                      <td>Engineering</td>
+                      <td align="right">600</td>
+                    </tr>
+                    <tr>
+                      <td>Music</td>
+                      <td align="right">600</td>
+                    </tr>
+                    <tr>
+                      <td>Management 1</td>
+                      <td align="right">600</td>
+                    </tr>
+                    <tr>
+                      <td>Arts 3</td>
+                      <td align="right">600</td>
                     </tr>
                     <tr>
                       <td>Science 1</td>
-                      <td> </td>
+                      <td align="right">350</td>
+                    </tr>
+                    <tr>
+                      <td>Law</td>
+                      <td align="right">350</td>
+                    </tr>
+                    <tr>
+                      <td>Arts 4</td>
+                      <td align="right">350</td>
                     </tr>
                     <tr>
                       <td>Science 2</td>
-                      <td> </td>
+                      <td align="right">350</td>
+                    </tr>
+                    <tr>
+                      <td>Medicine</td>
+                      <td align="right">200</td>
+                    </tr>
+                    <tr>
+                      <td>Arts 5</td>
+                      <td align="right">200</td>
+                    </tr>
+                    <tr>
+                      <td>Arts 2</td>
+                      <td align="right">200</td>
+                    </tr>
+                    <tr>
+                      <td>Management 2</td>
+                      <td align="right">200</td>
                     </tr>
                   </tbody>
                 </table>

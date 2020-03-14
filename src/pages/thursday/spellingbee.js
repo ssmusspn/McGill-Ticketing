@@ -152,91 +152,91 @@ const SpellingBee = () => {
                 <table class="table table-bordered table-hover table-condensed">
                   <thead>
                     <tr>
-                      <th title="Field #1">Place</th>
-                      <th title="Field #2">Points</th>
-                      <th title="Field #3">Team</th>
+                      <th title="Field #1">Team</th>
+                      <th title="Field #2">Place</th>
+                      <th title="Field #3">Points</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
+                      <td>Management 2</td>
                       <td>1</td>
                       <td align="right">750</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Engineering</td>
                       <td>2</td>
                       <td align="right">650</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Education 2</td>
                       <td>3</td>
-                      <td align="right">550</td>
-                      <td> </td>
+                      <td align="right">525</td>
                     </tr>
                     <tr>
-                      <td>4</td>
-                      <td align="right">475</td>
-                      <td> </td>
+                      <td>Law</td>
+                      <td>3</td>
+                      <td align="right">525</td>
                     </tr>
                     <tr>
+                      <td>PTOT</td>
                       <td>5-8</td>
                       <td align="right">325</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Medicine</td>
                       <td>5-8</td>
                       <td align="right">325</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Education 1</td>
                       <td>5-8</td>
                       <td align="right">325</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 4</td>
                       <td>5-8</td>
                       <td align="right">325</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Science 2</td>
                       <td>9-16</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Music</td>
                       <td>9-16</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 1</td>
                       <td>9-16</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 2</td>
                       <td>9-16</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 3</td>
                       <td>9-16</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 5</td>
                       <td>9-16</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Science 1</td>
                       <td>9-16</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Management 1</td>
                       <td>9-16</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                   </tbody>
                 </table>

@@ -184,108 +184,108 @@ const PitcherPassPage = () => {
                 <table class="table table-bordered table-hover table-condensed">
                   <thead>
                     <tr>
-                      <th title="Field #1">Place</th>
-                      <th title="Field #2">Points</th>
-                      <th title="Field #3">Time</th>
-                      <th title="Field #4">Team</th>
+                      <th title="Field #1">Team</th>
+                      <th title="Field #2">Time</th>
+                      <th title="Field #3">Place</th>
+                      <th title="Field #4">Points</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td align="right">01</td>
+                      <td>Music</td>
+                      <td>1:25.47</td>
+                      <td>1</td>
                       <td align="right">750</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td align="right">02</td>
+                      <td>Engineering</td>
+                      <td>1:36.58</td>
+                      <td>2</td>
                       <td align="right">650</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td align="right">03</td>
+                      <td>Science 2</td>
+                      <td>1:42.88</td>
+                      <td>3</td>
                       <td align="right">550</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td align="right">04</td>
+                      <td>Arts 1</td>
+                      <td>2:12.65</td>
+                      <td>4</td>
                       <td align="right">475</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td align="right">05</td>
+                      <td>Education 2</td>
+                      <td>2:22.53</td>
+                      <td>5</td>
                       <td align="right">400</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td align="right">06</td>
+                      <td>Management 2</td>
+                      <td>2:40.62</td>
+                      <td>6</td>
                       <td align="right">350</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td align="right">07</td>
+                      <td>Education 1</td>
+                      <td>2:44.78</td>
+                      <td>7</td>
                       <td align="right">300</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td align="right">08</td>
+                      <td>Medicine</td>
+                      <td>3:06.53</td>
+                      <td>8</td>
                       <td align="right">250</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td align="right">09</td>
+                      <td>PTOT</td>
+                      <td>4:08.75</td>
+                      <td>9</td>
                       <td align="right">225</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td align="right">10</td>
+                      <td>Science 1</td>
+                      <td>4:23.24</td>
+                      <td>10</td>
                       <td align="right">200</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td align="right">11</td>
+                      <td>Law</td>
+                      <td>4:27.13</td>
+                      <td>11</td>
                       <td align="right">175</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td align="right">12</td>
+                      <td>Arts 2</td>
+                      <td>4:53.10</td>
+                      <td>12</td>
                       <td align="right">150</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td align="right">13</td>
+                      <td>Arts 3</td>
+                      <td>5:16.69</td>
+                      <td>13</td>
                       <td align="right">125</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td align="right">14</td>
-                      <td align="right">100</td>
+                      <td>Arts 4</td>
                       <td> </td>
-                      <td> </td>
+                      <td>DNS</td>
+                      <td align="right">0</td>
                     </tr>
                     <tr>
-                      <td align="right">15</td>
-                      <td align="right">85</td>
+                      <td>Arts 5</td>
                       <td> </td>
-                      <td> </td>
+                      <td>DNS</td>
+                      <td align="right">0</td>
                     </tr>
                     <tr>
-                      <td align="right">16</td>
-                      <td align="right">70</td>
+                      <td>Management 1</td>
                       <td> </td>
-                      <td> </td>
+                      <td>DNS</td>
+                      <td align="right">0</td>
                     </tr>
                   </tbody>
                 </table>

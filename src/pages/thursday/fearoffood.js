@@ -131,91 +131,74 @@ const FearOfFoodPage = () => {
                 <table class="table table-bordered table-hover table-condensed">
                   <thead>
                     <tr>
-                      <th title="Field #1">Place</th>
+                      <th title="Field #1">Team</th>
                       <th title="Field #2">Points</th>
-                      <th title="Field #3">Team</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>1</td>
+                      <td>Arts 2</td>
                       <td align="right">750</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>2</td>
+                      <td>Science 2</td>
                       <td align="right">650</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>3</td>
+                      <td>PTOT</td>
                       <td align="right">550</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>4</td>
+                      <td>Engineering</td>
                       <td align="right">475</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>5-8</td>
+                      <td>Science 1</td>
                       <td align="right">325</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>5-8</td>
-                      <td align="right">325</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>5-8</td>
-                      <td align="right">325</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>5-8</td>
-                      <td align="right">325</td>
-                      <td> </td>
-                    </tr>
-                    <tr>
-                      <td>9-16</td>
+                      <td>Arts 1</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>9-16</td>
+                      <td>Arts 3</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>9-16</td>
+                      <td>Arts 4</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>9-16</td>
+                      <td>Arts 5</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>9-16</td>
+                      <td>Education 1</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>9-16</td>
+                      <td>Education 2</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>9-16</td>
+                      <td>Law</td>
                       <td align="right">175</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>9-16</td>
+                      <td>Management 1</td>
                       <td align="right">175</td>
-                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Management 2</td>
+                      <td align="right">175</td>
+                    </tr>
+                    <tr>
+                      <td>Medicine</td>
+                      <td align="right">175</td>
+                    </tr>
+                    <tr>
+                      <td>Music</td>
+                      <td align="right">175</td>
                     </tr>
                   </tbody>
                 </table>

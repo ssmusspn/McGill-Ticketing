@@ -158,7 +158,9 @@ class SSPNNavbar extends React.Component {
                     <NavLink href="/thursday/mcat">MCAT</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="/thursday/beeriokart">Beerio Kart</NavLink>
+                    <NavLink href="/thursday/smash">
+                      Super Smash(ed) Bros
+                    </NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="/thursday/debates">Drunk Debates</NavLink>
@@ -198,7 +200,7 @@ class SSPNNavbar extends React.Component {
                     <NavLink href="/friday/kegger">Kegger</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="/friday/smash">Super Smash(ed) Bros</NavLink>
+                    <NavLink href="/friday/beeriokart">Beerio Kart</NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="/friday/limbo">Limbo</NavLink>

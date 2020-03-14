@@ -237,25 +237,73 @@ const CaseCrackPage = () => {
                 <table class="table table-bordered table-hover table-condensed">
                   <thead>
                     <tr>
-                      <th title="Field #1">Tier</th>
+                      <th title="Field #1">Team</th>
                       <th title="Field #2">Points</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td align="right">1</td>
+                      <td>Arts 1</td>
                       <td align="right">1000</td>
                     </tr>
                     <tr>
-                      <td align="right">2</td>
+                      <td>Arts 2</td>
+                      <td align="right">1000</td>
+                    </tr>
+                    <tr>
+                      <td>Arts 3</td>
                       <td align="right">600</td>
                     </tr>
                     <tr>
-                      <td align="right">3</td>
+                      <td>Arts 4</td>
                       <td align="right">350</td>
                     </tr>
                     <tr>
-                      <td align="right">4</td>
+                      <td>Arts 5</td>
+                      <td align="right">200</td>
+                    </tr>
+                    <tr>
+                      <td>Education 1</td>
+                      <td align="right">1000</td>
+                    </tr>
+                    <tr>
+                      <td>Education 2</td>
+                      <td align="right">1000</td>
+                    </tr>
+                    <tr>
+                      <td>Engineering</td>
+                      <td align="right">350</td>
+                    </tr>
+                    <tr>
+                      <td>Law</td>
+                      <td align="right">600</td>
+                    </tr>
+                    <tr>
+                      <td>Management 1</td>
+                      <td align="right">1000</td>
+                    </tr>
+                    <tr>
+                      <td>Management 2</td>
+                      <td align="right">350</td>
+                    </tr>
+                    <tr>
+                      <td>Medicine</td>
+                      <td align="right">1000</td>
+                    </tr>
+                    <tr>
+                      <td>Music</td>
+                      <td align="right">600</td>
+                    </tr>
+                    <tr>
+                      <td>PTOT</td>
+                      <td align="right">600</td>
+                    </tr>
+                    <tr>
+                      <td>Science 1</td>
+                      <td align="right">350</td>
+                    </tr>
+                    <tr>
+                      <td>Science 2</td>
                       <td align="right">200</td>
                     </tr>
                   </tbody>

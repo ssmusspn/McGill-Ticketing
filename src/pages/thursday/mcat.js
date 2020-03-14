@@ -149,108 +149,108 @@ const MCATPage = () => {
                 <table class="table table-bordered table-hover table-condensed">
                   <thead>
                     <tr>
-                      <th title="Field #1">Place</th>
-                      <th title="Field #2">Points</th>
-                      <th title="Field #3">Grade</th>
-                      <th title="Field #4">Team</th>
+                      <th title="Field #1">Team</th>
+                      <th title="Field #2">Grade</th>
+                      <th title="Field #3">Place</th>
+                      <th title="Field #4">Points</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
+                      <td>Arts 3</td>
+                      <td align="right">85</td>
                       <td align="right">1</td>
                       <td align="right">750</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Management 1</td>
+                      <td align="right">85</td>
                       <td align="right">2</td>
                       <td align="right">650</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Engineering</td>
+                      <td align="right">80</td>
                       <td align="right">3</td>
                       <td align="right">550</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 4</td>
+                      <td align="right">78</td>
                       <td align="right">4</td>
                       <td align="right">475</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 1</td>
+                      <td align="right">76</td>
                       <td align="right">5</td>
                       <td align="right">400</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 5</td>
+                      <td align="right">75</td>
                       <td align="right">6</td>
                       <td align="right">350</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Science 2</td>
+                      <td align="right">69</td>
                       <td align="right">7</td>
                       <td align="right">300</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Law</td>
+                      <td align="right">68.5</td>
                       <td align="right">8</td>
                       <td align="right">250</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Education 1</td>
+                      <td align="right">62</td>
                       <td align="right">9</td>
                       <td align="right">225</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Music</td>
+                      <td align="right">60</td>
                       <td align="right">10</td>
                       <td align="right">200</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>PTOT</td>
+                      <td align="right">60</td>
                       <td align="right">11</td>
                       <td align="right">175</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Science 1</td>
+                      <td align="right">60</td>
                       <td align="right">12</td>
                       <td align="right">150</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Medicine</td>
+                      <td align="right">59</td>
                       <td align="right">13</td>
                       <td align="right">125</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 2</td>
+                      <td align="right">58</td>
                       <td align="right">14</td>
                       <td align="right">100</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Education 2</td>
+                      <td align="right">55</td>
                       <td align="right">15</td>
                       <td align="right">85</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Management 2</td>
+                      <td align="right">36</td>
                       <td align="right">16</td>
                       <td align="right">70</td>
-                      <td> </td>
-                      <td> </td>
                     </tr>
                   </tbody>
                 </table>

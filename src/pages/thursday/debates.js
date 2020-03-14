@@ -154,91 +154,91 @@ const DrunkDebatesPage = () => {
                 <table class="table table-bordered table-hover table-condensed">
                   <thead>
                     <tr>
-                      <th title="Field #1">Place</th>
-                      <th title="Field #2">Points</th>
-                      <th title="Field #3">Team</th>
+                      <th title="Field #1">Team</th>
+                      <th title="Field #2">Place</th>
+                      <th title="Field #3">Points</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>01</td>
+                      <td>PTOT</td>
+                      <td>1</td>
                       <td align="right">1000</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>02</td>
+                      <td>Engineering</td>
+                      <td>2</td>
                       <td align="right">850</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>03</td>
-                      <td align="right">750</td>
-                      <td> </td>
+                      <td>Education 1</td>
+                      <td>3</td>
+                      <td align="right">700</td>
                     </tr>
                     <tr>
-                      <td>04</td>
-                      <td align="right">625</td>
-                      <td> </td>
+                      <td>Education 2</td>
+                      <td>3</td>
+                      <td align="right">700</td>
                     </tr>
                     <tr>
+                      <td>Management 1</td>
                       <td>5-8</td>
                       <td align="right">450</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Medicine</td>
                       <td>5-8</td>
                       <td align="right">450</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Law</td>
                       <td>5-8</td>
                       <td align="right">450</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 1</td>
                       <td>5-8</td>
                       <td align="right">450</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 4</td>
                       <td>9-16</td>
                       <td align="right">200</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Science 2</td>
                       <td>9-16</td>
                       <td align="right">200</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Music</td>
                       <td>9-16</td>
                       <td align="right">200</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Management 2</td>
                       <td>9-16</td>
                       <td align="right">200</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 5</td>
                       <td>9-16</td>
                       <td align="right">200</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 3</td>
                       <td>9-16</td>
                       <td align="right">200</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Arts 2</td>
                       <td>9-16</td>
                       <td align="right">200</td>
-                      <td> </td>
                     </tr>
                     <tr>
+                      <td>Science 1</td>
                       <td>9-16</td>
                       <td align="right">200</td>
-                      <td> </td>
                     </tr>
                   </tbody>
                 </table>

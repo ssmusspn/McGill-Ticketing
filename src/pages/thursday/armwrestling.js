@@ -85,9 +85,19 @@ const ArmWrestlingPage = () => {
                   }
                 }
               }
-              art_armwrestling_bracket: file(
+              art_armwrestlinggirls_bracket: file(
                 sourceInstanceName: { eq: "art" }
-                name: { eq: "armwrestling_bracket" }
+                name: { eq: "armwrestlinggirls_bracket" }
+              ) {
+                childImageSharp {
+                  fluid(maxWidth: 760) {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  }
+                }
+              }
+              art_armwrestlingguys_bracket: file(
+                sourceInstanceName: { eq: "art" }
+                name: { eq: "armwrestlingguys_bracket" }
               ) {
                 childImageSharp {
                   fluid(maxWidth: 760) {
@@ -152,97 +162,197 @@ const ArmWrestlingPage = () => {
                 </ul>
                 <h2>Brackets</h2>
                 <Img
-                  fluid={data.art_armwrestling_bracket.childImageSharp.fluid}
+                  fluid={
+                    data.art_armwrestlingguys_bracket.childImageSharp.fluid
+                  }
+                />
+                <Img
+                  fluid={
+                    data.art_armwrestlinggirls_bracket.childImageSharp.fluid
+                  }
                 />
                 <h2>Points</h2>
+                <h3>Guys</h3>
                 <table class="table table-bordered table-hover table-condensed">
                   <thead>
                     <tr>
-                      <th title="Field #1">Place</th>
-                      <th title="Field #2">Points</th>
-                      <th title="Field #3">Team</th>
+                      <th title="Field #1">Team</th>
+                      <th title="Field #2">Place</th>
+                      <th title="Field #3">Points</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
+                      <td>Science 1</td>
                       <td>1</td>
-                      <td align="right">750</td>
-                      <td> </td>
+                      <td align="right">375</td>
                     </tr>
                     <tr>
+                      <td>Engineering</td>
                       <td>2</td>
-                      <td align="right">650</td>
-                      <td> </td>
+                      <td align="right">325</td>
                     </tr>
                     <tr>
+                      <td>Education 2</td>
                       <td>3</td>
-                      <td align="right">550</td>
-                      <td> </td>
+                      <td align="right">275</td>
                     </tr>
                     <tr>
+                      <td>Medicine</td>
                       <td>4</td>
-                      <td align="right">475</td>
-                      <td> </td>
+                      <td align="right">237.5</td>
                     </tr>
                     <tr>
+                      <td>Education 1</td>
                       <td>5-8</td>
-                      <td align="right">325</td>
-                      <td> </td>
+                      <td align="right">162.5</td>
                     </tr>
                     <tr>
+                      <td>Arts 3</td>
                       <td>5-8</td>
-                      <td align="right">325</td>
-                      <td> </td>
+                      <td align="right">162.5</td>
                     </tr>
                     <tr>
+                      <td>Science 2</td>
                       <td>5-8</td>
-                      <td align="right">325</td>
-                      <td> </td>
+                      <td align="right">162.5</td>
                     </tr>
                     <tr>
+                      <td>PTOT</td>
                       <td>5-8</td>
+                      <td align="right">162.5</td>
+                    </tr>
+                    <tr>
+                      <td>Law</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
+                    </tr>
+                    <tr>
+                      <td>Arts 5</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
+                    </tr>
+                    <tr>
+                      <td>Arts 4</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
+                    </tr>
+                    <tr>
+                      <td>Management 1</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
+                    </tr>
+                    <tr>
+                      <td>Arts 2</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
+                    </tr>
+                    <tr>
+                      <td>Arts 1</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
+                    </tr>
+                    <tr>
+                      <td>Management 2</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
+                    </tr>
+                    <tr>
+                      <td>Music</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h3>Girls</h3>
+                <table class="table table-bordered table-hover table-condensed">
+                  <thead>
+                    <tr>
+                      <th title="Field #1">Team</th>
+                      <th title="Field #2">Place</th>
+                      <th title="Field #3">Points</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Education 2</td>
+                      <td>1</td>
+                      <td align="right">375</td>
+                    </tr>
+                    <tr>
+                      <td>Science 2</td>
+                      <td>2</td>
                       <td align="right">325</td>
-                      <td> </td>
                     </tr>
                     <tr>
-                      <td>9-16</td>
-                      <td align="right">175</td>
-                      <td> </td>
+                      <td>Science 1</td>
+                      <td>3</td>
+                      <td align="right">275</td>
                     </tr>
                     <tr>
-                      <td>9-16</td>
-                      <td align="right">175</td>
-                      <td> </td>
+                      <td>Music</td>
+                      <td>4</td>
+                      <td align="right">237.5</td>
                     </tr>
                     <tr>
-                      <td>9-16</td>
-                      <td align="right">175</td>
-                      <td> </td>
+                      <td>Education 1</td>
+                      <td>5-8</td>
+                      <td align="right">162.5</td>
                     </tr>
                     <tr>
-                      <td>9-16</td>
-                      <td align="right">175</td>
-                      <td> </td>
+                      <td>Arts 3</td>
+                      <td>5-8</td>
+                      <td align="right">162.5</td>
                     </tr>
                     <tr>
-                      <td>9-16</td>
-                      <td align="right">175</td>
-                      <td> </td>
+                      <td>Medicine</td>
+                      <td>5-8</td>
+                      <td align="right">162.5</td>
                     </tr>
                     <tr>
-                      <td>9-16</td>
-                      <td align="right">175</td>
-                      <td> </td>
+                      <td>Management 2</td>
+                      <td>5-8</td>
+                      <td align="right">162.5</td>
                     </tr>
                     <tr>
+                      <td>Law</td>
                       <td>9-16</td>
-                      <td align="right">175</td>
-                      <td> </td>
+                      <td align="right">87.5</td>
                     </tr>
                     <tr>
+                      <td>Arts 5</td>
                       <td>9-16</td>
-                      <td align="right">175</td>
-                      <td> </td>
+                      <td align="right">87.5</td>
+                    </tr>
+                    <tr>
+                      <td>Arts 4</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
+                    </tr>
+                    <tr>
+                      <td>Management 1</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
+                    </tr>
+                    <tr>
+                      <td>Arts 2</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
+                    </tr>
+                    <tr>
+                      <td>Arts 1</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
+                    </tr>
+                    <tr>
+                      <td>PTOT</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
+                    </tr>
+                    <tr>
+                      <td>Engineering</td>
+                      <td>9-16</td>
+                      <td align="right">87.5</td>
                     </tr>
                   </tbody>
                 </table>
