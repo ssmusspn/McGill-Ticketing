@@ -1,3 +1,4 @@
+// Script to optimize images in the src/images/art folder.
 const sharp = require(`sharp`)
 const glob = require(`glob`)
 const fs = require(`fs-extra`)
